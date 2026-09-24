@@ -1,0 +1,791 @@
+@import "@fontsource/inter/400.css";
+@import "@fontsource/inter/500.css";
+@import "@fontsource/inter/600.css";
+@import "@fontsource/inter/700.css";
+@import "@fontsource/jetbrains-mono/400.css";
+@import "@fontsource/jetbrains-mono/500.css";
+@import "./tokens.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    margin: 0;
+    background: var(--bg-base);
+    color: var(--fg-primary);
+    font-family: var(--font-body);
+    font-size: var(--text-base);
+    line-height: var(--line-normal);
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* The compact grotesk hierarchy with tabular numerals for operational data
+     (BRAND_DIRECTION.md). Every operational number aligns by digit. */
+  .tnum {
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: "tnum";
+    font-family: var(--font-numeric);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    letter-spacing: var(--tracking-tight);
+    margin: 0;
+    color: var(--fg-primary);
+  }
+
+  /* The "confident junction" lead-in rule (BRAND_DIRECTION.md shape language). */
+  .lead-rule::before {
+    content: "";
+    display: inline-block;
+    width: var(--space-3);
+    height: 0.1875rem;
+    margin-right: var(--space-3);
+    background: var(--accent);
+    border-radius: var(--radius-sm);
+    vertical-align: middle;
+  }
+
+  /* Focus-visible substitute — outline:none without this is illegal. */
+  :where(button, a, input, select, textarea, [tabindex]):focus-visible {
+    outline: 0.125rem solid var(--border-focus);
+    outline-offset: 0.125rem;
+    border-radius: var(--radius-md);
+  }
+
+  /* Reduced motion honored (tokens.css zeroes durations; belt-and-suspenders). */
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+
+  ::selection {
+    background: var(--accent-soft);
+    color: var(--fg-primary);
+  }
+
+  /* Scrollbars — quiet, on-brand, not a second chrome. */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: var(--border-strong) transparent;
+  }
+  *::-webkit-scrollbar { width: 0.5rem; height: 0.5rem; }
+  *::-webkit-scrollbar-thumb {
+    background: var(--border-strong);
+    border-radius: var(--radius-full);
+  }
+  *::-webkit-scrollbar-track { background: transparent; }
+}
+
+@layer components {
+  /* Button variants — four only (DESIGN.md §6, §9). */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-2);
+    height: 2.5rem;
+    padding: 0 var(--space-4);
+    border-radius: var(--radius-md);
+    font-family: var(--font-body);
+    font-size: var(--text-sm);
+    font-weight: var(--weight-semibold);
+    line-height: 1;
+    cursor: pointer;
+    transition: background var(--dur-fast) var(--ease-default),
+                color var(--dur-fast) var(--ease-default),
+                border-color var(--dur-fast) var(--ease-default),
+                transform var(--dur-fast) var(--ease-default),
+                box-shadow var(--dur-fast) var(--ease-default);
+    border: 0;
+    white-space: nowrap;
+  }
+  .btn:active { transform: scale(0.98); }
+  .btn:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+    transform: none;
+  }
+
+  .btn-primary {
+    background: var(--accent);
+    color: var(--fg-on-accent);
+  }
+  .btn-primary:hover:not(:disabled) { background: var(--accent-hover); }
+  .btn-primary:active:not(:disabled) { background: var(--accent-pressed); }
+
+  .btn-secondary {
+    background: var(--bg-elevated);
+    color: var(--fg-primary);
+    border: 0.0625rem solid var(--border-default);
+  }
+  .btn-secondary:hover:not(:disabled) { border-color: var(--border-strong); }
+
+  .btn-ghost {
+    background: transparent;
+    color: var(--fg-secondary);
+  }
+  .btn-ghost:hover:not(:disabled) {
+    background: var(--bg-elevated);
+    color: var(--fg-primary);
+  }
+
+  .btn-danger {
+    background: var(--status-failed);
+    color: var(--btn-danger-fg);
+  }
+  .btn-danger:hover:not(:disabled) { background: var(--btn-danger-hover); }
+
+  .btn-sm {
+    height: 2rem;
+    padding: 0 var(--space-3);
+    font-size: var(--text-xs);
+  }
+
+  .btn-icon {
+    width: 2rem;
+    height: 2rem;
+    padding: 0;
+  }
+
+  /* Skeleton shimmer — the loading state when the layout is known. */
+  .skeleton {
+    background: linear-gradient(
+      90deg,
+      var(--bg-elevated) 0%,
+      var(--border-subtle) 50%,
+      var(--bg-elevated) 100%
+    );
+    background-size: 200% 100%;
+    animation: skeleton-shimmer 1.4s ease-in-out infinite;
+    border-radius: var(--radius-sm);
+  }
+  @keyframes skeleton-shimmer {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+  }
+
+  /* Cards — flat technical planes, hairline border preferred over shadow. */
+  .card {
+    background: var(--bg-elevated);
+    border: 0.0625rem solid var(--border-subtle);
+    border-radius: var(--radius-lg);
+  }
+
+  .card-hover {
+    transition: transform var(--dur-fast) var(--ease-default),
+                box-shadow var(--dur-fast) var(--ease-default),
+                border-color var(--dur-fast) var(--ease-default);
+  }
+  .card-hover:hover {
+    transform: translateY(-0.0625rem);
+    box-shadow: var(--shadow-1);
+    border-color: var(--border-default);
+  }
+
+  /* Inputs. */
+  .input {
+    width: 100%;
+    height: 2.5rem;
+    padding: 0 var(--space-3);
+    background: var(--bg-input);
+    color: var(--fg-primary);
+    border: 0.0625rem solid var(--border-default);
+    border-radius: var(--radius-md);
+    font-family: var(--font-body);
+    font-size: var(--text-base);
+    transition: border-color var(--dur-fast) var(--ease-default);
+  }
+  .input::placeholder { color: var(--fg-disabled); }
+  .input:hover { border-color: var(--border-strong); }
+  .input:focus { outline: 0; border-color: var(--border-focus); box-shadow: 0 0 0 0.125rem var(--accent-soft); }
+  .input:disabled { opacity: 0.4; cursor: not-allowed; }
+
+  /* Badges — hue + icon + label, never hue alone. */
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-1);
+    padding: 0.125rem var(--space-2);
+    border-radius: var(--radius-sm);
+    font-size: var(--text-xs);
+    font-weight: var(--weight-medium);
+    line-height: 1.4;
+    border: 0.0625rem solid transparent;
+  }
+
+  /* Status pips — 3px absolute-positioned marker (Linear pattern #1). */
+  .pip {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 0.1875rem;
+    border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  }
+}
+
+@layer utilities {
+  .animate-enter {
+    animation: enter var(--dur-slow) var(--ease-emphasized) both;
+  }
+  @keyframes enter {
+    from { opacity: 0; transform: translateY(0.25rem); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .stagger-1 { animation-delay: 60ms; }
+  .stagger-2 { animation-delay: 120ms; }
+  .stagger-3 { animation-delay: 180ms; }
+
+  @media (prefers-reduced-motion: reduce) {
+    .animate-enter { animation: none; opacity: 1; transform: none; }
+  }
+}
+
+/* ── Bay Guide (U6) — mobile-first PWA styles (spec §9) ── */
+@layer components {
+  .guide-shell {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-height: 100dvh;
+    background: var(--bg-base);
+    color: var(--fg-primary);
+  }
+
+  /* Header */
+  .guide-header {
+    position: sticky;
+    top: 0;
+    z-index: var(--z-sticky);
+    background: var(--bg-elevated);
+    border-bottom: 0.0625rem solid var(--border-subtle);
+    padding: var(--space-3) var(--space-4);
+    padding-top: max(var(--space-3), env(safe-area-inset-top));
+  }
+  .guide-header-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-3);
+  }
+
+  /* Offline badge */
+  .guide-offline-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-1);
+    font-size: var(--text-xs);
+    color: var(--fg-tertiary);
+    font-family: var(--font-mono);
+  }
+  .guide-offline-dot {
+    display: inline-block;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background: var(--status-complete);
+  }
+  .guide-offline-badge.is-offline .guide-offline-dot {
+    background: var(--signal-amber);
+  }
+
+  /* Superseded banner */
+  .guide-superseded-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-2);
+    margin-top: var(--space-2);
+    padding: var(--space-2) var(--space-3);
+    background: var(--signal-amber-soft);
+    border: 0.0625rem solid var(--signal-amber);
+    border-radius: var(--radius-sm);
+  }
+
+  /* Main content */
+  .guide-main {
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+    padding-bottom: 4rem; /* space for bottom nav */
+  }
+
+  /* Bottom navigation */
+  .guide-bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: var(--z-sticky);
+    display: flex;
+    background: var(--bg-elevated);
+    border-top: 0.0625rem solid var(--border-subtle);
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  .guide-nav-link {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.125rem;
+    padding: var(--space-2) var(--space-1);
+    min-height: 3rem; /* 48px touch target (spec §9.2) */
+    background: transparent;
+    border: none;
+    color: var(--fg-tertiary);
+    font-size: var(--text-xs);
+    font-family: var(--font-body);
+    text-decoration: none;
+    transition: color var(--dur-fast) var(--ease-default);
+  }
+  .guide-nav-link:active { color: var(--accent); }
+  .guide-nav-link.active { color: var(--accent); }
+  .guide-nav-link:focus-visible {
+    outline: 0.125rem solid var(--accent);
+    outline-offset: -0.125rem;
+    border-radius: var(--radius-sm);
+  }
+  .guide-flag-btn {
+    cursor: pointer;
+    border-top: 0;
+  }
+
+  /* Degraded / error states */
+  .guide-degraded {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: var(--space-2);
+    padding: var(--space-8) var(--space-6);
+  }
+  .guide-degraded-mark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    background: var(--signal-amber-soft);
+    color: var(--signal-amber);
+    margin-bottom: var(--space-2);
+  }
+
+  /* Loading skeletons */
+  .guide-skeleton-line {
+    height: 0.875rem;
+    border-radius: var(--radius-sm);
+    background: var(--bg-hover);
+    animation: skeleton-pulse var(--dur-slow) var(--ease-default) infinite;
+  }
+  .guide-skeleton-block {
+    height: 12rem;
+    border-radius: var(--radius-md);
+    background: var(--bg-hover);
+    margin: var(--space-3) 0;
+    animation: skeleton-pulse var(--dur-slow) var(--ease-default) infinite;
+  }
+  .guide-loading-body {
+    padding: var(--space-4);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+  }
+  @keyframes skeleton-pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .guide-skeleton-line, .guide-skeleton-block { animation: none; }
+  }
+
+  /* ── Step Player (§9.2) ── */
+  .guide-step-player {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100dvh - 4rem);
+  }
+
+  /* Progress bar */
+  .guide-progress-track {
+    height: 0.1875rem;
+    background: var(--bg-input);
+    overflow: hidden;
+  }
+  .guide-progress-fill {
+    height: 100%;
+    width: 100%;
+    background: var(--accent);
+    transform-origin: left center;
+    transition: transform var(--dur-base) var(--ease-emphasized);
+  }
+
+  /* Visual pane — 60% viewport height */
+  .guide-visual-pane {
+    height: 60dvh;
+    min-height: 14rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--space-4);
+    background: var(--bg-overlay);
+    border-bottom: 0.0625rem solid var(--border-subtle);
+    position: relative;
+    overflow: hidden;
+  }
+  .guide-diagram {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: var(--radius-md);
+  }
+  .guide-tier-placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-2);
+    color: var(--fg-tertiary);
+  }
+  .guide-text-pane {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-3);
+    text-align: center;
+    width: 100%;
+  }
+  .guide-step-number {
+    font-family: var(--font-mono);
+    font-size: 3rem;
+    font-weight: var(--weight-medium);
+    color: var(--accent);
+    line-height: 1;
+    letter-spacing: var(--tracking-mono);
+  }
+  .guide-step-caption-large {
+    font-size: var(--text-lg);
+    font-weight: var(--weight-medium);
+    color: var(--fg-primary);
+    line-height: var(--line-snug);
+    max-width: 32rem;
+  }
+
+  /* Safety warning */
+  .guide-safety-warning {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-2);
+    padding: var(--space-2) var(--space-3);
+    margin-top: var(--space-3);
+    background: var(--signal-amber-soft);
+    border: 0.0625rem solid var(--signal-amber);
+    border-radius: var(--radius-sm);
+    color: var(--signal-amber);
+    width: 100%;
+    max-width: 28rem;
+  }
+
+  /* Audio button */
+  .guide-audio-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    padding: var(--space-2) var(--space-4);
+    background: var(--bg-elevated);
+    color: var(--fg-primary);
+    border: 0.0625rem solid var(--border-default);
+    border-radius: var(--radius-md);
+    font-size: var(--text-sm);
+    font-family: var(--font-body);
+    cursor: pointer;
+    transition: border-color var(--dur-fast) var(--ease-default);
+  }
+  .guide-audio-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-2);
+    margin: var(--space-3) auto;
+  }
+  .guide-audio-btn:hover { border-color: var(--accent); }
+  .guide-audio-btn:active { border-color: var(--accent); }
+  .guide-audio-btn:focus-visible {
+    outline: 0.125rem solid var(--accent);
+    outline-offset: 0.125rem;
+  }
+
+  /* Caption area */
+  .guide-caption-area {
+    padding: var(--space-4);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+  }
+  .guide-step-caption {
+    font-size: var(--text-base);
+    color: var(--fg-primary);
+    line-height: var(--line-normal);
+  }
+
+  /* Chips */
+  .guide-chips-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+  }
+  .guide-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.25rem var(--space-2);
+    background: var(--bg-input);
+    border: 0.0625rem solid var(--border-subtle);
+    border-radius: var(--radius-sm);
+    font-size: var(--text-xs);
+    color: var(--fg-secondary);
+  }
+  .guide-chip-position {
+    background: var(--accent-soft);
+    border-color: var(--accent);
+    color: var(--accent);
+    font-weight: var(--weight-medium);
+    text-transform: uppercase;
+    letter-spacing: var(--tracking-tight);
+    align-self: flex-start;
+  }
+  .guide-chip-duration {
+    font-family: var(--font-mono);
+  }
+
+  /* Glossary term highlighting */
+  .guide-glossary-term {
+    background: var(--accent-soft);
+    color: var(--accent);
+    border-radius: var(--radius-sm);
+    padding: 0 0.125rem;
+    cursor: help;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-underline-offset: 0.125rem;
+  }
+
+  /* Step list (skip-ahead) */
+  .guide-step-list {
+    padding: 0 var(--space-4) var(--space-3);
+  }
+  .guide-step-list-toggle {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    color: var(--fg-tertiary);
+    cursor: pointer;
+    list-style: none;
+    padding: var(--space-2) 0;
+    border-top: 0.0625rem solid var(--border-subtle);
+  }
+  .guide-step-list-toggle::-webkit-details-marker { display: none; }
+  .guide-step-list-items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    max-height: 16rem;
+    overflow-y: auto;
+  }
+  .guide-step-list-item {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-2);
+    width: 100%;
+    padding: var(--space-2) var(--space-3);
+    background: transparent;
+    border: none;
+    border-radius: var(--radius-sm);
+    text-align: left;
+    cursor: pointer;
+    color: var(--fg-secondary);
+    transition: background var(--dur-fast) var(--ease-default);
+  }
+  .guide-step-list-item:hover { background: var(--bg-hover); }
+  .guide-step-list-item.is-current {
+    background: var(--accent-soft);
+    color: var(--accent);
+  }
+  .guide-step-list-item:focus-visible {
+    outline: 0.125rem solid var(--accent);
+    outline-offset: -0.125rem;
+  }
+  .guide-step-list-num {
+    font-family: var(--font-mono);
+    font-size: var(--text-xs);
+    color: var(--fg-tertiary);
+    flex-shrink: 0;
+    padding-top: 0.0625rem;
+  }
+  .guide-step-list-text {
+    font-size: var(--text-sm);
+    line-height: var(--line-snug);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  /* Step navigation — fixed bottom bar */
+  .guide-step-nav {
+    position: fixed;
+    bottom: 3rem; /* above bottom nav */
+    left: 0;
+    right: 0;
+    z-index: var(--z-sticky);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-2);
+    padding: var(--space-2) var(--space-4);
+    padding-bottom: env(safe-area-inset-bottom);
+    background: var(--bg-elevated);
+    border-top: 0.0625rem solid var(--border-subtle);
+  }
+  .guide-nav-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-1);
+    min-height: 3rem; /* 48px touch target (spec §9.2) */
+    padding: var(--space-2) var(--space-4);
+    border: 0.0625rem solid var(--border-default);
+    border-radius: var(--radius-md);
+    background: var(--bg-elevated);
+    color: var(--fg-primary);
+    font-size: var(--text-sm);
+    font-family: var(--font-body);
+    cursor: pointer;
+    transition: all var(--dur-fast) var(--ease-default);
+  }
+  .guide-nav-btn:hover:not(:disabled) {
+    border-color: var(--accent);
+    transform: translateY(-0.0625rem);
+  }
+  .guide-nav-btn:active:not(:disabled) {
+    transform: translateY(0);
+  }
+  .guide-nav-btn:focus-visible {
+    outline: 0.125rem solid var(--accent);
+    outline-offset: 0.125rem;
+  }
+  .guide-nav-btn:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+  }
+  .guide-nav-next {
+    background: var(--accent);
+    color: var(--bg-base);
+    border-color: var(--accent);
+    font-weight: var(--weight-medium);
+  }
+  .guide-nav-next:hover:not(:disabled) {
+    background: var(--accent-hover);
+    border-color: var(--accent-hover);
+  }
+  .guide-nav-done {
+    background: var(--bg-elevated);
+    color: var(--signal-amber);
+    border-color: var(--signal-amber);
+  }
+  .guide-nav-progress {
+    font-family: var(--font-mono);
+    font-size: var(--text-sm);
+    color: var(--fg-tertiary);
+  }
+
+  /* ── Glossary (§9.3) ── */
+  .guide-glossary {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100dvh - 7rem);
+  }
+  .guide-glossary-search { padding: var(--space-3) var(--space-4); }
+  .guide-search-row {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    color: var(--fg-tertiary);
+  }
+  .guide-search-row .input {
+    flex: 1;
+  }
+  .guide-glossary-list {
+    margin: 0;
+    padding: 0 var(--space-4) var(--space-4);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+  }
+  .guide-glossary-entry {
+    padding: var(--space-3);
+    background: var(--bg-elevated);
+    border: 0.0625rem solid var(--border-subtle);
+    border-radius: var(--radius-md);
+  }
+  .guide-glossary-entry dt {
+    margin-bottom: 0.25rem;
+  }
+  .guide-glossary-entry dd {
+    margin: 0;
+  }
+
+  /* ── Explore (§9.3) ── */
+  .guide-explore {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100dvh - 7rem);
+  }
+  .guide-explore-placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-3);
+    padding: var(--space-8) var(--space-6);
+    text-align: center;
+    color: var(--fg-tertiary);
+  }
+
+  /* ── Flag modal ── */
+  .guide-flag-photo-preview {
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    border-radius: var(--radius-sm);
+    border: 0.0625rem solid var(--border-default);
+  }
+
+  /* Guide select styling (matches .input) */
+  .guide-step-player select.input,
+  .guide-flag-btn select.input {
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: none;
+  }
+}

@@ -1,0 +1,19 @@
+# Base technical glossary (spec B13 §5, FR-053). Merged into bundle_meta.json
+# at publish; the operator can add custom terms via U5.
+terms:
+  - term: wheel cylinder
+    definition: A hydraulic component that pushes brake shoes against the drum.
+  - term: master cylinder
+    definition: The primary hydraulic pump that converts pedal pressure to hydraulic pressure.
+  - term: caliper
+    definition: The component that squeezes the brake pads against the rotor to stop the wheel.
+  - term: torque wrench
+    definition: A tool that clicks when you reach a set tightness, preventing over-tightening.
+  - term: ball joint
+    definition: A pivot point connecting the control arm to the steering knuckle, like a shoulder joint.
+  - term: tie rod end
+    definition: The link that connects the steering rack to the wheel so it turns when you steer.
+  - term: harmonic balancer
+    definition: A heavy pulley on the front of the crankshaft that absorbs engine vibration.
+  - term: throwout bearing
+    definition: The bearing that pushes on the clutch fingers to disengage the clutch.

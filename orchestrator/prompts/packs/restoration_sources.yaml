@@ -1,0 +1,30 @@
+sources:
+  - source_id: hemmings
+    vendor_name: Hemmings
+    url: "https://hemmings.com/search"
+    search_template: "https://hemmings.com/search?q={part_name}+{vehicle_make}+{vehicle_year}"
+    specialty: classic car parts marketplace
+    is_trade_partner: false
+    rate_limit_seconds: 5
+  - source_id: classic_industries
+    vendor_name: Classic Industries
+    url: "https://www.classicindustries.com/search"
+    search_template: "https://www.classicindustries.com/search?q={part_name}+{oem_number}"
+    specialty: restoration parts catalog
+    is_trade_partner: false
+    rate_limit_seconds: 3
+  - source_id: rockauto
+    vendor_name: RockAuto
+    url: "https://www.rockauto.com/en/partsearch"
+    search_template: "https://www.rockauto.com/en/partsearch?partnum={oem_number}&partname={part_name}"
+    specialty: parts catalog with cross-reference
+    is_trade_partner: false
+    rate_limit_seconds: 3
+  - source_id: local_rebuilder_01
+    vendor_name: "Joe's Brake Rebuilding"
+    url: "tel:555-123-4567"
+    search_template: null
+    specialty: brake system rebuilding
+    is_trade_partner: true
+    contact_info: "Joe, 555-123-4567, joesbrakes@example.com"
+    rate_limit_seconds: 2

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-label="Product brand mark">
+  <g transform="rotate(38 512 512)">
+    <path fill="#FF6B5F" d="M512 164A348 348 0 1 1 511.9 860L512 233A279 279 0 1 0 512 164Z"/>
+    <path fill="#E6B655" d="M512 233L791 512A279 279 0 0 1 512 791L512 655A143 143 0 1 0 512 369Z"/>
+    <circle cx="512" cy="512" r="71" fill="#FFF5E8"/>
+  </g>
+</svg>

@@ -1,0 +1,156 @@
+/* Console entry — token layer + self-hosted fonts (D17) + console-only
+   component classes. All values via tokens (closed layer rule). */
+@import "@fontsource/inter/latin-400.css";
+@import "@fontsource/inter/latin-500.css";
+@import "@fontsource/inter/latin-600.css";
+@import "@fontsource/jetbrains-mono/latin-400.css";
+@import "../../shared/base-tokens.css";
+
+/* Handheld step-up (DESIGN.md §4/§5): the console is a bench-monitor
+   instrument (SOUL ¶1), but a phone or tablet glance must stay honest —
+   form controls under 16px computed trigger iOS focus-zoom, and 36px
+   targets are mouse-sized. Below the lg breakpoint the type scale steps
+   up one notch and touch grows to 44px; desktop density is untouched.
+   Range syntax `(width < 64rem)` is the exact complement of Tailwind's
+   `min-width: 64rem` lg — no fractional-viewport dead zone. */
+@media (width < 64rem) {
+  :root {
+    --text-sm: 0.875rem; /* 14 */
+    --text-base: 1rem; /* 16 — inputs never auto-zoom */
+    --touch: 2.75rem; /* 44px */
+    --touch-sm: 2.75rem; /* dense-row controls step up to the 44px floor */
+  }
+}
+
+@layer components {
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-2);
+    min-height: var(--touch);
+    padding-inline: var(--space-3);
+    border-radius: var(--radius-md);
+    font-size: var(--text-sm);
+    font-weight: var(--weight-semibold);
+    line-height: 1;
+    border: var(--border-w) solid transparent;
+    cursor: pointer;
+    transition:
+      background-color var(--dur-fast) var(--ease-default),
+      border-color var(--dur-fast) var(--ease-default),
+      color var(--dur-fast) var(--ease-default);
+  }
+  .btn:disabled {
+    opacity: 0.45;
+    cursor: not-allowed;
+  }
+  .btn-primary {
+    background: var(--accent);
+    color: var(--accent-ink);
+  }
+  .btn-primary:hover:not(:disabled) {
+    background: var(--accent-hover);
+  }
+  .btn-primary:active:not(:disabled) {
+    background: var(--accent-pressed);
+  }
+  .btn-secondary {
+    background: var(--elevated);
+    color: var(--ink);
+    border-color: var(--border-default);
+  }
+  .btn-secondary:hover:not(:disabled) {
+    border-color: var(--border-strong);
+  }
+  .btn-secondary:active:not(:disabled) {
+    background: var(--surface);
+  }
+  .btn-ghost {
+    background: transparent;
+    color: var(--muted);
+  }
+  .btn-ghost:hover:not(:disabled) {
+    background: var(--surface);
+    color: var(--ink);
+  }
+  .btn-danger {
+    background: var(--signal);
+    color: var(--signal-ink);
+  }
+  .btn-danger:hover:not(:disabled) {
+    background: var(--signal-hover);
+  }
+  .btn-danger:active:not(:disabled) {
+    background: var(--signal-pressed);
+  }
+  .btn-sm {
+    min-height: var(--touch-sm);
+    padding-inline: var(--space-3);
+    font-size: var(--text-xs);
+    border-radius: var(--radius-sm);
+  }
+
+  .input {
+    width: 100%;
+    min-height: var(--touch);
+    border-radius: var(--radius-md);
+    border: var(--border-w) solid var(--border-default);
+    background: var(--surface);
+    color: var(--ink);
+    padding: var(--space-2) var(--space-3);
+    font-size: var(--text-base);
+    transition: border-color var(--dur-fast) var(--ease-default);
+  }
+  .input::placeholder {
+    color: var(--faint);
+  }
+  .input:hover {
+    border-color: var(--border-strong);
+  }
+  .input:focus {
+    border-color: var(--border-focus);
+    outline: none;
+  }
+  .input:disabled {
+    color: var(--faint);
+  }
+  .label {
+    display: block;
+    font-size: var(--text-sm);
+    font-weight: var(--weight-medium);
+    color: var(--muted);
+    margin-bottom: var(--space-1);
+  }
+  .field-error {
+    margin-top: var(--space-1);
+    font-size: var(--text-xs);
+    color: var(--signal);
+  }
+  .card {
+    background: var(--surface);
+    border: var(--border-w) solid var(--border-subtle);
+    border-radius: var(--radius-md);
+  }
+  .hairline-t {
+    border-top: var(--border-w) solid var(--border-subtle);
+  }
+  .page-enter {
+    animation: rc-enter var(--dur-base) var(--ease-emphasized) both;
+  }
+  .page-enter-late {
+    animation: rc-enter var(--dur-base) var(--ease-emphasized) both;
+    animation-delay: var(--dur-stagger);
+  }
+}
+
+@keyframes rc-enter {
+  from {
+    opacity: 0;
+    transform: translateY(var(--space-1));
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

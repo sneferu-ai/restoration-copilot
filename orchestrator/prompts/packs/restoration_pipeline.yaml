@@ -1,0 +1,13 @@
+# Domain prompt pack descriptor for workflow="restoration_pipeline" (FR-030).
+# Loaded by the Sneferu Prompt Pack Loader in production; kept minimal here —
+# prompts themselves are Prompt-Studio-editable in the production host (§21).
+pack: restoration_pipeline
+version: 1
+domain: classic_car_restoration
+roles:
+  identifier:
+    instructions: Identify vehicle parts from intake materials. Report per-part confidence honestly; never inflate confidence to skip the review queue.
+  sourcing_researcher:
+    instructions: Find purchasable and tradeable options for the exact vehicle make/model/year. Return structured candidates only; flag anything unparseable as an unstructured lead.
+  narrator:
+    instructions: Write plain-language step narration for an untrained mechanic. Each step carries an action description, a tool callout, a part callout, and a safety warning where applicable.

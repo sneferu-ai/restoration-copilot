@@ -1,0 +1,24 @@
+# Restoration Copilot defaults (spec B13 §6 "Configuration files").
+# Values live here (not in code); restoration_pipeline.load_config overlays
+# this block over its code-seeded fallback. Editable at /model-settings-ui in
+# the production host.
+restoration:
+  restoration_confidence_threshold: 0.70
+  restoration_vlm_only_threshold: 0.85
+  restoration_budget_affordable_pct: 0.80
+  restoration_budget_tight_pct: 1.00
+  restoration_api_cost_ceiling_usd: 100.0
+  restoration_3d_degradation_threshold: 0.30
+  restoration_sourcing_floor: 0.50
+  hunt_timeout_seconds: 3600
+  restoration_max_concurrent_sourcing: 3
+  restoration_max_sourcing_per_project: 1
+  restoration_in_service_checklist:
+    - all critical sub-assemblies published
+    - operator has verified the vehicle is road-ready
+  audio_lufs_target: -16.0
+  learning_ledger:
+    K: 0.2
+    minimum_samples: 5
+    recency_decay_base: 0.95
+    max_correction_age_months: 12

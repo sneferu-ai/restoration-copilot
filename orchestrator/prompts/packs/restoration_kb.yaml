@@ -1,0 +1,3952 @@
+makes:
+  Chevrolet:
+    models:
+      Camaro:
+        years:
+          "1967":
+            parts:
+              - part_id: chevy_camaro_1967_brake_front_brake_caliper_a
+                name: Front Brake Caliper
+                oem_number: "5460007"
+                aftermarket_alternatives:
+                  - PBR-7606
+                  - A1-Cardone-31487
+                category: brake
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 180.0
+                  width: 95.0
+                  height: 120.0
+                indicative_price_range_usd:
+                  min: 51.0
+                  max: 205.0
+                  mid: 128.0
+                interchange:
+                  - 1966-1968 Camaro
+                  - 1968 Chevrolet Camaro
+              - part_id: chevy_camaro_1967_exhaust_exhaust_manifold_a
+                name: Exhaust Manifold
+                oem_number: "5460049"
+                aftermarket_alternatives:
+                  - PBR-2343
+                  - A1-Cardone-24565
+                category: exhaust
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 450.0
+                  width: 200.0
+                  height: 150.0
+                indicative_price_range_usd:
+                  min: 51.0
+                  max: 246.0
+                  mid: 148.0
+                interchange:
+                  - 1966-1968 Camaro
+                  - 1969 Dodge Charger
+              - part_id: chevy_camaro_1967_brake_rear_brake_drum_a
+                name: Rear Brake Drum
+                oem_number: "5460217"
+                aftermarket_alternatives:
+                  - PBR-7369
+                  - A1-Cardone-29594
+                category: brake
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 280.0
+                  width: 280.0
+                  height: 90.0
+                indicative_price_range_usd:
+                  min: 33.0
+                  max: 102.0
+                  mid: 68.0
+                interchange:
+                  - 1966-1968 Camaro
+                  - 1969 Chevrolet Camaro
+              - part_id: chevy_camaro_1967_exhaust_catalytic_heat_shield_a
+                name: Catalytic Heat Shield
+                oem_number: "5460259"
+                aftermarket_alternatives:
+                  - PBR-4635
+                  - A1-Cardone-19818
+                category: exhaust
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 500.0
+                  width: 300.0
+                  height: 30.0
+                indicative_price_range_usd:
+                  min: 16.0
+                  max: 72.0
+                  mid: 44.0
+                interchange:
+                  - 1966-1968 Camaro
+                  - 1967 Ford Mustang
+              - part_id: chevy_camaro_1967_brake_front_brake_pad_set_a
+                name: Front Brake Pad Set
+                oem_number: "5460427"
+                aftermarket_alternatives:
+                  - PBR-3248
+                  - A1-Cardone-82642
+                category: brake
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 150.0
+                  width: 60.0
+                  height: 20.0
+                indicative_price_range_usd:
+                  min: 14.0
+                  max: 56.0
+                  mid: 35.0
+                interchange:
+                  - 1966-1968 Camaro
+                  - 1968 Dodge Charger
+              - part_id: chevy_camaro_1967_exhaust_exhaust_manifold_b
+                name: Exhaust Manifold
+                oem_number: "5460469"
+                aftermarket_alternatives:
+                  - PBR-4696
+                  - A1-Cardone-37665
+                category: exhaust
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 450.0
+                  width: 200.0
+                  height: 150.0
+                indicative_price_range_usd:
+                  min: 55.0
+                  max: 265.0
+                  mid: 160.0
+                interchange:
+                  - 1966-1968 Camaro
+                  - 1969 Dodge Charger
+              - part_id: chevy_camaro_1967_brake_brake_line_kit_a
+                name: Brake Line Kit
+                oem_number: "5460637"
+                aftermarket_alternatives:
+                  - PBR-7526
+                  - A1-Cardone-15710
+                category: brake
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 3000.0
+                  width: 10.0
+                  height: 10.0
+                indicative_price_range_usd:
+                  min: 26.0
+                  max: 95.0
+                  mid: 60.0
+                interchange:
+                  - 1966-1968 Camaro
+                  - 1970 Dodge Charger
+              - part_id: chevy_camaro_1967_exhaust_catalytic_heat_shield_b
+                name: Catalytic Heat Shield
+                oem_number: "5460679"
+                aftermarket_alternatives:
+                  - PBR-4861
+                  - A1-Cardone-46650
+                category: exhaust
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 500.0
+                  width: 300.0
+                  height: 30.0
+                indicative_price_range_usd:
+                  min: 15.0
+                  max: 71.0
+                  mid: 43.0
+                interchange:
+                  - 1966-1968 Camaro
+                  - 1965 Ford Mustang
+              - part_id: chevy_camaro_1967_engine_rocker_arm_set_a
+                name: Rocker Arm Set
+                oem_number: "5460805"
+                aftermarket_alternatives:
+                  - PBR-6275
+                  - A1-Cardone-62039
+                category: engine
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 80.0
+                  width: 40.0
+                  height: 40.0
+                indicative_price_range_usd:
+                  min: 39.0
+                  max: 156.0
+                  mid: 98.0
+                interchange:
+                  - 1966-1968 Camaro
+                  - 1966 Chevrolet Chevelle
+              - part_id: chevy_camaro_1967_engine_valve_cover_gasket_a
+                name: Valve Cover Gasket
+                oem_number: "5460931"
+                aftermarket_alternatives:
+                  - PBR-3965
+                  - A1-Cardone-34469
+                category: engine
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 520.0
+                  width: 200.0
+                  height: 3.0
+                indicative_price_range_usd:
+                  min: 7.0
+                  max: 25.0
+                  mid: 16.0
+                interchange:
+                  - 1966-1968 Camaro
+                  - 1968 Chevrolet Nova
+              - part_id: chevy_camaro_1967_engine_oil_pump_b
+                name: Oil Pump
+                oem_number: "5461141"
+                aftermarket_alternatives:
+                  - PBR-6932
+                  - A1-Cardone-79826
+                category: engine
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 150.0
+                  width: 120.0
+                  height: 100.0
+                indicative_price_range_usd:
+                  min: 27.0
+                  max: 103.0
+                  mid: 65.0
+                interchange:
+                  - 1966-1968 Camaro
+                  - 1972 Chevrolet C10
+              - part_id: chevy_camaro_1967_brake_rear_brake_drum_c
+                name: Rear Brake Drum
+                oem_number: "5461309"
+                aftermarket_alternatives:
+                  - PBR-9332
+                  - A1-Cardone-15681
+                category: brake
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 280.0
+                  width: 280.0
+                  height: 90.0
+                indicative_price_range_usd:
+                  min: 38.0
+                  max: 119.0
+                  mid: 78.0
+                interchange:
+                  - 1966-1968 Camaro
+                  - 1968 Chevrolet Camaro
+              - part_id: chevy_camaro_1967_engine_head_gasket_b
+                name: Head Gasket
+                oem_number: "5461393"
+                aftermarket_alternatives:
+                  - PBR-1339
+                  - A1-Cardone-40716
+                category: engine
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 550.0
+                  width: 300.0
+                  height: 3.0
+                indicative_price_range_usd:
+                  min: 16.0
+                  max: 70.0
+                  mid: 43.0
+                interchange:
+                  - 1966-1968 Camaro
+                  - 1969 Chevrolet Camaro
+              - part_id: chevy_camaro_1967_engine_distributor_b
+                name: Distributor
+                oem_number: "5461435"
+                aftermarket_alternatives:
+                  - PBR-7774
+                  - A1-Cardone-84425
+                category: engine
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 200.0
+                  width: 120.0
+                  height: 250.0
+                indicative_price_range_usd:
+                  min: 48.0
+                  max: 204.0
+                  mid: 126.0
+                interchange:
+                  - 1966-1968 Camaro
+                  - 1968 Ford Mustang
+          "1968":
+            parts:
+              - part_id: chevy_camaro_1968_engine_oil_pump_a
+                name: Oil Pump
+                oem_number: "5460091"
+                aftermarket_alternatives:
+                  - PBR-6071
+                  - A1-Cardone-21354
+                category: engine
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 150.0
+                  width: 120.0
+                  height: 100.0
+                indicative_price_range_usd:
+                  min: 27.0
+                  max: 101.0
+                  mid: 64.0
+                interchange:
+                  - 1967-1969 Camaro
+                  - 1969 Chevrolet Camaro
+              - part_id: chevy_camaro_1968_cooling_radiator_hose_upper_a
+                name: Radiator Hose Upper
+                oem_number: "5460133"
+                aftermarket_alternatives:
+                  - PBR-7099
+                  - A1-Cardone-38496
+                category: cooling
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 500.0
+                  width: 45.0
+                  height: 45.0
+                indicative_price_range_usd:
+                  min: 7.0
+                  max: 28.0
+                  mid: 18.0
+                interchange:
+                  - 1967-1969 Camaro
+                  - 1966 Chevrolet Chevelle
+              - part_id: chevy_camaro_1968_engine_intake_manifold_a
+                name: Intake Manifold
+                oem_number: "5460301"
+                aftermarket_alternatives:
+                  - PBR-8033
+                  - A1-Cardone-63657
+                category: engine
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 600.0
+                  width: 280.0
+                  height: 150.0
+                indicative_price_range_usd:
+                  min: 119.0
+                  max: 446.0
+                  mid: 282.0
+                interchange:
+                  - 1967-1969 Camaro
+                  - 1968 Chevrolet Nova
+              - part_id: chevy_camaro_1968_cooling_thermostat_housing_a
+                name: Thermostat Housing
+                oem_number: "5460343"
+                aftermarket_alternatives:
+                  - PBR-1926
+                  - A1-Cardone-55157
+                category: cooling
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 100.0
+                  width: 80.0
+                  height: 80.0
+                indicative_price_range_usd:
+                  min: 9.0
+                  max: 36.0
+                  mid: 22.0
+                interchange:
+                  - 1967-1969 Camaro
+                  - 1968 Ford Mustang
+              - part_id: chevy_camaro_1968_engine_timing_cover_a
+                name: Timing Cover
+                oem_number: "5460511"
+                aftermarket_alternatives:
+                  - PBR-6080
+                  - A1-Cardone-80149
+                category: engine
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 300.0
+                  width: 250.0
+                  height: 60.0
+                indicative_price_range_usd:
+                  min: 20.0
+                  max: 90.0
+                  mid: 55.0
+                interchange:
+                  - 1967-1969 Camaro
+                  - 1969 Chevrolet C10
+              - part_id: chevy_camaro_1968_cooling_heater_core_a
+                name: Heater Core
+                oem_number: "5460553"
+                aftermarket_alternatives:
+                  - PBR-6535
+                  - A1-Cardone-64852
+                category: cooling
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 250.0
+                  width: 200.0
+                  height: 150.0
+                indicative_price_range_usd:
+                  min: 34.0
+                  max: 148.0
+                  mid: 91.0
+                interchange:
+                  - 1967-1969 Camaro
+                  - 1968 Chevrolet Camaro
+              - part_id: chevy_camaro_1968_engine_lifter_set_a
+                name: Lifter Set
+                oem_number: "5460721"
+                aftermarket_alternatives:
+                  - PBR-2029
+                  - A1-Cardone-59956
+                category: engine
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 60.0
+                  width: 25.0
+                  height: 25.0
+                indicative_price_range_usd:
+                  min: 28.0
+                  max: 110.0
+                  mid: 69.0
+                interchange:
+                  - 1967-1969 Camaro
+                  - 1969 Dodge Charger
+              - part_id: chevy_camaro_1968_engine_head_gasket_a
+                name: Head Gasket
+                oem_number: "5460847"
+                aftermarket_alternatives:
+                  - PBR-9075
+                  - A1-Cardone-25592
+                category: engine
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 550.0
+                  width: 300.0
+                  height: 3.0
+                indicative_price_range_usd:
+                  min: 17.0
+                  max: 72.0
+                  mid: 44.0
+                interchange:
+                  - 1967-1969 Camaro
+                  - 1972 Chevrolet Nova
+              - part_id: chevy_camaro_1968_body_hood_b
+                name: Hood
+                oem_number: "5460973"
+                aftermarket_alternatives:
+                  - PBR-3711
+                  - A1-Cardone-68162
+                category: body
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 1500.0
+                  width: 1300.0
+                  height: 80.0
+                indicative_price_range_usd:
+                  min: 162.0
+                  max: 720.0
+                  mid: 441.0
+                interchange:
+                  - 1967-1969 Camaro
+                  - 1968 Chevrolet Nova
+              - part_id: chevy_camaro_1968_brake_rear_brake_shoe_set_b
+                name: Rear Brake Shoe Set
+                oem_number: "5461057"
+                aftermarket_alternatives:
+                  - PBR-3366
+                  - A1-Cardone-99009
+                category: brake
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 240.0
+                  width: 50.0
+                  height: 30.0
+                indicative_price_range_usd:
+                  min: 17.0
+                  max: 63.0
+                  mid: 40.0
+                interchange:
+                  - 1967-1969 Camaro
+                  - 1968 Dodge Charger
+              - part_id: chevy_camaro_1968_body_taillight_lens_b
+                name: Taillight Lens
+                oem_number: "5461183"
+                aftermarket_alternatives:
+                  - PBR-6249
+                  - A1-Cardone-77939
+                category: body
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 300.0
+                  width: 120.0
+                  height: 80.0
+                indicative_price_range_usd:
+                  min: 15.0
+                  max: 81.0
+                  mid: 48.0
+                interchange:
+                  - 1967-1969 Camaro
+                  - 1969 Chevrolet Camaro
+              - part_id: chevy_camaro_1968_brake_rear_brake_caliper_c
+                name: Rear Brake Caliper
+                oem_number: "5461267"
+                aftermarket_alternatives:
+                  - PBR-8478
+                  - A1-Cardone-35249
+                category: brake
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 175.0
+                  width: 90.0
+                  height: 115.0
+                indicative_price_range_usd:
+                  min: 40.0
+                  max: 172.0
+                  mid: 106.0
+                interchange:
+                  - 1967-1969 Camaro
+                  - 1969 Chevrolet Camaro
+          "1969":
+            parts:
+              - part_id: chevy_camaro_1969_interior_dashboard_a
+                name: Dashboard
+                oem_number: "5460175"
+                aftermarket_alternatives:
+                  - PBR-2949
+                  - A1-Cardone-52007
+                category: interior
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 1400.0
+                  width: 400.0
+                  height: 300.0
+                indicative_price_range_usd:
+                  min: 109.0
+                  max: 544.0
+                  mid: 326.0
+                interchange:
+                  - 1968-1970 Camaro
+                  - 1968 Dodge Charger
+              - part_id: chevy_camaro_1969_interior_headliner_a
+                name: Headliner
+                oem_number: "5460385"
+                aftermarket_alternatives:
+                  - PBR-7449
+                  - A1-Cardone-32351
+                category: interior
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 1400.0
+                  width: 1100.0
+                  height: 10.0
+                indicative_price_range_usd:
+                  min: 46.0
+                  max: 210.0
+                  mid: 128.0
+                interchange:
+                  - 1968-1970 Camaro
+                  - 1969 Chevrolet C10
+              - part_id: chevy_camaro_1969_interior_gauge_cluster_a
+                name: Gauge Cluster
+                oem_number: "5460595"
+                aftermarket_alternatives:
+                  - PBR-2981
+                  - A1-Cardone-39819
+                category: interior
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 400.0
+                  width: 200.0
+                  height: 150.0
+                indicative_price_range_usd:
+                  min: 71.0
+                  max: 343.0
+                  mid: 207.0
+                interchange:
+                  - 1968-1970 Camaro
+                  - 1968 Dodge Charger
+              - part_id: chevy_camaro_1969_engine_pushrod_set_a
+                name: Pushrod Set
+                oem_number: "5460763"
+                aftermarket_alternatives:
+                  - PBR-5121
+                  - A1-Cardone-45068
+                category: engine
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 200.0
+                  width: 10.0
+                  height: 10.0
+                indicative_price_range_usd:
+                  min: 18.0
+                  max: 78.0
+                  mid: 48.0
+                interchange:
+                  - 1968-1970 Camaro
+                  - 1967 Chevrolet Camaro
+              - part_id: chevy_camaro_1969_engine_oil_pan_gasket_a
+                name: Oil Pan Gasket
+                oem_number: "5460889"
+                aftermarket_alternatives:
+                  - PBR-3187
+                  - A1-Cardone-57934
+                category: engine
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 600.0
+                  width: 350.0
+                  height: 3.0
+                indicative_price_range_usd:
+                  min: 7.0
+                  max: 27.0
+                  mid: 17.0
+                interchange:
+                  - 1968-1970 Camaro
+                  - 1966 Ford Mustang
+              - part_id: chevy_camaro_1969_interior_headliner_b
+                name: Headliner
+                oem_number: "5461015"
+                aftermarket_alternatives:
+                  - PBR-6663
+                  - A1-Cardone-28822
+                category: interior
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 1400.0
+                  width: 1100.0
+                  height: 10.0
+                indicative_price_range_usd:
+                  min: 56.0
+                  max: 255.0
+                  mid: 156.0
+                interchange:
+                  - 1968-1970 Camaro
+                  - 1969 Chevrolet C10
+              - part_id: chevy_camaro_1969_suspension_sway_bar_end_link_b
+                name: Sway Bar End Link
+                oem_number: "5461099"
+                aftermarket_alternatives:
+                  - PBR-8099
+                  - A1-Cardone-72859
+                category: suspension
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 180.0
+                  width: 40.0
+                  height: 40.0
+                indicative_price_range_usd:
+                  min: 7.0
+                  max: 28.0
+                  mid: 18.0
+                interchange:
+                  - 1968-1970 Camaro
+                  - 1970 Chevrolet Chevelle
+              - part_id: chevy_camaro_1969_interior_sun_visor_b
+                name: Sun Visor
+                oem_number: "5461225"
+                aftermarket_alternatives:
+                  - PBR-5423
+                  - A1-Cardone-53609
+                category: interior
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 400.0
+                  width: 150.0
+                  height: 20.0
+                indicative_price_range_usd:
+                  min: 10.0
+                  max: 43.0
+                  mid: 26.0
+                interchange:
+                  - 1968-1970 Camaro
+                  - 1966 Chevrolet Chevelle
+              - part_id: chevy_camaro_1969_brake_brake_booster_c
+                name: Brake Booster
+                oem_number: "5461351"
+                aftermarket_alternatives:
+                  - PBR-1273
+                  - A1-Cardone-43389
+                category: brake
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 230.0
+                  width: 230.0
+                  height: 150.0
+                indicative_price_range_usd:
+                  min: 68.0
+                  max: 248.0
+                  mid: 158.0
+                interchange:
+                  - 1968-1970 Camaro
+                  - 1970 Chevrolet Chevelle
+      Chevelle:
+        years:
+          "1966":
+            parts:
+              - part_id: chevy_chevelle_1966_body_front_fender_a
+                name: Front Fender
+                oem_number: "5460028"
+                aftermarket_alternatives:
+                  - PBR-3862
+                  - A1-Cardone-42983
+                category: body
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 1400.0
+                  width: 500.0
+                  height: 800.0
+                indicative_price_range_usd:
+                  min: 161.0
+                  max: 749.0
+                  mid: 455.0
+                interchange:
+                  - 1965-1967 Chevelle
+                  - 1968 Dodge Charger
+              - part_id: chevy_chevelle_1966_transmission_transmission_oil_pan_a
+                name: Transmission Oil Pan
+                oem_number: "5460070"
+                aftermarket_alternatives:
+                  - PBR-1545
+                  - A1-Cardone-89197
+                category: transmission
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 400.0
+                  width: 350.0
+                  height: 100.0
+                indicative_price_range_usd:
+                  min: 27.0
+                  max: 118.0
+                  mid: 72.0
+                interchange:
+                  - 1965-1967 Chevelle
+                  - 1966 Ford Mustang
+              - part_id: chevy_chevelle_1966_body_front_bumper_a
+                name: Front Bumper
+                oem_number: "5460238"
+                aftermarket_alternatives:
+                  - PBR-3321
+                  - A1-Cardone-87441
+                category: body
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 1700.0
+                  width: 200.0
+                  height: 150.0
+                indicative_price_range_usd:
+                  min: 115.0
+                  max: 526.0
+                  mid: 320.0
+                interchange:
+                  - 1965-1967 Chevelle
+                  - 1969 Chevrolet C10
+              - part_id: chevy_chevelle_1966_transmission_throwout_bearing_a
+                name: Throwout Bearing
+                oem_number: "5460280"
+                aftermarket_alternatives:
+                  - PBR-3405
+                  - A1-Cardone-87237
+                category: transmission
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 80.0
+                  width: 80.0
+                  height: 50.0
+                indicative_price_range_usd:
+                  min: 13.0
+                  max: 62.0
+                  mid: 38.0
+                interchange:
+                  - 1965-1967 Chevelle
+                  - 1968 Chevrolet Nova
+              - part_id: chevy_chevelle_1966_body_headlight_bezel_a
+                name: Headlight Bezel
+                oem_number: "5460448"
+                aftermarket_alternatives:
+                  - PBR-5479
+                  - A1-Cardone-80246
+                category: body
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 250.0
+                  width: 150.0
+                  height: 100.0
+                indicative_price_range_usd:
+                  min: 22.0
+                  max: 103.0
+                  mid: 62.0
+                interchange:
+                  - 1965-1967 Chevelle
+                  - 1970 Dodge Charger
+              - part_id: chevy_chevelle_1966_transmission_universal_joint_a
+                name: Universal Joint
+                oem_number: "5460490"
+                aftermarket_alternatives:
+                  - PBR-1032
+                  - A1-Cardone-86636
+                category: transmission
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 100.0
+                  width: 40.0
+                  height: 40.0
+                indicative_price_range_usd:
+                  min: 8.0
+                  max: 33.0
+                  mid: 20.0
+                interchange:
+                  - 1965-1967 Chevelle
+                  - 1965 Ford Mustang
+              - part_id: chevy_chevelle_1966_body_quarter_panel_a
+                name: Quarter Panel
+                oem_number: "5460658"
+                aftermarket_alternatives:
+                  - PBR-5950
+                  - A1-Cardone-62406
+                category: body
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 1500.0
+                  width: 900.0
+                  height: 300.0
+                indicative_price_range_usd:
+                  min: 253.0
+                  max: 1092.0
+                  mid: 672.0
+                interchange:
+                  - 1965-1967 Chevelle
+                  - 1968 Chevrolet Chevelle
+              - part_id: chevy_chevelle_1966_transmission_torque_converter_a
+                name: Torque Converter
+                oem_number: "5460700"
+                aftermarket_alternatives:
+                  - PBR-3152
+                  - A1-Cardone-53380
+                category: transmission
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 320.0
+                  width: 320.0
+                  height: 150.0
+                indicative_price_range_usd:
+                  min: 65.0
+                  max: 277.0
+                  mid: 171.0
+                interchange:
+                  - 1965-1967 Chevelle
+                  - 1968 Chevrolet Camaro
+              - part_id: chevy_chevelle_1966_electrical_battery_b
+                name: Battery
+                oem_number: "5460826"
+                aftermarket_alternatives:
+                  - PBR-7402
+                  - A1-Cardone-62908
+                category: electrical
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 260.0
+                  width: 175.0
+                  height: 225.0
+                indicative_price_range_usd:
+                  min: 61.0
+                  max: 184.0
+                  mid: 122.0
+                interchange:
+                  - 1965-1967 Chevelle
+                  - 1967 Chevrolet C10
+              - part_id: chevy_chevelle_1966_engine_engine_mount_a
+                name: Engine Mount
+                oem_number: "5461036"
+                aftermarket_alternatives:
+                  - PBR-5143
+                  - A1-Cardone-40012
+                category: engine
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 150.0
+                  width: 100.0
+                  height: 90.0
+                indicative_price_range_usd:
+                  min: 13.0
+                  max: 52.0
+                  mid: 32.0
+                interchange:
+                  - 1965-1967 Chevelle
+                  - 1967 Chevrolet Camaro
+              - part_id: chevy_chevelle_1966_engine_intake_manifold_b
+                name: Intake Manifold
+                oem_number: "5461246"
+                aftermarket_alternatives:
+                  - PBR-1572
+                  - A1-Cardone-67461
+                category: engine
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 600.0
+                  width: 280.0
+                  height: 150.0
+                indicative_price_range_usd:
+                  min: 124.0
+                  max: 466.0
+                  mid: 295.0
+                interchange:
+                  - 1965-1967 Chevelle
+                  - 1969 Dodge Charger
+              - part_id: chevy_chevelle_1966_engine_lifter_set_b
+                name: Lifter Set
+                oem_number: "5461372"
+                aftermarket_alternatives:
+                  - PBR-6565
+                  - A1-Cardone-34462
+                category: engine
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 60.0
+                  width: 25.0
+                  height: 25.0
+                indicative_price_range_usd:
+                  min: 29.0
+                  max: 115.0
+                  mid: 72.0
+                interchange:
+                  - 1965-1967 Chevelle
+                  - 1966 Ford Mustang
+              - part_id: chevy_chevelle_1966_engine_harmonic_balancer_b
+                name: Harmonic Balancer
+                oem_number: "5461414"
+                aftermarket_alternatives:
+                  - PBR-7167
+                  - A1-Cardone-68286
+                category: engine
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 200.0
+                  width: 200.0
+                  height: 80.0
+                indicative_price_range_usd:
+                  min: 40.0
+                  max: 161.0
+                  mid: 100.0
+                interchange:
+                  - 1965-1967 Chevelle
+                  - 1972 Chevrolet C10
+          "1968":
+            parts:
+              - part_id: chevy_chevelle_1968_electrical_starter_motor_a
+                name: Starter Motor
+                oem_number: "5460112"
+                aftermarket_alternatives:
+                  - PBR-6394
+                  - A1-Cardone-19365
+                category: electrical
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 280.0
+                  width: 150.0
+                  height: 150.0
+                indicative_price_range_usd:
+                  min: 62.0
+                  max: 259.0
+                  mid: 160.0
+                interchange:
+                  - 1967-1969 Chevelle
+                  - 1966 Ford Mustang
+              - part_id: chevy_chevelle_1968_electrical_voltage_regulator_a
+                name: Voltage Regulator
+                oem_number: "5460322"
+                aftermarket_alternatives:
+                  - PBR-1236
+                  - A1-Cardone-25771
+                category: electrical
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 100.0
+                  width: 80.0
+                  height: 50.0
+                indicative_price_range_usd:
+                  min: 11.0
+                  max: 46.0
+                  mid: 28.0
+                interchange:
+                  - 1967-1969 Chevelle
+                  - 1967 Chevrolet C10
+              - part_id: chevy_chevelle_1968_electrical_turn_signal_switch_a
+                name: Turn Signal Switch
+                oem_number: "5460532"
+                aftermarket_alternatives:
+                  - PBR-2865
+                  - A1-Cardone-69094
+                category: electrical
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 150.0
+                  width: 60.0
+                  height: 60.0
+                indicative_price_range_usd:
+                  min: 12.0
+                  max: 55.0
+                  mid: 34.0
+                interchange:
+                  - 1967-1969 Chevelle
+                  - 1967 Chevrolet Camaro
+              - part_id: chevy_chevelle_1968_electrical_alternator_b
+                name: Alternator
+                oem_number: "5460742"
+                aftermarket_alternatives:
+                  - PBR-7794
+                  - A1-Cardone-35409
+                category: electrical
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 200.0
+                  width: 180.0
+                  height: 180.0
+                indicative_price_range_usd:
+                  min: 51.0
+                  max: 214.0
+                  mid: 132.0
+                interchange:
+                  - 1967-1969 Chevelle
+                  - 1970 Chevrolet Nova
+              - part_id: chevy_chevelle_1968_electrical_ignition_coil_b
+                name: Ignition Coil
+                oem_number: "5460868"
+                aftermarket_alternatives:
+                  - PBR-1531
+                  - A1-Cardone-11700
+                category: electrical
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 120.0
+                  width: 80.0
+                  height: 80.0
+                indicative_price_range_usd:
+                  min: 12.0
+                  max: 49.0
+                  mid: 30.0
+                interchange:
+                  - 1967-1969 Chevelle
+                  - 1966 Ford Mustang
+              - part_id: chevy_chevelle_1968_brake_brake_master_cylinder_b
+                name: Brake Master Cylinder
+                oem_number: "5460952"
+                aftermarket_alternatives:
+                  - PBR-5065
+                  - A1-Cardone-69657
+                category: brake
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 220.0
+                  width: 90.0
+                  height: 90.0
+                indicative_price_range_usd:
+                  min: 48.0
+                  max: 192.0
+                  mid: 120.0
+                interchange:
+                  - 1967-1969 Chevelle
+                  - 1966 Ford Mustang
+              - part_id: chevy_chevelle_1968_body_rear_bumper_b
+                name: Rear Bumper
+                oem_number: "5461078"
+                aftermarket_alternatives:
+                  - PBR-7273
+                  - A1-Cardone-27506
+                category: body
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 1700.0
+                  width: 200.0
+                  height: 150.0
+                indicative_price_range_usd:
+                  min: 117.0
+                  max: 534.0
+                  mid: 326.0
+                interchange:
+                  - 1967-1969 Chevelle
+                  - 1970 Chevrolet Nova
+              - part_id: chevy_chevelle_1968_brake_parking_brake_cable_b
+                name: Parking Brake Cable
+                oem_number: "5461162"
+                aftermarket_alternatives:
+                  - PBR-2757
+                  - A1-Cardone-82399
+                category: brake
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 2500.0
+                  width: 8.0
+                  height: 8.0
+                indicative_price_range_usd:
+                  min: 14.0
+                  max: 56.0
+                  mid: 35.0
+                interchange:
+                  - 1967-1969 Chevelle
+                  - 1968 Dodge Charger
+              - part_id: chevy_chevelle_1968_brake_brake_master_cylinder_c
+                name: Brake Master Cylinder
+                oem_number: "5461330"
+                aftermarket_alternatives:
+                  - PBR-4760
+                  - A1-Cardone-65943
+                category: brake
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 220.0
+                  width: 90.0
+                  height: 90.0
+                indicative_price_range_usd:
+                  min: 52.0
+                  max: 207.0
+                  mid: 130.0
+                interchange:
+                  - 1967-1969 Chevelle
+                  - 1968 Chevrolet Chevelle
+          "1970":
+            parts:
+              - part_id: chevy_chevelle_1970_suspension_front_shock_absorber_a
+                name: Front Shock Absorber
+                oem_number: "5460154"
+                aftermarket_alternatives:
+                  - PBR-2957
+                  - A1-Cardone-79204
+                category: suspension
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 420.0
+                  width: 70.0
+                  height: 70.0
+                indicative_price_range_usd:
+                  min: 20.0
+                  max: 80.0
+                  mid: 50.0
+                interchange:
+                  - 1969-1971 Chevelle
+                  - 1969 Dodge Charger
+              - part_id: chevy_chevelle_1970_fuel_fuel_line_kit_a
+                name: Fuel Line Kit
+                oem_number: "5460196"
+                aftermarket_alternatives:
+                  - PBR-4487
+                  - A1-Cardone-56874
+                category: fuel
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 3500.0
+                  width: 10.0
+                  height: 10.0
+                indicative_price_range_usd:
+                  min: 20.0
+                  max: 86.0
+                  mid: 53.0
+                interchange:
+                  - 1969-1971 Chevelle
+                  - 1970 Dodge Charger
+              - part_id: chevy_chevelle_1970_suspension_lower_control_arm_a
+                name: Lower Control Arm
+                oem_number: "5460364"
+                aftermarket_alternatives:
+                  - PBR-4122
+                  - A1-Cardone-44475
+                category: suspension
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 420.0
+                  width: 220.0
+                  height: 150.0
+                indicative_price_range_usd:
+                  min: 54.0
+                  max: 194.0
+                  mid: 124.0
+                interchange:
+                  - 1969-1971 Chevelle
+                  - 1968 Dodge Charger
+              - part_id: chevy_chevelle_1970_fuel_fuel_tank_strap_a
+                name: Fuel Tank Strap
+                oem_number: "5460406"
+                aftermarket_alternatives:
+                  - PBR-3531
+                  - A1-Cardone-61995
+                category: fuel
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 700.0
+                  width: 30.0
+                  height: 5.0
+                indicative_price_range_usd:
+                  min: 9.0
+                  max: 36.0
+                  mid: 22.0
+                interchange:
+                  - 1969-1971 Chevelle
+                  - 1967 Ford Mustang
+              - part_id: chevy_chevelle_1970_suspension_sway_bar_end_link_a
+                name: Sway Bar End Link
+                oem_number: "5460574"
+                aftermarket_alternatives:
+                  - PBR-4718
+                  - A1-Cardone-59271
+                category: suspension
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 180.0
+                  width: 40.0
+                  height: 40.0
+                indicative_price_range_usd:
+                  min: 8.0
+                  max: 32.0
+                  mid: 20.0
+                interchange:
+                  - 1969-1971 Chevelle
+                  - 1969 Chevrolet C10
+              - part_id: chevy_chevelle_1970_fuel_fuel_line_kit_b
+                name: Fuel Line Kit
+                oem_number: "5460616"
+                aftermarket_alternatives:
+                  - PBR-9432
+                  - A1-Cardone-16634
+                category: fuel
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 3500.0
+                  width: 10.0
+                  height: 10.0
+                indicative_price_range_usd:
+                  min: 21.0
+                  max: 90.0
+                  mid: 56.0
+                interchange:
+                  - 1969-1971 Chevelle
+                  - 1966 Ford Mustang
+              - part_id: chevy_chevelle_1970_electrical_starter_motor_b
+                name: Starter Motor
+                oem_number: "5460784"
+                aftermarket_alternatives:
+                  - PBR-4719
+                  - A1-Cardone-26444
+                category: electrical
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 280.0
+                  width: 150.0
+                  height: 150.0
+                indicative_price_range_usd:
+                  min: 54.0
+                  max: 226.0
+                  mid: 140.0
+                interchange:
+                  - 1969-1971 Chevelle
+                  - 1966 Ford Mustang
+              - part_id: chevy_chevelle_1970_electrical_voltage_regulator_b
+                name: Voltage Regulator
+                oem_number: "5460910"
+                aftermarket_alternatives:
+                  - PBR-5728
+                  - A1-Cardone-22132
+                category: electrical
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 100.0
+                  width: 80.0
+                  height: 50.0
+                indicative_price_range_usd:
+                  min: 11.0
+                  max: 47.0
+                  mid: 29.0
+                interchange:
+                  - 1969-1971 Chevelle
+                  - 1966 Chevrolet Chevelle
+              - part_id: chevy_chevelle_1970_suspension_lower_control_arm_b
+                name: Lower Control Arm
+                oem_number: "5460994"
+                aftermarket_alternatives:
+                  - PBR-8651
+                  - A1-Cardone-12251
+                category: suspension
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 420.0
+                  width: 220.0
+                  height: 150.0
+                indicative_price_range_usd:
+                  min: 49.0
+                  max: 176.0
+                  mid: 112.0
+                interchange:
+                  - 1969-1971 Chevelle
+                  - 1969 Chevrolet C10
+              - part_id: chevy_chevelle_1970_interior_gauge_cluster_b
+                name: Gauge Cluster
+                oem_number: "5461120"
+                aftermarket_alternatives:
+                  - PBR-5674
+                  - A1-Cardone-44733
+                category: interior
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 400.0
+                  width: 200.0
+                  height: 150.0
+                indicative_price_range_usd:
+                  min: 79.0
+                  max: 384.0
+                  mid: 232.0
+                interchange:
+                  - 1969-1971 Chevelle
+                  - 1970 Chevrolet Nova
+              - part_id: chevy_chevelle_1970_suspension_tie_rod_end_b
+                name: Tie Rod End
+                oem_number: "5461204"
+                aftermarket_alternatives:
+                  - PBR-2753
+                  - A1-Cardone-40145
+                category: suspension
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 150.0
+                  width: 40.0
+                  height: 40.0
+                indicative_price_range_usd:
+                  min: 11.0
+                  max: 38.0
+                  mid: 24.0
+                interchange:
+                  - 1969-1971 Chevelle
+                  - 1966 Ford Mustang
+              - part_id: chevy_chevelle_1970_brake_front_brake_rotor_c
+                name: Front Brake Rotor
+                oem_number: "5461288"
+                aftermarket_alternatives:
+                  - PBR-4076
+                  - A1-Cardone-29326
+                category: brake
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 280.0
+                  width: 280.0
+                  height: 25.0
+                indicative_price_range_usd:
+                  min: 29.0
+                  max: 117.0
+                  mid: 73.0
+                interchange:
+                  - 1969-1971 Chevelle
+                  - 1966 Ford Mustang
+      Nova:
+        years:
+          "1968":
+            parts:
+              - part_id: chevy_nova_1968_interior_front_bucket_seat_a
+                name: Front Bucket Seat
+                oem_number: "5460035"
+                aftermarket_alternatives:
+                  - PBR-4106
+                  - A1-Cardone-83600
+                category: interior
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 650.0
+                  width: 600.0
+                  height: 900.0
+                indicative_price_range_usd:
+                  min: 166.0
+                  max: 785.0
+                  mid: 476.0
+                interchange:
+                  - 1967-1969 Nova
+                  - 1967 Ford Mustang
+              - part_id: chevy_nova_1968_interior_steering_wheel_a
+                name: Steering Wheel
+                oem_number: "5460245"
+                aftermarket_alternatives:
+                  - PBR-8513
+                  - A1-Cardone-21961
+                category: interior
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 380.0
+                  width: 380.0
+                  height: 100.0
+                indicative_price_range_usd:
+                  min: 49.0
+                  max: 240.0
+                  mid: 144.0
+                interchange:
+                  - 1967-1969 Nova
+                  - 1970 Dodge Charger
+              - part_id: chevy_nova_1968_interior_door_panel_a
+                name: Door Panel
+                oem_number: "5460455"
+                aftermarket_alternatives:
+                  - PBR-7466
+                  - A1-Cardone-87177
+                category: interior
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 1000.0
+                  width: 700.0
+                  height: 30.0
+                indicative_price_range_usd:
+                  min: 42.0
+                  max: 201.0
+                  mid: 122.0
+                interchange:
+                  - 1967-1969 Nova
+                  - 1968 Dodge Charger
+              - part_id: chevy_nova_1968_interior_gear_shifter_a
+                name: Gear Shifter
+                oem_number: "5460665"
+                aftermarket_alternatives:
+                  - PBR-5804
+                  - A1-Cardone-84675
+                category: interior
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 300.0
+                  width: 100.0
+                  height: 200.0
+                indicative_price_range_usd:
+                  min: 33.0
+                  max: 151.0
+                  mid: 92.0
+                interchange:
+                  - 1967-1969 Nova
+                  - 1970 Dodge Charger
+              - part_id: chevy_nova_1968_brake_front_brake_caliper_b
+                name: Front Brake Caliper
+                oem_number: "5460791"
+                aftermarket_alternatives:
+                  - PBR-5321
+                  - A1-Cardone-23437
+                category: brake
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 180.0
+                  width: 95.0
+                  height: 120.0
+                indicative_price_range_usd:
+                  min: 41.0
+                  max: 165.0
+                  mid: 103.0
+                interchange:
+                  - 1967-1969 Nova
+                  - 1969 Dodge Charger
+              - part_id: chevy_nova_1968_brake_rear_brake_drum_b
+                name: Rear Brake Drum
+                oem_number: "5460917"
+                aftermarket_alternatives:
+                  - PBR-3708
+                  - A1-Cardone-72780
+                category: brake
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 280.0
+                  width: 280.0
+                  height: 90.0
+                indicative_price_range_usd:
+                  min: 37.0
+                  max: 115.0
+                  mid: 76.0
+                interchange:
+                  - 1967-1969 Nova
+                  - 1968 Chevrolet Nova
+              - part_id: chevy_nova_1968_body_front_bumper_b
+                name: Front Bumper
+                oem_number: "5461043"
+                aftermarket_alternatives:
+                  - PBR-5957
+                  - A1-Cardone-65925
+                category: body
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 1700.0
+                  width: 200.0
+                  height: 150.0
+                indicative_price_range_usd:
+                  min: 116.0
+                  max: 532.0
+                  mid: 324.0
+                interchange:
+                  - 1967-1969 Nova
+                  - 1970 Dodge Charger
+              - part_id: chevy_nova_1968_brake_brake_line_kit_b
+                name: Brake Line Kit
+                oem_number: "5461127"
+                aftermarket_alternatives:
+                  - PBR-5882
+                  - A1-Cardone-99558
+                category: brake
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 3000.0
+                  width: 10.0
+                  height: 10.0
+                indicative_price_range_usd:
+                  min: 25.0
+                  max: 88.0
+                  mid: 56.0
+                interchange:
+                  - 1967-1969 Nova
+                  - 1967 Ford Mustang
+              - part_id: chevy_nova_1968_body_quarter_panel_b
+                name: Quarter Panel
+                oem_number: "5461253"
+                aftermarket_alternatives:
+                  - PBR-4047
+                  - A1-Cardone-40949
+                category: body
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 1500.0
+                  width: 900.0
+                  height: 300.0
+                indicative_price_range_usd:
+                  min: 226.0
+                  max: 976.0
+                  mid: 601.0
+                interchange:
+                  - 1967-1969 Nova
+                  - 1969 Dodge Charger
+          "1970":
+            parts:
+              - part_id: chevy_nova_1970_brake_rear_brake_caliper_a
+                name: Rear Brake Caliper
+                oem_number: "5460077"
+                aftermarket_alternatives:
+                  - PBR-1617
+                  - A1-Cardone-95144
+                category: brake
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 175.0
+                  width: 90.0
+                  height: 115.0
+                indicative_price_range_usd:
+                  min: 43.0
+                  max: 182.0
+                  mid: 112.0
+                interchange:
+                  - 1969-1971 Nova
+                  - 1968 Chevrolet Camaro
+              - part_id: chevy_nova_1970_exhaust_muffler_a
+                name: Muffler
+                oem_number: "5460119"
+                aftermarket_alternatives:
+                  - PBR-3214
+                  - A1-Cardone-91449
+                category: exhaust
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 600.0
+                  width: 250.0
+                  height: 180.0
+                indicative_price_range_usd:
+                  min: 36.0
+                  max: 153.0
+                  mid: 94.0
+                interchange:
+                  - 1969-1971 Nova
+                  - 1968 Ford Mustang
+              - part_id: chevy_nova_1970_brake_brake_master_cylinder_a
+                name: Brake Master Cylinder
+                oem_number: "5460287"
+                aftermarket_alternatives:
+                  - PBR-5479
+                  - A1-Cardone-84474
+                category: brake
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 220.0
+                  width: 90.0
+                  height: 90.0
+                indicative_price_range_usd:
+                  min: 56.0
+                  max: 222.0
+                  mid: 139.0
+                interchange:
+                  - 1969-1971 Nova
+                  - 1968 Dodge Charger
+              - part_id: chevy_nova_1970_exhaust_tailpipe_tip_a
+                name: Tailpipe Tip
+                oem_number: "5460329"
+                aftermarket_alternatives:
+                  - PBR-4669
+                  - A1-Cardone-39124
+                category: exhaust
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 300.0
+                  width: 80.0
+                  height: 80.0
+                indicative_price_range_usd:
+                  min: 10.0
+                  max: 47.0
+                  mid: 28.0
+                interchange:
+                  - 1969-1971 Nova
+                  - 1967 Chevrolet C10
+              - part_id: chevy_nova_1970_brake_rear_brake_shoe_set_a
+                name: Rear Brake Shoe Set
+                oem_number: "5460497"
+                aftermarket_alternatives:
+                  - PBR-6051
+                  - A1-Cardone-54879
+                category: brake
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 240.0
+                  width: 50.0
+                  height: 30.0
+                indicative_price_range_usd:
+                  min: 16.0
+                  max: 60.0
+                  mid: 38.0
+                interchange:
+                  - 1969-1971 Nova
+                  - 1967 Chevrolet Camaro
+              - part_id: chevy_nova_1970_exhaust_muffler_b
+                name: Muffler
+                oem_number: "5460539"
+                aftermarket_alternatives:
+                  - PBR-5647
+                  - A1-Cardone-72444
+                category: exhaust
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 600.0
+                  width: 250.0
+                  height: 180.0
+                indicative_price_range_usd:
+                  min: 32.0
+                  max: 136.0
+                  mid: 84.0
+                interchange:
+                  - 1969-1971 Nova
+                  - 1968 Chevrolet Chevelle
+              - part_id: chevy_nova_1970_brake_parking_brake_cable_a
+                name: Parking Brake Cable
+                oem_number: "5460707"
+                aftermarket_alternatives:
+                  - PBR-5077
+                  - A1-Cardone-91612
+                category: brake
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 2500.0
+                  width: 8.0
+                  height: 8.0
+                indicative_price_range_usd:
+                  min: 17.0
+                  max: 68.0
+                  mid: 42.0
+                interchange:
+                  - 1969-1971 Nova
+                  - 1967 Chevrolet Camaro
+              - part_id: chevy_nova_1970_brake_rear_brake_caliper_b
+                name: Rear Brake Caliper
+                oem_number: "5460833"
+                aftermarket_alternatives:
+                  - PBR-6994
+                  - A1-Cardone-63879
+                category: brake
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 175.0
+                  width: 90.0
+                  height: 115.0
+                indicative_price_range_usd:
+                  min: 43.0
+                  max: 184.0
+                  mid: 114.0
+                interchange:
+                  - 1969-1971 Nova
+                  - 1965 Ford Mustang
+              - part_id: chevy_nova_1970_suspension_upper_control_arm_b
+                name: Upper Control Arm
+                oem_number: "5460959"
+                aftermarket_alternatives:
+                  - PBR-9297
+                  - A1-Cardone-68071
+                category: suspension
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 350.0
+                  width: 200.0
+                  height: 150.0
+                indicative_price_range_usd:
+                  min: 42.0
+                  max: 151.0
+                  mid: 96.0
+                interchange:
+                  - 1969-1971 Nova
+                  - 1969 Chevrolet C10
+              - part_id: chevy_nova_1970_interior_center_console_b
+                name: Center Console
+                oem_number: "5461085"
+                aftermarket_alternatives:
+                  - PBR-3097
+                  - A1-Cardone-69498
+                category: interior
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 800.0
+                  width: 300.0
+                  height: 250.0
+                indicative_price_range_usd:
+                  min: 54.0
+                  max: 262.0
+                  mid: 158.0
+                interchange:
+                  - 1969-1971 Nova
+                  - 1972 Chevrolet Nova
+              - part_id: chevy_nova_1970_suspension_pitman_arm_b
+                name: Pitman Arm
+                oem_number: "5461169"
+                aftermarket_alternatives:
+                  - PBR-9550
+                  - A1-Cardone-68625
+                category: suspension
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 220.0
+                  width: 80.0
+                  height: 60.0
+                indicative_price_range_usd:
+                  min: 18.0
+                  max: 69.0
+                  mid: 44.0
+                interchange:
+                  - 1969-1971 Nova
+                  - 1967 Chevrolet C10
+              - part_id: chevy_nova_1970_engine_piston_set_b
+                name: Piston Set
+                oem_number: "5461337"
+                aftermarket_alternatives:
+                  - PBR-4939
+                  - A1-Cardone-42762
+                category: engine
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 100.0
+                  width: 100.0
+                  height: 80.0
+                indicative_price_range_usd:
+                  min: 158.0
+                  max: 525.0
+                  mid: 342.0
+                interchange:
+                  - 1969-1971 Nova
+                  - 1968 Chevrolet Nova
+              - part_id: chevy_nova_1970_engine_pushrod_set_b
+                name: Pushrod Set
+                oem_number: "5461379"
+                aftermarket_alternatives:
+                  - PBR-8255
+                  - A1-Cardone-92240
+                category: engine
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 200.0
+                  width: 10.0
+                  height: 10.0
+                indicative_price_range_usd:
+                  min: 19.0
+                  max: 82.0
+                  mid: 50.0
+                interchange:
+                  - 1969-1971 Nova
+                  - 1969 Chevrolet C10
+              - part_id: chevy_nova_1970_engine_flywheel_b
+                name: Flywheel
+                oem_number: "5461421"
+                aftermarket_alternatives:
+                  - PBR-4661
+                  - A1-Cardone-94014
+                category: engine
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 350.0
+                  width: 350.0
+                  height: 30.0
+                indicative_price_range_usd:
+                  min: 66.0
+                  max: 242.0
+                  mid: 154.0
+                interchange:
+                  - 1969-1971 Nova
+                  - 1969 Chevrolet Camaro
+          "1972":
+            parts:
+              - part_id: chevy_nova_1972_engine_fuel_pump_a
+                name: Fuel Pump
+                oem_number: "5460161"
+                aftermarket_alternatives:
+                  - PBR-7925
+                  - A1-Cardone-93303
+                category: engine
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 150.0
+                  width: 100.0
+                  height: 80.0
+                indicative_price_range_usd:
+                  min: 22.0
+                  max: 81.0
+                  mid: 52.0
+                interchange:
+                  - 1971-1973 Nova
+                  - 1970 Dodge Charger
+              - part_id: chevy_nova_1972_cooling_radiator_hose_lower_a
+                name: Radiator Hose Lower
+                oem_number: "5460203"
+                aftermarket_alternatives:
+                  - PBR-3609
+                  - A1-Cardone-81206
+                category: cooling
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 550.0
+                  width: 45.0
+                  height: 45.0
+                indicative_price_range_usd:
+                  min: 9.0
+                  max: 34.0
+                  mid: 22.0
+                interchange:
+                  - 1971-1973 Nova
+                  - 1972 Chevrolet C10
+              - part_id: chevy_nova_1972_engine_valve_cover_a
+                name: Valve Cover
+                oem_number: "5460371"
+                aftermarket_alternatives:
+                  - PBR-4624
+                  - A1-Cardone-23384
+                category: engine
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 520.0
+                  width: 200.0
+                  height: 100.0
+                indicative_price_range_usd:
+                  min: 26.0
+                  max: 114.0
+                  mid: 70.0
+                interchange:
+                  - 1971-1973 Nova
+                  - 1969 Chevrolet C10
+              - part_id: chevy_nova_1972_cooling_fan_clutch_a
+                name: Fan Clutch
+                oem_number: "5460413"
+                aftermarket_alternatives:
+                  - PBR-6409
+                  - A1-Cardone-72058
+                category: cooling
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 180.0
+                  width: 180.0
+                  height: 80.0
+                indicative_price_range_usd:
+                  min: 28.0
+                  max: 124.0
+                  mid: 76.0
+                interchange:
+                  - 1971-1973 Nova
+                  - 1967 Ford Mustang
+              - part_id: chevy_nova_1972_engine_piston_set_a
+                name: Piston Set
+                oem_number: "5460581"
+                aftermarket_alternatives:
+                  - PBR-7248
+                  - A1-Cardone-82183
+                category: engine
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 100.0
+                  width: 100.0
+                  height: 80.0
+                indicative_price_range_usd:
+                  min: 147.0
+                  max: 491.0
+                  mid: 319.0
+                interchange:
+                  - 1971-1973 Nova
+                  - 1967 Chevrolet Camaro
+              - part_id: chevy_nova_1972_cooling_overflow_tank_a
+                name: Overflow Tank
+                oem_number: "5460623"
+                aftermarket_alternatives:
+                  - PBR-2422
+                  - A1-Cardone-98552
+                category: cooling
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 250.0
+                  width: 150.0
+                  height: 150.0
+                indicative_price_range_usd:
+                  min: 9.0
+                  max: 39.0
+                  mid: 24.0
+                interchange:
+                  - 1971-1973 Nova
+                  - 1970 Chevrolet Chevelle
+              - part_id: chevy_nova_1972_brake_proportioning_valve_a
+                name: Proportioning Valve
+                oem_number: "5460749"
+                aftermarket_alternatives:
+                  - PBR-5396
+                  - A1-Cardone-50418
+                category: brake
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 90.0
+                  width: 60.0
+                  height: 50.0
+                indicative_price_range_usd:
+                  min: 20.0
+                  max: 84.0
+                  mid: 52.0
+                interchange:
+                  - 1971-1973 Nova
+                  - 1968 Ford Mustang
+              - part_id: chevy_nova_1972_brake_front_brake_rotor_b
+                name: Front Brake Rotor
+                oem_number: "5460875"
+                aftermarket_alternatives:
+                  - PBR-1577
+                  - A1-Cardone-65136
+                category: brake
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 280.0
+                  width: 280.0
+                  height: 25.0
+                indicative_price_range_usd:
+                  min: 33.0
+                  max: 134.0
+                  mid: 84.0
+                interchange:
+                  - 1971-1973 Nova
+                  - 1970 Chevrolet Chevelle
+              - part_id: chevy_nova_1972_engine_flywheel_a
+                name: Flywheel
+                oem_number: "5461001"
+                aftermarket_alternatives:
+                  - PBR-6736
+                  - A1-Cardone-70310
+                category: engine
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 350.0
+                  width: 350.0
+                  height: 30.0
+                indicative_price_range_usd:
+                  min: 65.0
+                  max: 237.0
+                  mid: 151.0
+                interchange:
+                  - 1971-1973 Nova
+                  - 1968 Chevrolet Camaro
+              - part_id: chevy_nova_1972_engine_carburetor_b
+                name: Carburetor
+                oem_number: "5461211"
+                aftermarket_alternatives:
+                  - PBR-4422
+                  - A1-Cardone-26073
+                category: engine
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 280.0
+                  width: 220.0
+                  height: 180.0
+                indicative_price_range_usd:
+                  min: 138.0
+                  max: 507.0
+                  mid: 322.0
+                interchange:
+                  - 1971-1973 Nova
+                  - 1968 Chevrolet Camaro
+              - part_id: chevy_nova_1972_engine_timing_chain_b
+                name: Timing Chain
+                oem_number: "5461295"
+                aftermarket_alternatives:
+                  - PBR-8416
+                  - A1-Cardone-14366
+                category: engine
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 300.0
+                  width: 40.0
+                  height: 20.0
+                indicative_price_range_usd:
+                  min: 15.0
+                  max: 58.0
+                  mid: 36.0
+                interchange:
+                  - 1971-1973 Nova
+                  - 1965 Ford Mustang
+      C10:
+        years:
+          "1967":
+            parts:
+              - part_id: chevy_c10_1967_electrical_alternator_a
+                name: Alternator
+                oem_number: "5460042"
+                aftermarket_alternatives:
+                  - PBR-4505
+                  - A1-Cardone-35474
+                category: electrical
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 200.0
+                  width: 180.0
+                  height: 180.0
+                indicative_price_range_usd:
+                  min: 55.0
+                  max: 233.0
+                  mid: 144.0
+                interchange:
+                  - 1966-1968 C10
+                  - 1970 Chevrolet Chevelle
+              - part_id: chevy_c10_1967_electrical_ignition_coil_a
+                name: Ignition Coil
+                oem_number: "5460252"
+                aftermarket_alternatives:
+                  - PBR-8847
+                  - A1-Cardone-25104
+                category: electrical
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 120.0
+                  width: 80.0
+                  height: 80.0
+                indicative_price_range_usd:
+                  min: 12.0
+                  max: 49.0
+                  mid: 30.0
+                interchange:
+                  - 1966-1968 C10
+                  - 1968 Ford Mustang
+              - part_id: chevy_c10_1967_electrical_headlight_switch_a
+                name: Headlight Switch
+                oem_number: "5460462"
+                aftermarket_alternatives:
+                  - PBR-3828
+                  - A1-Cardone-95627
+                category: electrical
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 80.0
+                  width: 60.0
+                  height: 60.0
+                indicative_price_range_usd:
+                  min: 9.0
+                  max: 38.0
+                  mid: 24.0
+                interchange:
+                  - 1966-1968 C10
+                  - 1972 Chevrolet Nova
+              - part_id: chevy_c10_1967_electrical_fuse_box_a
+                name: Fuse Box
+                oem_number: "5460672"
+                aftermarket_alternatives:
+                  - PBR-3531
+                  - A1-Cardone-63059
+                category: electrical
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 150.0
+                  width: 100.0
+                  height: 60.0
+                indicative_price_range_usd:
+                  min: 16.0
+                  max: 68.0
+                  mid: 42.0
+                interchange:
+                  - 1966-1968 C10
+                  - 1972 Chevrolet Nova
+              - part_id: chevy_c10_1967_suspension_front_coil_spring_b
+                name: Front Coil Spring
+                oem_number: "5460798"
+                aftermarket_alternatives:
+                  - PBR-4440
+                  - A1-Cardone-87950
+                category: suspension
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 380.0
+                  width: 150.0
+                  height: 150.0
+                indicative_price_range_usd:
+                  min: 42.0
+                  max: 147.0
+                  mid: 94.0
+                interchange:
+                  - 1966-1968 C10
+                  - 1972 Chevrolet C10
+              - part_id: chevy_c10_1967_suspension_rear_shock_absorber_b
+                name: Rear Shock Absorber
+                oem_number: "5460924"
+                aftermarket_alternatives:
+                  - PBR-9899
+                  - A1-Cardone-84258
+                category: suspension
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 400.0
+                  width: 70.0
+                  height: 70.0
+                indicative_price_range_usd:
+                  min: 19.0
+                  max: 76.0
+                  mid: 48.0
+                interchange:
+                  - 1966-1968 C10
+                  - 1966 Chevrolet Chevelle
+              - part_id: chevy_c10_1967_interior_door_panel_b
+                name: Door Panel
+                oem_number: "5461050"
+                aftermarket_alternatives:
+                  - PBR-5084
+                  - A1-Cardone-76106
+                category: interior
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 1000.0
+                  width: 700.0
+                  height: 30.0
+                indicative_price_range_usd:
+                  min: 44.0
+                  max: 208.0
+                  mid: 126.0
+                interchange:
+                  - 1966-1968 C10
+                  - 1967 Chevrolet C10
+              - part_id: chevy_c10_1967_suspension_idler_arm_b
+                name: Idler Arm
+                oem_number: "5461134"
+                aftermarket_alternatives:
+                  - PBR-5237
+                  - A1-Cardone-45298
+                category: suspension
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 200.0
+                  width: 80.0
+                  height: 80.0
+                indicative_price_range_usd:
+                  min: 16.0
+                  max: 65.0
+                  mid: 40.0
+                interchange:
+                  - 1966-1968 C10
+                  - 1968 Chevrolet Camaro
+              - part_id: chevy_c10_1967_interior_front_bucket_seat_c
+                name: Front Bucket Seat
+                oem_number: "5461260"
+                aftermarket_alternatives:
+                  - PBR-2190
+                  - A1-Cardone-35491
+                category: interior
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 650.0
+                  width: 600.0
+                  height: 900.0
+                indicative_price_range_usd:
+                  min: 189.0
+                  max: 894.0
+                  mid: 542.0
+                interchange:
+                  - 1966-1968 C10
+                  - 1972 Chevrolet C10
+          "1969":
+            parts:
+              - part_id: chevy_c10_1969_suspension_rear_leaf_spring_a
+                name: Rear Leaf Spring
+                oem_number: "5460084"
+                aftermarket_alternatives:
+                  - PBR-4912
+                  - A1-Cardone-54262
+                category: suspension
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 1350.0
+                  width: 65.0
+                  height: 120.0
+                indicative_price_range_usd:
+                  min: 74.0
+                  max: 252.0
+                  mid: 163.0
+                interchange:
+                  - 1968-1970 C10
+                  - 1967 Chevrolet Camaro
+              - part_id: chevy_c10_1969_fuel_fuel_tank_sending_unit_a
+                name: Fuel Tank Sending Unit
+                oem_number: "5460126"
+                aftermarket_alternatives:
+                  - PBR-2756
+                  - A1-Cardone-89579
+                category: fuel
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 150.0
+                  width: 100.0
+                  height: 300.0
+                indicative_price_range_usd:
+                  min: 19.0
+                  max: 80.0
+                  mid: 50.0
+                interchange:
+                  - 1968-1970 C10
+                  - 1970 Dodge Charger
+              - part_id: chevy_c10_1969_suspension_upper_control_arm_a
+                name: Upper Control Arm
+                oem_number: "5460294"
+                aftermarket_alternatives:
+                  - PBR-7432
+                  - A1-Cardone-64136
+                category: suspension
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 350.0
+                  width: 200.0
+                  height: 150.0
+                indicative_price_range_usd:
+                  min: 45.0
+                  max: 161.0
+                  mid: 103.0
+                interchange:
+                  - 1968-1970 C10
+                  - 1967 Ford Mustang
+              - part_id: chevy_c10_1969_fuel_fuel_cap_a
+                name: Fuel Cap
+                oem_number: "5460336"
+                aftermarket_alternatives:
+                  - PBR-2150
+                  - A1-Cardone-57195
+                category: fuel
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 80.0
+                  width: 80.0
+                  height: 40.0
+                indicative_price_range_usd:
+                  min: 5.0
+                  max: 20.0
+                  mid: 12.0
+                interchange:
+                  - 1968-1970 C10
+                  - 1970 Chevrolet Nova
+              - part_id: chevy_c10_1969_suspension_sway_bar_a
+                name: Sway Bar
+                oem_number: "5460504"
+                aftermarket_alternatives:
+                  - PBR-5600
+                  - A1-Cardone-26358
+                category: suspension
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 1000.0
+                  width: 30.0
+                  height: 30.0
+                indicative_price_range_usd:
+                  min: 39.0
+                  max: 127.0
+                  mid: 83.0
+                interchange:
+                  - 1968-1970 C10
+                  - 1967 Ford Mustang
+              - part_id: chevy_c10_1969_fuel_fuel_tank_sending_unit_b
+                name: Fuel Tank Sending Unit
+                oem_number: "5460546"
+                aftermarket_alternatives:
+                  - PBR-8170
+                  - A1-Cardone-23848
+                category: fuel
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 150.0
+                  width: 100.0
+                  height: 300.0
+                indicative_price_range_usd:
+                  min: 22.0
+                  max: 96.0
+                  mid: 59.0
+                interchange:
+                  - 1968-1970 C10
+                  - 1966 Chevrolet Chevelle
+              - part_id: chevy_c10_1969_suspension_pitman_arm_a
+                name: Pitman Arm
+                oem_number: "5460714"
+                aftermarket_alternatives:
+                  - PBR-7045
+                  - A1-Cardone-55581
+                category: suspension
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 220.0
+                  width: 80.0
+                  height: 60.0
+                indicative_price_range_usd:
+                  min: 23.0
+                  max: 85.0
+                  mid: 54.0
+                interchange:
+                  - 1968-1970 C10
+                  - 1972 Chevrolet C10
+              - part_id: chevy_c10_1969_suspension_rear_leaf_spring_b
+                name: Rear Leaf Spring
+                oem_number: "5460840"
+                aftermarket_alternatives:
+                  - PBR-4798
+                  - A1-Cardone-65421
+                category: suspension
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 1350.0
+                  width: 65.0
+                  height: 120.0
+                indicative_price_range_usd:
+                  min: 78.0
+                  max: 269.0
+                  mid: 174.0
+                interchange:
+                  - 1968-1970 C10
+                  - 1972 Chevrolet Nova
+              - part_id: chevy_c10_1969_engine_harmonic_balancer_a
+                name: Harmonic Balancer
+                oem_number: "5460966"
+                aftermarket_alternatives:
+                  - PBR-2758
+                  - A1-Cardone-64730
+                category: engine
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 200.0
+                  width: 200.0
+                  height: 80.0
+                indicative_price_range_usd:
+                  min: 45.0
+                  max: 182.0
+                  mid: 114.0
+                interchange:
+                  - 1968-1970 C10
+                  - 1965 Ford Mustang
+              - part_id: chevy_c10_1969_engine_fuel_pump_b
+                name: Fuel Pump
+                oem_number: "5461176"
+                aftermarket_alternatives:
+                  - PBR-9922
+                  - A1-Cardone-75558
+                category: engine
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 150.0
+                  width: 100.0
+                  height: 80.0
+                indicative_price_range_usd:
+                  min: 21.0
+                  max: 78.0
+                  mid: 50.0
+                interchange:
+                  - 1968-1970 C10
+                  - 1968 Ford Mustang
+              - part_id: chevy_c10_1969_body_rear_window_glass_b
+                name: Rear Window Glass
+                oem_number: "5461344"
+                aftermarket_alternatives:
+                  - PBR-3795
+                  - A1-Cardone-16156
+                category: body
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 1200.0
+                  width: 600.0
+                  height: 6.0
+                indicative_price_range_usd:
+                  min: 101.0
+                  max: 424.0
+                  mid: 262.0
+                interchange:
+                  - 1968-1970 C10
+                  - 1965 Ford Mustang
+          "1972":
+            parts:
+              - part_id: chevy_c10_1972_body_trunk_lid_a
+                name: Trunk Lid
+                oem_number: "5460168"
+                aftermarket_alternatives:
+                  - PBR-7729
+                  - A1-Cardone-73551
+                category: body
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 1300.0
+                  width: 1200.0
+                  height: 70.0
+                indicative_price_range_usd:
+                  min: 158.0
+                  max: 685.0
+                  mid: 422.0
+                interchange:
+                  - 1971-1973 C10
+                  - 1965 Ford Mustang
+              - part_id: chevy_c10_1972_transmission_clutch_fork_a
+                name: Clutch Fork
+                oem_number: "5460210"
+                aftermarket_alternatives:
+                  - PBR-2598
+                  - A1-Cardone-11062
+                category: transmission
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 250.0
+                  width: 80.0
+                  height: 60.0
+                indicative_price_range_usd:
+                  min: 14.0
+                  max: 61.0
+                  mid: 38.0
+                interchange:
+                  - 1971-1973 C10
+                  - 1967 Chevrolet Camaro
+              - part_id: chevy_c10_1972_body_grille_a
+                name: Grille
+                oem_number: "5460378"
+                aftermarket_alternatives:
+                  - PBR-9956
+                  - A1-Cardone-41911
+                category: body
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 1200.0
+                  width: 200.0
+                  height: 100.0
+                indicative_price_range_usd:
+                  min: 61.0
+                  max: 326.0
+                  mid: 194.0
+                interchange:
+                  - 1971-1973 C10
+                  - 1966 Ford Mustang
+              - part_id: chevy_c10_1972_transmission_driveshaft_a
+                name: Driveshaft
+                oem_number: "5460420"
+                aftermarket_alternatives:
+                  - PBR-4490
+                  - A1-Cardone-87471
+                category: transmission
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 1400.0
+                  width: 90.0
+                  height: 90.0
+                indicative_price_range_usd:
+                  min: 85.0
+                  max: 362.0
+                  mid: 224.0
+                interchange:
+                  - 1971-1973 C10
+                  - 1969 Chevrolet C10
+              - part_id: chevy_c10_1972_body_door_shell_a
+                name: Door Shell
+                oem_number: "5460588"
+                aftermarket_alternatives:
+                  - PBR-9442
+                  - A1-Cardone-66472
+                category: body
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 1100.0
+                  width: 900.0
+                  height: 150.0
+                indicative_price_range_usd:
+                  min: 223.0
+                  max: 1003.0
+                  mid: 613.0
+                interchange:
+                  - 1971-1973 C10
+                  - 1966 Ford Mustang
+              - part_id: chevy_c10_1972_transmission_speedometer_cable_a
+                name: Speedometer Cable
+                oem_number: "5460630"
+                aftermarket_alternatives:
+                  - PBR-5752
+                  - A1-Cardone-30850
+                category: transmission
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 2000.0
+                  width: 8.0
+                  height: 8.0
+                indicative_price_range_usd:
+                  min: 9.0
+                  max: 42.0
+                  mid: 26.0
+                interchange:
+                  - 1971-1973 C10
+                  - 1970 Dodge Charger
+              - part_id: chevy_c10_1972_suspension_tie_rod_end_a
+                name: Tie Rod End
+                oem_number: "5460756"
+                aftermarket_alternatives:
+                  - PBR-6089
+                  - A1-Cardone-14568
+                category: suspension
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 150.0
+                  width: 40.0
+                  height: 40.0
+                indicative_price_range_usd:
+                  min: 10.0
+                  max: 35.0
+                  mid: 22.0
+                interchange:
+                  - 1971-1973 C10
+                  - 1968 Dodge Charger
+              - part_id: chevy_c10_1972_suspension_front_shock_absorber_b
+                name: Front Shock Absorber
+                oem_number: "5460882"
+                aftermarket_alternatives:
+                  - PBR-5768
+                  - A1-Cardone-10258
+                category: suspension
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 420.0
+                  width: 70.0
+                  height: 70.0
+                indicative_price_range_usd:
+                  min: 22.0
+                  max: 88.0
+                  mid: 55.0
+                interchange:
+                  - 1971-1973 C10
+                  - 1969 Dodge Charger
+              - part_id: chevy_c10_1972_body_trunk_lid_b
+                name: Trunk Lid
+                oem_number: "5461008"
+                aftermarket_alternatives:
+                  - PBR-8066
+                  - A1-Cardone-30556
+                category: body
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 1300.0
+                  width: 1200.0
+                  height: 70.0
+                indicative_price_range_usd:
+                  min: 172.0
+                  max: 746.0
+                  mid: 459.0
+                interchange:
+                  - 1971-1973 C10
+                  - 1970 Chevrolet Chevelle
+              - part_id: chevy_c10_1972_brake_brake_wheel_cylinder_b
+                name: Brake Wheel Cylinder
+                oem_number: "5461092"
+                aftermarket_alternatives:
+                  - PBR-1400
+                  - A1-Cardone-27443
+                category: brake
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 90.0
+                  width: 40.0
+                  height: 40.0
+                indicative_price_range_usd:
+                  min: 11.0
+                  max: 50.0
+                  mid: 30.0
+                interchange:
+                  - 1971-1973 C10
+                  - 1968 Chevrolet Chevelle
+              - part_id: chevy_c10_1972_body_door_shell_b
+                name: Door Shell
+                oem_number: "5461218"
+                aftermarket_alternatives:
+                  - PBR-7089
+                  - A1-Cardone-34311
+                category: body
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 1100.0
+                  width: 900.0
+                  height: 150.0
+                indicative_price_range_usd:
+                  min: 184.0
+                  max: 830.0
+                  mid: 507.0
+                interchange:
+                  - 1971-1973 C10
+                  - 1970 Chevrolet Chevelle
+              - part_id: chevy_c10_1972_body_floor_pan_b
+                name: Floor Pan
+                oem_number: "5461302"
+                aftermarket_alternatives:
+                  - PBR-6928
+                  - A1-Cardone-44695
+                category: body
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 1500.0
+                  width: 1000.0
+                  height: 50.0
+                indicative_price_range_usd:
+                  min: 95.0
+                  max: 441.0
+                  mid: 268.0
+                interchange:
+                  - 1971-1973 C10
+                  - 1969 Chevrolet C10
+              - part_id: chevy_c10_1972_engine_rocker_arm_set_b
+                name: Rocker Arm Set
+                oem_number: "5461386"
+                aftermarket_alternatives:
+                  - PBR-4163
+                  - A1-Cardone-39199
+                category: engine
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 80.0
+                  width: 40.0
+                  height: 40.0
+                indicative_price_range_usd:
+                  min: 32.0
+                  max: 127.0
+                  mid: 80.0
+                interchange:
+                  - 1971-1973 C10
+                  - 1966 Chevrolet Chevelle
+              - part_id: chevy_c10_1972_engine_engine_mount_b
+                name: Engine Mount
+                oem_number: "5461428"
+                aftermarket_alternatives:
+                  - PBR-8988
+                  - A1-Cardone-24636
+                category: engine
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 150.0
+                  width: 100.0
+                  height: 90.0
+                indicative_price_range_usd:
+                  min: 13.0
+                  max: 54.0
+                  mid: 34.0
+                interchange:
+                  - 1971-1973 C10
+                  - 1970 Chevrolet Chevelle
+  Ford:
+    models:
+      Mustang:
+        years:
+          "1965":
+            parts:
+              - part_id: ford_mustang_1965_suspension_front_coil_spring_a
+                name: Front Coil Spring
+                oem_number: "5460014"
+                aftermarket_alternatives:
+                  - PBR-5064
+                  - A1-Cardone-20365
+                category: suspension
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 380.0
+                  width: 150.0
+                  height: 150.0
+                indicative_price_range_usd:
+                  min: 43.0
+                  max: 150.0
+                  mid: 96.0
+                interchange:
+                  - 1964-1966 Mustang
+                  - 1969 Chevrolet Camaro
+              - part_id: ford_mustang_1965_fuel_fuel_tank_a
+                name: Fuel Tank
+                oem_number: "5460056"
+                aftermarket_alternatives:
+                  - PBR-2445
+                  - A1-Cardone-17116
+                category: fuel
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 900.0
+                  width: 600.0
+                  height: 300.0
+                indicative_price_range_usd:
+                  min: 98.0
+                  max: 412.0
+                  mid: 255.0
+                interchange:
+                  - 1964-1966 Mustang
+                  - 1967 Chevrolet C10
+              - part_id: ford_mustang_1965_body_rear_bumper_a
+                name: Rear Bumper
+                oem_number: "5460308"
+                aftermarket_alternatives:
+                  - PBR-8385
+                  - A1-Cardone-85923
+                category: body
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 1700.0
+                  width: 200.0
+                  height: 150.0
+                indicative_price_range_usd:
+                  min: 120.0
+                  max: 549.0
+                  mid: 334.0
+                interchange:
+                  - 1964-1966 Mustang
+                  - 1970 Dodge Charger
+              - part_id: ford_mustang_1965_transmission_shift_linkage_a
+                name: Shift Linkage
+                oem_number: "5460350"
+                aftermarket_alternatives:
+                  - PBR-9850
+                  - A1-Cardone-83146
+                category: transmission
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 500.0
+                  width: 60.0
+                  height: 40.0
+                indicative_price_range_usd:
+                  min: 20.0
+                  max: 90.0
+                  mid: 55.0
+                interchange:
+                  - 1964-1966 Mustang
+                  - 1969 Dodge Charger
+              - part_id: ford_mustang_1965_electrical_horn_a
+                name: Horn
+                oem_number: "5460602"
+                aftermarket_alternatives:
+                  - PBR-6727
+                  - A1-Cardone-80929
+                category: electrical
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 150.0
+                  width: 100.0
+                  height: 80.0
+                indicative_price_range_usd:
+                  min: 11.0
+                  max: 42.0
+                  mid: 26.0
+                interchange:
+                  - 1964-1966 Mustang
+                  - 1968 Dodge Charger
+              - part_id: ford_mustang_1965_body_windshield_glass_a
+                name: Windshield Glass
+                oem_number: "5460812"
+                aftermarket_alternatives:
+                  - PBR-6406
+                  - A1-Cardone-26335
+                category: body
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 1400.0
+                  width: 700.0
+                  height: 6.0
+                indicative_price_range_usd:
+                  min: 134.0
+                  max: 536.0
+                  mid: 335.0
+                interchange:
+                  - 1964-1966 Mustang
+                  - 1969 Chevrolet C10
+              - part_id: ford_mustang_1965_interior_carpet_set_b
+                name: Carpet Set
+                oem_number: "5460980"
+                aftermarket_alternatives:
+                  - PBR-8057
+                  - A1-Cardone-30850
+                category: interior
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 1600.0
+                  width: 1200.0
+                  height: 20.0
+                indicative_price_range_usd:
+                  min: 92.0
+                  max: 401.0
+                  mid: 246.0
+                interchange:
+                  - 1964-1966 Mustang
+                  - 1970 Chevrolet Nova
+              - part_id: ford_mustang_1965_engine_water_pump_b
+                name: Water Pump
+                oem_number: "5461106"
+                aftermarket_alternatives:
+                  - PBR-8968
+                  - A1-Cardone-29634
+                category: engine
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 220.0
+                  width: 180.0
+                  height: 150.0
+                indicative_price_range_usd:
+                  min: 36.0
+                  max: 134.0
+                  mid: 85.0
+                interchange:
+                  - 1964-1966 Mustang
+                  - 1970 Chevrolet Nova
+              - part_id: ford_mustang_1965_brake_front_brake_caliper_c
+                name: Front Brake Caliper
+                oem_number: "5461232"
+                aftermarket_alternatives:
+                  - PBR-4293
+                  - A1-Cardone-89803
+                category: brake
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 180.0
+                  width: 95.0
+                  height: 120.0
+                indicative_price_range_usd:
+                  min: 44.0
+                  max: 175.0
+                  mid: 110.0
+                interchange:
+                  - 1964-1966 Mustang
+                  - 1968 Chevrolet Nova
+          "1966":
+            parts:
+              - part_id: ford_mustang_1966_body_hood_a
+                name: Hood
+                oem_number: "5460098"
+                aftermarket_alternatives:
+                  - PBR-4079
+                  - A1-Cardone-60194
+                category: body
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 1500.0
+                  width: 1300.0
+                  height: 80.0
+                indicative_price_range_usd:
+                  min: 189.0
+                  max: 838.0
+                  mid: 514.0
+                interchange:
+                  - 1965-1967 Mustang
+                  - 1966 Ford Mustang
+              - part_id: ford_mustang_1966_transmission_clutch_kit_a
+                name: Clutch Kit
+                oem_number: "5460140"
+                aftermarket_alternatives:
+                  - PBR-9557
+                  - A1-Cardone-91816
+                category: transmission
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 300.0
+                  width: 300.0
+                  height: 80.0
+                indicative_price_range_usd:
+                  min: 132.0
+                  max: 529.0
+                  mid: 330.0
+                interchange:
+                  - 1965-1967 Mustang
+                  - 1968 Ford Mustang
+              - part_id: ford_mustang_1966_electrical_wiring_harness_a
+                name: Wiring Harness
+                oem_number: "5460392"
+                aftermarket_alternatives:
+                  - PBR-8954
+                  - A1-Cardone-51426
+                category: electrical
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 4000.0
+                  width: 50.0
+                  height: 50.0
+                indicative_price_range_usd:
+                  min: 84.0
+                  max: 391.0
+                  mid: 238.0
+                interchange:
+                  - 1965-1967 Mustang
+                  - 1966 Chevrolet Chevelle
+              - part_id: ford_mustang_1966_suspension_idler_arm_a
+                name: Idler Arm
+                oem_number: "5460644"
+                aftermarket_alternatives:
+                  - PBR-2700
+                  - A1-Cardone-37844
+                category: suspension
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 200.0
+                  width: 80.0
+                  height: 80.0
+                indicative_price_range_usd:
+                  min: 14.0
+                  max: 55.0
+                  mid: 34.0
+                interchange:
+                  - 1965-1967 Mustang
+                  - 1969 Chevrolet C10
+              - part_id: ford_mustang_1966_fuel_fuel_filter_b
+                name: Fuel Filter
+                oem_number: "5460686"
+                aftermarket_alternatives:
+                  - PBR-5081
+                  - A1-Cardone-88384
+                category: fuel
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 100.0
+                  width: 50.0
+                  height: 50.0
+                indicative_price_range_usd:
+                  min: 5.0
+                  max: 19.0
+                  mid: 12.0
+                interchange:
+                  - 1965-1967 Mustang
+                  - 1967 Chevrolet Camaro
+              - part_id: ford_mustang_1966_body_rear_window_glass_a
+                name: Rear Window Glass
+                oem_number: "5460854"
+                aftermarket_alternatives:
+                  - PBR-2965
+                  - A1-Cardone-86243
+                category: body
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 1200.0
+                  width: 600.0
+                  height: 6.0
+                indicative_price_range_usd:
+                  min: 94.0
+                  max: 396.0
+                  mid: 245.0
+                interchange:
+                  - 1965-1967 Mustang
+                  - 1965 Ford Mustang
+              - part_id: ford_mustang_1966_body_headlight_bezel_b
+                name: Headlight Bezel
+                oem_number: "5461148"
+                aftermarket_alternatives:
+                  - PBR-2854
+                  - A1-Cardone-83521
+                category: body
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 250.0
+                  width: 150.0
+                  height: 100.0
+                indicative_price_range_usd:
+                  min: 20.0
+                  max: 93.0
+                  mid: 56.0
+                interchange:
+                  - 1965-1967 Mustang
+                  - 1968 Ford Mustang
+              - part_id: ford_mustang_1966_engine_valve_cover_b
+                name: Valve Cover
+                oem_number: "5461274"
+                aftermarket_alternatives:
+                  - PBR-3087
+                  - A1-Cardone-57070
+                category: engine
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 520.0
+                  width: 200.0
+                  height: 100.0
+                indicative_price_range_usd:
+                  min: 27.0
+                  max: 120.0
+                  mid: 74.0
+                interchange:
+                  - 1965-1967 Mustang
+                  - 1966 Chevrolet Chevelle
+              - part_id: ford_mustang_1966_engine_camshaft_b
+                name: Camshaft
+                oem_number: "5461358"
+                aftermarket_alternatives:
+                  - PBR-2904
+                  - A1-Cardone-68014
+                category: engine
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 550.0
+                  width: 60.0
+                  height: 60.0
+                indicative_price_range_usd:
+                  min: 103.0
+                  max: 399.0
+                  mid: 251.0
+                interchange:
+                  - 1965-1967 Mustang
+                  - 1968 Ford Mustang
+          "1967":
+            parts:
+              - part_id: ford_mustang_1967_electrical_battery_a
+                name: Battery
+                oem_number: "5460182"
+                aftermarket_alternatives:
+                  - PBR-1969
+                  - A1-Cardone-14198
+                category: electrical
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 260.0
+                  width: 175.0
+                  height: 225.0
+                indicative_price_range_usd:
+                  min: 56.0
+                  max: 169.0
+                  mid: 112.0
+                interchange:
+                  - 1966-1968 Mustang
+                  - 1968 Chevrolet Chevelle
+              - part_id: ford_mustang_1967_suspension_ball_joint_a
+                name: Ball Joint
+                oem_number: "5460434"
+                aftermarket_alternatives:
+                  - PBR-9973
+                  - A1-Cardone-33735
+                category: suspension
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 90.0
+                  width: 50.0
+                  height: 50.0
+                indicative_price_range_usd:
+                  min: 10.0
+                  max: 38.0
+                  mid: 24.0
+                interchange:
+                  - 1966-1968 Mustang
+                  - 1972 Chevrolet C10
+              - part_id: ford_mustang_1967_fuel_fuel_tank_b
+                name: Fuel Tank
+                oem_number: "5460476"
+                aftermarket_alternatives:
+                  - PBR-6655
+                  - A1-Cardone-95460
+                category: fuel
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 900.0
+                  width: 600.0
+                  height: 300.0
+                indicative_price_range_usd:
+                  min: 88.0
+                  max: 372.0
+                  mid: 230.0
+                interchange:
+                  - 1966-1968 Mustang
+                  - 1968 Chevrolet Nova
+              - part_id: ford_mustang_1967_body_rocker_panel_a
+                name: Rocker Panel
+                oem_number: "5460728"
+                aftermarket_alternatives:
+                  - PBR-2301
+                  - A1-Cardone-10740
+                category: body
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 1600.0
+                  width: 150.0
+                  height: 150.0
+                indicative_price_range_usd:
+                  min: 60.0
+                  max: 260.0
+                  mid: 160.0
+                interchange:
+                  - 1966-1968 Mustang
+                  - 1968 Chevrolet Chevelle
+              - part_id: ford_mustang_1967_body_side_mirror_a
+                name: Side Mirror
+                oem_number: "5460896"
+                aftermarket_alternatives:
+                  - PBR-8238
+                  - A1-Cardone-46050
+                category: body
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 200.0
+                  width: 120.0
+                  height: 80.0
+                indicative_price_range_usd:
+                  min: 15.0
+                  max: 70.0
+                  mid: 42.0
+                interchange:
+                  - 1966-1968 Mustang
+                  - 1967 Chevrolet C10
+              - part_id: ford_mustang_1967_brake_front_brake_pad_set_b
+                name: Front Brake Pad Set
+                oem_number: "5461022"
+                aftermarket_alternatives:
+                  - PBR-2129
+                  - A1-Cardone-18953
+                category: brake
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 150.0
+                  width: 60.0
+                  height: 20.0
+                indicative_price_range_usd:
+                  min: 17.0
+                  max: 67.0
+                  mid: 42.0
+                interchange:
+                  - 1966-1968 Mustang
+                  - 1965 Ford Mustang
+              - part_id: ford_mustang_1967_interior_pedal_set_b
+                name: Pedal Set
+                oem_number: "5461190"
+                aftermarket_alternatives:
+                  - PBR-1473
+                  - A1-Cardone-95515
+                category: interior
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 250.0
+                  width: 150.0
+                  height: 100.0
+                indicative_price_range_usd:
+                  min: 21.0
+                  max: 96.0
+                  mid: 58.0
+                interchange:
+                  - 1966-1968 Mustang
+                  - 1970 Chevrolet Nova
+              - part_id: ford_mustang_1967_engine_oil_pan_gasket_b
+                name: Oil Pan Gasket
+                oem_number: "5461400"
+                aftermarket_alternatives:
+                  - PBR-8647
+                  - A1-Cardone-76323
+                category: engine
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 600.0
+                  width: 350.0
+                  height: 3.0
+                indicative_price_range_usd:
+                  min: 8.0
+                  max: 30.0
+                  mid: 19.0
+                interchange:
+                  - 1966-1968 Mustang
+                  - 1967 Ford Mustang
+          "1968":
+            parts:
+              - part_id: ford_mustang_1968_suspension_rear_shock_absorber_a
+                name: Rear Shock Absorber
+                oem_number: "5460224"
+                aftermarket_alternatives:
+                  - PBR-9911
+                  - A1-Cardone-87289
+                category: suspension
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 400.0
+                  width: 70.0
+                  height: 70.0
+                indicative_price_range_usd:
+                  min: 21.0
+                  max: 85.0
+                  mid: 53.0
+                interchange:
+                  - 1967-1969 Mustang
+                  - 1968 Dodge Charger
+              - part_id: ford_mustang_1968_fuel_fuel_filter_a
+                name: Fuel Filter
+                oem_number: "5460266"
+                aftermarket_alternatives:
+                  - PBR-7121
+                  - A1-Cardone-56130
+                category: fuel
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 100.0
+                  width: 50.0
+                  height: 50.0
+                indicative_price_range_usd:
+                  min: 5.0
+                  max: 19.0
+                  mid: 12.0
+                interchange:
+                  - 1967-1969 Mustang
+                  - 1972 Chevrolet Nova
+              - part_id: ford_mustang_1968_body_taillight_lens_a
+                name: Taillight Lens
+                oem_number: "5460518"
+                aftermarket_alternatives:
+                  - PBR-2512
+                  - A1-Cardone-70578
+                category: body
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 300.0
+                  width: 120.0
+                  height: 80.0
+                indicative_price_range_usd:
+                  min: 15.0
+                  max: 79.0
+                  mid: 47.0
+                interchange:
+                  - 1967-1969 Mustang
+                  - 1966 Ford Mustang
+              - part_id: ford_mustang_1968_transmission_transmission_mount_a
+                name: Transmission Mount
+                oem_number: "5460560"
+                aftermarket_alternatives:
+                  - PBR-4838
+                  - A1-Cardone-72224
+                category: transmission
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 200.0
+                  width: 120.0
+                  height: 90.0
+                indicative_price_range_usd:
+                  min: 11.0
+                  max: 46.0
+                  mid: 28.0
+                interchange:
+                  - 1967-1969 Mustang
+                  - 1968 Dodge Charger
+              - part_id: ford_mustang_1968_body_floor_pan_a
+                name: Floor Pan
+                oem_number: "5460770"
+                aftermarket_alternatives:
+                  - PBR-6084
+                  - A1-Cardone-71840
+                category: body
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 1500.0
+                  width: 1000.0
+                  height: 50.0
+                indicative_price_range_usd:
+                  min: 84.0
+                  max: 391.0
+                  mid: 238.0
+                interchange:
+                  - 1967-1969 Mustang
+                  - 1967 Chevrolet Camaro
+              - part_id: ford_mustang_1968_body_front_fender_b
+                name: Front Fender
+                oem_number: "5460938"
+                aftermarket_alternatives:
+                  - PBR-1734
+                  - A1-Cardone-26659
+                category: body
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 1400.0
+                  width: 500.0
+                  height: 800.0
+                indicative_price_range_usd:
+                  min: 154.0
+                  max: 716.0
+                  mid: 435.0
+                interchange:
+                  - 1967-1969 Mustang
+                  - 1967 Ford Mustang
+              - part_id: ford_mustang_1968_suspension_sway_bar_b
+                name: Sway Bar
+                oem_number: "5461064"
+                aftermarket_alternatives:
+                  - PBR-8652
+                  - A1-Cardone-96609
+                category: suspension
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 1000.0
+                  width: 30.0
+                  height: 30.0
+                indicative_price_range_usd:
+                  min: 39.0
+                  max: 126.0
+                  mid: 82.0
+                interchange:
+                  - 1967-1969 Mustang
+                  - 1968 Chevrolet Nova
+              - part_id: ford_mustang_1968_engine_timing_cover_b
+                name: Timing Cover
+                oem_number: "5461316"
+                aftermarket_alternatives:
+                  - PBR-5147
+                  - A1-Cardone-96491
+                category: engine
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 300.0
+                  width: 250.0
+                  height: 60.0
+                indicative_price_range_usd:
+                  min: 18.0
+                  max: 83.0
+                  mid: 50.0
+                interchange:
+                  - 1967-1969 Mustang
+                  - 1968 Dodge Charger
+  Dodge:
+    models:
+      Charger:
+        years:
+          "1968":
+            parts:
+              - part_id: dodge_charger_1968_engine_water_pump_a
+                name: Water Pump
+                oem_number: "5460021"
+                aftermarket_alternatives:
+                  - PBR-7062
+                  - A1-Cardone-72729
+                category: engine
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 220.0
+                  width: 180.0
+                  height: 150.0
+                indicative_price_range_usd:
+                  min: 39.0
+                  max: 145.0
+                  mid: 92.0
+                interchange:
+                  - 1967-1969 Charger
+                  - 1972 Chevrolet Nova
+              - part_id: dodge_charger_1968_cooling_radiator_a
+                name: Radiator
+                oem_number: "5460063"
+                aftermarket_alternatives:
+                  - PBR-7959
+                  - A1-Cardone-87874
+                category: cooling
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 650.0
+                  width: 400.0
+                  height: 100.0
+                indicative_price_range_usd:
+                  min: 126.0
+                  max: 515.0
+                  mid: 320.0
+                interchange:
+                  - 1967-1969 Charger
+                  - 1969 Chevrolet Camaro
+              - part_id: dodge_charger_1968_engine_carburetor_a
+                name: Carburetor
+                oem_number: "5460231"
+                aftermarket_alternatives:
+                  - PBR-5387
+                  - A1-Cardone-35047
+                category: engine
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 280.0
+                  width: 220.0
+                  height: 180.0
+                indicative_price_range_usd:
+                  min: 135.0
+                  max: 496.0
+                  mid: 316.0
+                interchange:
+                  - 1967-1969 Charger
+                  - 1969 Dodge Charger
+              - part_id: dodge_charger_1968_cooling_thermostat_a
+                name: Thermostat
+                oem_number: "5460273"
+                aftermarket_alternatives:
+                  - PBR-3275
+                  - A1-Cardone-40269
+                category: cooling
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 60.0
+                  width: 50.0
+                  height: 50.0
+                indicative_price_range_usd:
+                  min: 5.0
+                  max: 20.0
+                  mid: 12.0
+                interchange:
+                  - 1967-1969 Charger
+                  - 1967 Ford Mustang
+              - part_id: dodge_charger_1968_engine_timing_chain_a
+                name: Timing Chain
+                oem_number: "5460441"
+                aftermarket_alternatives:
+                  - PBR-5523
+                  - A1-Cardone-89129
+                category: engine
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 300.0
+                  width: 40.0
+                  height: 20.0
+                indicative_price_range_usd:
+                  min: 15.0
+                  max: 61.0
+                  mid: 38.0
+                interchange:
+                  - 1967-1969 Charger
+                  - 1970 Chevrolet Nova
+              - part_id: dodge_charger_1968_cooling_radiator_fan_a
+                name: Radiator Fan
+                oem_number: "5460483"
+                aftermarket_alternatives:
+                  - PBR-9436
+                  - A1-Cardone-69654
+                category: cooling
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 450.0
+                  width: 450.0
+                  height: 80.0
+                indicative_price_range_usd:
+                  min: 31.0
+                  max: 136.0
+                  mid: 84.0
+                interchange:
+                  - 1967-1969 Charger
+                  - 1970 Chevrolet Nova
+              - part_id: dodge_charger_1968_engine_camshaft_a
+                name: Camshaft
+                oem_number: "5460651"
+                aftermarket_alternatives:
+                  - PBR-9054
+                  - A1-Cardone-74288
+                category: engine
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 550.0
+                  width: 60.0
+                  height: 60.0
+                indicative_price_range_usd:
+                  min: 90.0
+                  max: 349.0
+                  mid: 220.0
+                interchange:
+                  - 1967-1969 Charger
+                  - 1967 Chevrolet Camaro
+              - part_id: dodge_charger_1968_cooling_radiator_b
+                name: Radiator
+                oem_number: "5460693"
+                aftermarket_alternatives:
+                  - PBR-5421
+                  - A1-Cardone-94086
+                category: cooling
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 650.0
+                  width: 400.0
+                  height: 100.0
+                indicative_price_range_usd:
+                  min: 104.0
+                  max: 424.0
+                  mid: 264.0
+                interchange:
+                  - 1967-1969 Charger
+                  - 1968 Dodge Charger
+              - part_id: dodge_charger_1968_interior_front_bucket_seat_b
+                name: Front Bucket Seat
+                oem_number: "5460819"
+                aftermarket_alternatives:
+                  - PBR-6901
+                  - A1-Cardone-83649
+                category: interior
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 650.0
+                  width: 600.0
+                  height: 900.0
+                indicative_price_range_usd:
+                  min: 196.0
+                  max: 926.0
+                  mid: 561.0
+                interchange:
+                  - 1967-1969 Charger
+                  - 1968 Chevrolet Chevelle
+              - part_id: dodge_charger_1968_interior_steering_wheel_b
+                name: Steering Wheel
+                oem_number: "5460945"
+                aftermarket_alternatives:
+                  - PBR-8042
+                  - A1-Cardone-29156
+                category: interior
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 380.0
+                  width: 380.0
+                  height: 100.0
+                indicative_price_range_usd:
+                  min: 51.0
+                  max: 249.0
+                  mid: 150.0
+                interchange:
+                  - 1967-1969 Charger
+                  - 1968 Chevrolet Camaro
+              - part_id: dodge_charger_1968_suspension_ball_joint_b
+                name: Ball Joint
+                oem_number: "5461029"
+                aftermarket_alternatives:
+                  - PBR-5909
+                  - A1-Cardone-27189
+                category: suspension
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 90.0
+                  width: 50.0
+                  height: 50.0
+                indicative_price_range_usd:
+                  min: 11.0
+                  max: 43.0
+                  mid: 27.0
+                interchange:
+                  - 1967-1969 Charger
+                  - 1972 Chevrolet C10
+              - part_id: dodge_charger_1968_interior_gear_shifter_b
+                name: Gear Shifter
+                oem_number: "5461155"
+                aftermarket_alternatives:
+                  - PBR-2161
+                  - A1-Cardone-87822
+                category: interior
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 300.0
+                  width: 100.0
+                  height: 200.0
+                indicative_price_range_usd:
+                  min: 36.0
+                  max: 165.0
+                  mid: 100.0
+                interchange:
+                  - 1967-1969 Charger
+                  - 1972 Chevrolet Nova
+              - part_id: dodge_charger_1968_suspension_front_coil_spring_c
+                name: Front Coil Spring
+                oem_number: "5461239"
+                aftermarket_alternatives:
+                  - PBR-1988
+                  - A1-Cardone-14279
+                category: suspension
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 380.0
+                  width: 150.0
+                  height: 150.0
+                indicative_price_range_usd:
+                  min: 45.0
+                  max: 156.0
+                  mid: 100.0
+                interchange:
+                  - 1967-1969 Charger
+                  - 1972 Chevrolet C10
+              - part_id: dodge_charger_1968_body_windshield_glass_b
+                name: Windshield Glass
+                oem_number: "5461323"
+                aftermarket_alternatives:
+                  - PBR-7729
+                  - A1-Cardone-95439
+                category: body
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 1400.0
+                  width: 700.0
+                  height: 6.0
+                indicative_price_range_usd:
+                  min: 113.0
+                  max: 451.0
+                  mid: 282.0
+                interchange:
+                  - 1967-1969 Charger
+                  - 1972 Chevrolet C10
+          "1969":
+            parts:
+              - part_id: dodge_charger_1969_interior_rear_bench_seat_a
+                name: Rear Bench Seat
+                oem_number: "5460105"
+                aftermarket_alternatives:
+                  - PBR-4439
+                  - A1-Cardone-38567
+                category: interior
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 1400.0
+                  width: 600.0
+                  height: 700.0
+                indicative_price_range_usd:
+                  min: 144.0
+                  max: 671.0
+                  mid: 408.0
+                interchange:
+                  - 1968-1970 Charger
+                  - 1970 Chevrolet Nova
+              - part_id: dodge_charger_1969_interior_carpet_set_a
+                name: Carpet Set
+                oem_number: "5460315"
+                aftermarket_alternatives:
+                  - PBR-9007
+                  - A1-Cardone-25804
+                category: interior
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 1600.0
+                  width: 1200.0
+                  height: 20.0
+                indicative_price_range_usd:
+                  min: 85.0
+                  max: 371.0
+                  mid: 228.0
+                interchange:
+                  - 1968-1970 Charger
+                  - 1967 Chevrolet C10
+              - part_id: dodge_charger_1969_interior_center_console_a
+                name: Center Console
+                oem_number: "5460525"
+                aftermarket_alternatives:
+                  - PBR-9662
+                  - A1-Cardone-68907
+                category: interior
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 800.0
+                  width: 300.0
+                  height: 250.0
+                indicative_price_range_usd:
+                  min: 64.0
+                  max: 309.0
+                  mid: 186.0
+                interchange:
+                  - 1968-1970 Charger
+                  - 1968 Dodge Charger
+              - part_id: dodge_charger_1969_interior_pedal_set_a
+                name: Pedal Set
+                oem_number: "5460735"
+                aftermarket_alternatives:
+                  - PBR-8664
+                  - A1-Cardone-88902
+                category: interior
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 250.0
+                  width: 150.0
+                  height: 100.0
+                indicative_price_range_usd:
+                  min: 18.0
+                  max: 82.0
+                  mid: 50.0
+                interchange:
+                  - 1968-1970 Charger
+                  - 1966 Ford Mustang
+              - part_id: dodge_charger_1969_interior_rear_bench_seat_b
+                name: Rear Bench Seat
+                oem_number: "5460861"
+                aftermarket_alternatives:
+                  - PBR-8675
+                  - A1-Cardone-34816
+                category: interior
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 1400.0
+                  width: 600.0
+                  height: 700.0
+                indicative_price_range_usd:
+                  min: 147.0
+                  max: 684.0
+                  mid: 416.0
+                interchange:
+                  - 1968-1970 Charger
+                  - 1968 Chevrolet Chevelle
+              - part_id: dodge_charger_1969_engine_distributor_a
+                name: Distributor
+                oem_number: "5461071"
+                aftermarket_alternatives:
+                  - PBR-2189
+                  - A1-Cardone-17933
+                category: engine
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 200.0
+                  width: 120.0
+                  height: 250.0
+                indicative_price_range_usd:
+                  min: 43.0
+                  max: 182.0
+                  mid: 112.0
+                interchange:
+                  - 1968-1970 Charger
+                  - 1969 Dodge Charger
+              - part_id: dodge_charger_1969_body_rocker_panel_b
+                name: Rocker Panel
+                oem_number: "5461281"
+                aftermarket_alternatives:
+                  - PBR-6992
+                  - A1-Cardone-41608
+                category: body
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 1600.0
+                  width: 150.0
+                  height: 150.0
+                indicative_price_range_usd:
+                  min: 64.0
+                  max: 278.0
+                  mid: 171.0
+                interchange:
+                  - 1968-1970 Charger
+                  - 1968 Chevrolet Nova
+          "1970":
+            parts:
+              - part_id: dodge_charger_1970_brake_front_brake_rotor_a
+                name: Front Brake Rotor
+                oem_number: "5460147"
+                aftermarket_alternatives:
+                  - PBR-7922
+                  - A1-Cardone-37907
+                category: brake
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 280.0
+                  width: 280.0
+                  height: 25.0
+                indicative_price_range_usd:
+                  min: 33.0
+                  max: 132.0
+                  mid: 82.0
+                interchange:
+                  - 1969-1971 Charger
+                  - 1969 Chevrolet C10
+              - part_id: dodge_charger_1970_exhaust_exhaust_pipe_a
+                name: Exhaust Pipe
+                oem_number: "5460189"
+                aftermarket_alternatives:
+                  - PBR-6014
+                  - A1-Cardone-69160
+                category: exhaust
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 2000.0
+                  width: 60.0
+                  height: 60.0
+                indicative_price_range_usd:
+                  min: 25.0
+                  max: 111.0
+                  mid: 68.0
+                interchange:
+                  - 1969-1971 Charger
+                  - 1967 Chevrolet C10
+              - part_id: dodge_charger_1970_brake_brake_booster_a
+                name: Brake Booster
+                oem_number: "5460357"
+                aftermarket_alternatives:
+                  - PBR-6748
+                  - A1-Cardone-20424
+                category: brake
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 230.0
+                  width: 230.0
+                  height: 150.0
+                indicative_price_range_usd:
+                  min: 67.0
+                  max: 246.0
+                  mid: 156.0
+                interchange:
+                  - 1969-1971 Charger
+                  - 1966 Chevrolet Chevelle
+              - part_id: dodge_charger_1970_exhaust_exhaust_hanger_a
+                name: Exhaust Hanger
+                oem_number: "5460399"
+                aftermarket_alternatives:
+                  - PBR-7812
+                  - A1-Cardone-76280
+                category: exhaust
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 150.0
+                  width: 50.0
+                  height: 30.0
+                indicative_price_range_usd:
+                  min: 5.0
+                  max: 21.0
+                  mid: 13.0
+                interchange:
+                  - 1969-1971 Charger
+                  - 1972 Chevrolet Nova
+              - part_id: dodge_charger_1970_brake_brake_wheel_cylinder_a
+                name: Brake Wheel Cylinder
+                oem_number: "5460567"
+                aftermarket_alternatives:
+                  - PBR-9979
+                  - A1-Cardone-95756
+                category: brake
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 90.0
+                  width: 40.0
+                  height: 40.0
+                indicative_price_range_usd:
+                  min: 10.0
+                  max: 45.0
+                  mid: 28.0
+                interchange:
+                  - 1969-1971 Charger
+                  - 1967 Ford Mustang
+              - part_id: dodge_charger_1970_exhaust_exhaust_pipe_b
+                name: Exhaust Pipe
+                oem_number: "5460609"
+                aftermarket_alternatives:
+                  - PBR-6569
+                  - A1-Cardone-64843
+                category: exhaust
+                criticality: standard
+                reference_dimensions_mm:
+                  length: 2000.0
+                  width: 60.0
+                  height: 60.0
+                indicative_price_range_usd:
+                  min: 27.0
+                  max: 121.0
+                  mid: 74.0
+                interchange:
+                  - 1969-1971 Charger
+                  - 1968 Chevrolet Chevelle
+              - part_id: dodge_charger_1970_interior_sun_visor_a
+                name: Sun Visor
+                oem_number: "5460777"
+                aftermarket_alternatives:
+                  - PBR-2688
+                  - A1-Cardone-75605
+                category: interior
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 400.0
+                  width: 150.0
+                  height: 20.0
+                indicative_price_range_usd:
+                  min: 10.0
+                  max: 46.0
+                  mid: 28.0
+                interchange:
+                  - 1969-1971 Charger
+                  - 1969 Chevrolet C10
+              - part_id: dodge_charger_1970_interior_dashboard_b
+                name: Dashboard
+                oem_number: "5460903"
+                aftermarket_alternatives:
+                  - PBR-1088
+                  - A1-Cardone-98891
+                category: interior
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 1400.0
+                  width: 400.0
+                  height: 300.0
+                indicative_price_range_usd:
+                  min: 110.0
+                  max: 552.0
+                  mid: 331.0
+                interchange:
+                  - 1969-1971 Charger
+                  - 1968 Chevrolet Chevelle
+              - part_id: dodge_charger_1970_brake_brake_booster_b
+                name: Brake Booster
+                oem_number: "5460987"
+                aftermarket_alternatives:
+                  - PBR-3019
+                  - A1-Cardone-31206
+                category: brake
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 230.0
+                  width: 230.0
+                  height: 150.0
+                indicative_price_range_usd:
+                  min: 61.0
+                  max: 223.0
+                  mid: 142.0
+                interchange:
+                  - 1969-1971 Charger
+                  - 1968 Dodge Charger
+              - part_id: dodge_charger_1970_body_grille_b
+                name: Grille
+                oem_number: "5461113"
+                aftermarket_alternatives:
+                  - PBR-6432
+                  - A1-Cardone-95521
+                category: body
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 1200.0
+                  width: 200.0
+                  height: 100.0
+                indicative_price_range_usd:
+                  min: 64.0
+                  max: 340.0
+                  mid: 202.0
+                interchange:
+                  - 1969-1971 Charger
+                  - 1968 Ford Mustang
+              - part_id: dodge_charger_1970_brake_proportioning_valve_b
+                name: Proportioning Valve
+                oem_number: "5461197"
+                aftermarket_alternatives:
+                  - PBR-9732
+                  - A1-Cardone-78406
+                category: brake
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 90.0
+                  width: 60.0
+                  height: 50.0
+                indicative_price_range_usd:
+                  min: 20.0
+                  max: 84.0
+                  mid: 52.0
+                interchange:
+                  - 1969-1971 Charger
+                  - 1966 Ford Mustang
+              - part_id: dodge_charger_1970_body_side_mirror_b
+                name: Side Mirror
+                oem_number: "5461365"
+                aftermarket_alternatives:
+                  - PBR-4157
+                  - A1-Cardone-96185
+                category: body
+                criticality: optional
+                reference_dimensions_mm:
+                  length: 200.0
+                  width: 120.0
+                  height: 80.0
+                indicative_price_range_usd:
+                  min: 14.0
+                  max: 67.0
+                  mid: 40.0
+                interchange:
+                  - 1969-1971 Charger
+                  - 1972 Chevrolet Nova
+              - part_id: dodge_charger_1970_engine_valve_cover_gasket_b
+                name: Valve Cover Gasket
+                oem_number: "5461407"
+                aftermarket_alternatives:
+                  - PBR-1380
+                  - A1-Cardone-75608
+                category: engine
+                criticality: critical
+                reference_dimensions_mm:
+                  length: 520.0
+                  width: 200.0
+                  height: 3.0
+                indicative_price_range_usd:
+                  min: 7.0
+                  max: 24.0
+                  mid: 16.0
+                interchange:
+                  - 1969-1971 Charger
+                  - 1967 Chevrolet C10

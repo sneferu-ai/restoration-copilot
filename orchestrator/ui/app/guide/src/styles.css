@@ -1,0 +1,103 @@
+/* Guide entry — token layer + guide surface overrides (D16): 48px touch,
+   17px body. One beam: one step, one tool, one warning on screen. */
+@import "@fontsource/inter/latin-400.css";
+@import "@fontsource/inter/latin-500.css";
+@import "@fontsource/inter/latin-600.css";
+@import "@fontsource/jetbrains-mono/latin-400.css";
+@import "../../shared/base-tokens.css";
+
+:root {
+  --touch: 3rem; /* 48px — greasy hands (D16) */
+  --text-base: 1.0625rem; /* 17px guide body (D16) */
+}
+
+@layer components {
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-2);
+    min-height: var(--touch);
+    padding-inline: var(--space-4);
+    border-radius: var(--radius-md);
+    font-size: var(--text-base);
+    font-weight: var(--weight-semibold);
+    line-height: 1;
+    border: var(--border-w) solid transparent;
+    cursor: pointer;
+    transition:
+      background-color var(--dur-fast) var(--ease-default),
+      border-color var(--dur-fast) var(--ease-default),
+      color var(--dur-fast) var(--ease-default);
+  }
+  .btn:disabled {
+    opacity: 0.45;
+    cursor: not-allowed;
+  }
+  .btn-primary {
+    background: var(--accent);
+    color: var(--accent-ink);
+  }
+  .btn-primary:hover:not(:disabled) {
+    background: var(--accent-hover);
+  }
+  .btn-primary:active:not(:disabled) {
+    background: var(--accent-pressed);
+  }
+  .btn-secondary {
+    background: var(--elevated);
+    color: var(--ink);
+    border-color: var(--border-default);
+  }
+  .btn-secondary:hover:not(:disabled) {
+    border-color: var(--border-strong);
+  }
+  .btn-ghost {
+    background: transparent;
+    color: var(--muted);
+  }
+  .btn-ghost:hover:not(:disabled) {
+    background: var(--surface);
+    color: var(--ink);
+  }
+  .input {
+    width: 100%;
+    min-height: var(--touch);
+    border-radius: var(--radius-md);
+    border: var(--border-w) solid var(--border-default);
+    background: var(--surface);
+    color: var(--ink);
+    padding: var(--space-2) var(--space-3);
+    font-size: var(--text-base);
+  }
+  .input:focus {
+    border-color: var(--border-focus);
+    outline: none;
+  }
+  .label {
+    display: block;
+    font-size: var(--text-sm);
+    font-weight: var(--weight-medium);
+    color: var(--muted);
+    margin-bottom: var(--space-1);
+  }
+  .card {
+    background: var(--surface);
+    border: var(--border-w) solid var(--border-subtle);
+    border-radius: var(--radius-md);
+  }
+}
+
+@keyframes rc-enter {
+  from {
+    opacity: 0;
+    transform: translateY(var(--space-1));
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.page-enter {
+  animation: rc-enter var(--dur-base) var(--ease-emphasized) both;
+}

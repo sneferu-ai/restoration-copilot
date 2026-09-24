@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "restoration-copilot"
+version = "0.1.0"
+description = "Restoration Copilot (internal module: restoration) — single-shop vehicle-restoration assistant extending the Sneferu orchestrator."
+readme = "README.md"
+requires-python = ">=3.9"
+# NOTE: In production this module runs in-process inside the claudopus host,
+# which provides FastAPI/uvicorn. The sandbox build environment has no network
+# access and no FastAPI, so the HTTP layer is a stdlib WSGI implementation of
+# the identical REST surface (see IMPLEMENTATION_NOTES.md).
+dependencies = [
+    "pydantic>=2.0",
+    # The following are declared for the production build (spec §6). They are
+    # imported conditionally so the module degrades honestly when absent.
+    "pillow-heif>=0.13",   # FR-002 HEIC decode for thumbnails
+    "Pillow>=10.0",        # FR-002 thumbnails, FR-058 2D diagrams
+    "trimesh>=4.0",        # FR-017 GLB QA (manifold, AABB, unit normalization)
+    "qrcode>=7.4",         # FR-020 guide token QR
+    "pyloudnorm>=0.1.1",   # FR-019 -16 LUFS normalization
+    "aiosqlite>=0.19",     # FR-027 async SQLite (production async path)
+    # FR-020 GLB compression (Draco) is spec-future and not imported anywhere yet.
+    # The previously declared "draco3d" package does not exist on PyPI and made
+    # `pip install -e .` unresolvable on a clean machine.
+    "reportlab>=4.0",      # FR-055 customer-facing PDF export
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-asyncio>=0.21",
+    "playwright>=1.40",
+    "soundfile>=0.12",
+    "openai-whisper",
+    "noisereduce",
+    "PyPDF2>=3.0",
+]
+
+[tool.setuptools.packages.find]
+include = ["orchestrator*", "scripts*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+markers = [
+    "e2e: end-to-end tests against real provider bridges (requires --e2e and API keys)",
+]

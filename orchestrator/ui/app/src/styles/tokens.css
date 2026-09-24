@@ -1,0 +1,198 @@
+/*
+ * Restoration Copilot — closed token layer.
+ * The ONLY file where raw hex / px / ms values live.
+ * Components claim tokens by name (var(--accent), padding: var(--space-3)).
+ * Brand values are preserved verbatim from BRAND_IDENTITY.md and mapped to roles.
+ */
+
+:root {
+  /* ---- Brand semantic colors (verbatim from BRAND_IDENTITY.md) ---- */
+  --brand-background: #15111B;
+  --brand-surface: #241B2D;
+  --brand-foreground: #FFF5E8;
+  --brand-muted: #B8A9C1;
+  --brand-primary: #FF6B5F;
+  --brand-secondary: #E6B655;
+
+  /* ---- Color roles (dark is the console default) ---- */
+  --bg-base: var(--brand-background);
+  --bg-elevated: var(--brand-surface);
+  --bg-hover: #2A1F36;
+  --bg-overlay: #1B1422;
+  --bg-input: #2A2033;
+
+  --fg-primary: var(--brand-foreground);
+  --fg-secondary: #E8DCC8;
+  --fg-tertiary: var(--brand-muted);
+  --fg-disabled: #6B5F76;
+  --fg-on-accent: #15111B;
+
+  --accent: var(--brand-primary);
+  --accent-hover: #FF8276;
+  --accent-pressed: #E55A4F;
+  --accent-soft: rgba(255, 107, 95, 0.14);
+
+  --signal-amber: var(--brand-secondary);
+  --signal-amber-soft: rgba(230, 182, 85, 0.16);
+  --signal-blue: #5B9BD5;
+  --signal-blue-soft: rgba(91, 155, 213, 0.16);
+
+  --border-subtle: #2F2438;
+  --border-default: #3D2F48;
+  --border-strong: #5A4666;
+  --border-focus: var(--accent);
+
+  --status-running: #5B9BD5;
+  --status-paused: var(--brand-secondary);
+  --status-halted: #B8A9C1;
+  --status-complete: #4CAF7D;
+  --status-failed: #E05D5D;
+  --status-orphan: #9B7FB5;
+
+  --status-running-soft: rgba(91, 155, 213, 0.16);
+  --status-paused-soft: rgba(230, 182, 85, 0.16);
+  --status-complete-soft: rgba(76, 175, 125, 0.16);
+  --status-failed-soft: rgba(224, 93, 93, 0.16);
+
+  /* ---- Button variant tokens ---- */
+  --btn-danger-fg: #FFF5E8;
+  --btn-danger-hover: #C84545;
+
+  /* ---- Overlay / scrim ---- */
+  --overlay-scrim: rgba(0, 0, 0, 0.55);
+  --blur-modal: 0.5rem;
+  --drop-shadow-mark: drop-shadow(0 0.25rem 0.5rem rgba(0, 0, 0, 0.4));
+
+  /* ---- Typography ---- */
+  --font-display: "Inter", -apple-system, system-ui, sans-serif;
+  --font-body: "Inter", -apple-system, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", "SF Mono", ui-monospace, monospace;
+  --font-numeric: "JetBrains Mono", "SF Mono", ui-monospace, monospace;
+
+  --text-xs: 0.6875rem;   /* 11px */
+  --text-sm: 0.8125rem;   /* 13px */
+  --text-base: 0.875rem;  /* 14px */
+  --text-md: 1rem;        /* 16px — mobile body floor */
+  --text-lg: 1.125rem;    /* 18px */
+  --text-xl: 1.25rem;     /* 20px */
+  --text-2xl: 1.5rem;     /* 24px */
+  --text-3xl: 1.875rem;   /* 30px */
+
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+
+  --line-tight: 1.15;
+  --line-snug: 1.3;
+  --line-normal: 1.5;
+  --line-relaxed: 1.65;
+
+  --tracking-tight: -0.01em;
+  --tracking-mono: 0.02em;
+
+  /* ---- Spacing (8pt scale) ---- */
+  --space-1: 0.25rem;  /* 4px */
+  --space-2: 0.5rem;   /* 8px */
+  --space-3: 0.75rem;  /* 12px */
+  --space-4: 1rem;     /* 16px */
+  --space-5: 1.25rem;  /* 20px */
+  --space-6: 1.5rem;   /* 24px */
+  --space-8: 2rem;     /* 32px */
+  --space-10: 2.5rem;  /* 40px */
+  --space-12: 3rem;    /* 48px */
+  --space-16: 4rem;    /* 64px */
+  --space-20: 5rem;    /* 80px */
+
+  /* ---- Shape ---- */
+  --radius-sm: 0.25rem;  /* 4px — chips, badges */
+  --radius-md: 0.375rem; /* 6px — inputs, buttons */
+  --radius-lg: 0.5rem;   /* 8px — cards */
+  --radius-xl: 0.75rem;  /* 12px — modals */
+  --radius-full: 9999px;
+
+  /* ---- Elevation (one scale, direction = down) ---- */
+  --shadow-0: none;
+  --shadow-1: 0 1px 2px rgba(0, 0, 0, 0.28);
+  --shadow-2: 0 2px 6px rgba(0, 0, 0, 0.32);
+  --shadow-3: 0 8px 24px rgba(0, 0, 0, 0.44);
+  --shadow-4: 0 16px 40px rgba(0, 0, 0, 0.56);
+
+  /* ---- Motion ---- */
+  --dur-instant: 50ms;
+  --dur-fast: 150ms;
+  --dur-base: 200ms;
+  --dur-slow: 350ms;
+  --ease-default: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-emphasized: cubic-bezier(0.2, 0, 0, 1);
+
+  /* ---- Z-index (single source) ---- */
+  --z-base: 0;
+  --z-sticky: 100;
+  --z-dropdown: 200;
+  --z-toast: 300;
+  --z-modal-bg: 400;
+  --z-modal: 410;
+  --z-cmd: 500;
+}
+
+/* ---- Light variant (guide high-ambient readability, not console default) ---- */
+:root[data-theme="light"] {
+  --bg-base: #FAF6F0;
+  --bg-elevated: #FFFFFF;
+  --bg-hover: #F3ECE2;
+  --bg-overlay: #F3ECE2;
+  --bg-input: #FFFFFF;
+
+  --fg-primary: #1A1320;
+  --fg-secondary: #3D2F48;
+  --fg-tertiary: #6B5F76;
+  --fg-disabled: #B8A9C1;
+  --fg-on-accent: #FFFFFF;
+
+  --accent: #E55A4F;
+  --accent-hover: #D14A40;
+  --accent-pressed: #B83B33;
+  --accent-soft: rgba(229, 90, 79, 0.12);
+
+  --signal-amber: #C9943B;
+  --signal-amber-soft: rgba(201, 148, 59, 0.14);
+  --signal-blue: #2B7CC4;
+  --signal-blue-soft: rgba(43, 124, 196, 0.10);
+
+  --border-subtle: #E8DCC8;
+  --border-default: #D6C8B0;
+  --border-strong: #B8A9C1;
+  --border-focus: var(--accent);
+
+  --status-running: #2B7CC4;
+  --status-paused: var(--signal-amber);
+  --status-halted: #6B5F76;
+  --status-complete: #2E8B5C;
+  --status-failed: #C84545;
+  --status-orphan: #7B5F95;
+
+  --status-running-soft: rgba(43, 124, 196, 0.10);
+  --status-paused-soft: rgba(201, 148, 59, 0.12);
+  --status-complete-soft: rgba(46, 139, 92, 0.10);
+  --status-failed-soft: rgba(200, 69, 69, 0.10);
+
+  /* ---- Button variant tokens ---- */
+  --btn-danger-fg: #FFF5E8;
+  --btn-danger-hover: #C84545;
+
+  --shadow-0: none;
+  --shadow-1: 0 1px 2px rgba(26, 19, 32, 0.08);
+  --shadow-2: 0 2px 6px rgba(26, 19, 32, 0.10);
+  --shadow-3: 0 8px 24px rgba(26, 19, 32, 0.16);
+  --shadow-4: 0 16px 40px rgba(26, 19, 32, 0.24);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --dur-instant: 0ms;
+    --dur-fast: 0ms;
+    --dur-base: 0ms;
+    --dur-slow: 0ms;
+  }
+}

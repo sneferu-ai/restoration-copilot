@@ -1,0 +1,208 @@
+# Restoration Copilot KB seed — 1960s-70s American vintage vehicles.
+# Schema + per-category minimums: spec B13 §5. Validated by scripts/seed_restoration_kb.py and scripts/validate_kb_seed.py.
+part_id,name,oem_number,aftermarket_alternatives,category,criticality,reference_dimensions_length_mm,reference_dimensions_width_mm,reference_dimensions_height_mm,indicative_price_min_usd,indicative_price_max_usd,indicative_price_mid_usd,interchange
+chevy_camaro_1967_brake_front_brake_caliper_a,Front Brake Caliper,5460007,PBR-7606;A1-Cardone-31487,brake,critical,180,95,120,51,205,128,1966-1968 Camaro;1968 Chevrolet Camaro
+ford_mustang_1965_suspension_front_coil_spring_a,Front Coil Spring,5460014,PBR-5064;A1-Cardone-20365,suspension,standard,380,150,150,43,150,96,1964-1966 Mustang;1969 Chevrolet Camaro
+dodge_charger_1968_engine_water_pump_a,Water Pump,5460021,PBR-7062;A1-Cardone-72729,engine,critical,220,180,150,39,145,92,1967-1969 Charger;1972 Chevrolet Nova
+chevy_chevelle_1966_body_front_fender_a,Front Fender,5460028,PBR-3862;A1-Cardone-42983,body,optional,1400,500,800,161,749,455,1965-1967 Chevelle;1968 Dodge Charger
+chevy_nova_1968_interior_front_bucket_seat_a,Front Bucket Seat,5460035,PBR-4106;A1-Cardone-83600,interior,optional,650,600,900,166,785,476,1967-1969 Nova;1967 Ford Mustang
+chevy_c10_1967_electrical_alternator_a,Alternator,5460042,PBR-4505;A1-Cardone-35474,electrical,standard,200,180,180,55,233,144,1966-1968 C10;1970 Chevrolet Chevelle
+chevy_camaro_1967_exhaust_exhaust_manifold_a,Exhaust Manifold,5460049,PBR-2343;A1-Cardone-24565,exhaust,standard,450,200,150,51,246,148,1966-1968 Camaro;1969 Dodge Charger
+ford_mustang_1965_fuel_fuel_tank_a,Fuel Tank,5460056,PBR-2445;A1-Cardone-17116,fuel,critical,900,600,300,98,412,255,1964-1966 Mustang;1967 Chevrolet C10
+dodge_charger_1968_cooling_radiator_a,Radiator,5460063,PBR-7959;A1-Cardone-87874,cooling,standard,650,400,100,126,515,320,1967-1969 Charger;1969 Chevrolet Camaro
+chevy_chevelle_1966_transmission_transmission_oil_pan_a,Transmission Oil Pan,5460070,PBR-1545;A1-Cardone-89197,transmission,standard,400,350,100,27,118,72,1965-1967 Chevelle;1966 Ford Mustang
+chevy_nova_1970_brake_rear_brake_caliper_a,Rear Brake Caliper,5460077,PBR-1617;A1-Cardone-95144,brake,critical,175,90,115,43,182,112,1969-1971 Nova;1968 Chevrolet Camaro
+chevy_c10_1969_suspension_rear_leaf_spring_a,Rear Leaf Spring,5460084,PBR-4912;A1-Cardone-54262,suspension,standard,1350,65,120,74,252,163,1968-1970 C10;1967 Chevrolet Camaro
+chevy_camaro_1968_engine_oil_pump_a,Oil Pump,5460091,PBR-6071;A1-Cardone-21354,engine,critical,150,120,100,27,101,64,1967-1969 Camaro;1969 Chevrolet Camaro
+ford_mustang_1966_body_hood_a,Hood,5460098,PBR-4079;A1-Cardone-60194,body,optional,1500,1300,80,189,838,514,1965-1967 Mustang;1966 Ford Mustang
+dodge_charger_1969_interior_rear_bench_seat_a,Rear Bench Seat,5460105,PBR-4439;A1-Cardone-38567,interior,optional,1400,600,700,144,671,408,1968-1970 Charger;1970 Chevrolet Nova
+chevy_chevelle_1968_electrical_starter_motor_a,Starter Motor,5460112,PBR-6394;A1-Cardone-19365,electrical,standard,280,150,150,62,259,160,1967-1969 Chevelle;1966 Ford Mustang
+chevy_nova_1970_exhaust_muffler_a,Muffler,5460119,PBR-3214;A1-Cardone-91449,exhaust,standard,600,250,180,36,153,94,1969-1971 Nova;1968 Ford Mustang
+chevy_c10_1969_fuel_fuel_tank_sending_unit_a,Fuel Tank Sending Unit,5460126,PBR-2756;A1-Cardone-89579,fuel,critical,150,100,300,19,80,50,1968-1970 C10;1970 Dodge Charger
+chevy_camaro_1968_cooling_radiator_hose_upper_a,Radiator Hose Upper,5460133,PBR-7099;A1-Cardone-38496,cooling,standard,500,45,45,7,28,18,1967-1969 Camaro;1966 Chevrolet Chevelle
+ford_mustang_1966_transmission_clutch_kit_a,Clutch Kit,5460140,PBR-9557;A1-Cardone-91816,transmission,standard,300,300,80,132,529,330,1965-1967 Mustang;1968 Ford Mustang
+dodge_charger_1970_brake_front_brake_rotor_a,Front Brake Rotor,5460147,PBR-7922;A1-Cardone-37907,brake,critical,280,280,25,33,132,82,1969-1971 Charger;1969 Chevrolet C10
+chevy_chevelle_1970_suspension_front_shock_absorber_a,Front Shock Absorber,5460154,PBR-2957;A1-Cardone-79204,suspension,standard,420,70,70,20,80,50,1969-1971 Chevelle;1969 Dodge Charger
+chevy_nova_1972_engine_fuel_pump_a,Fuel Pump,5460161,PBR-7925;A1-Cardone-93303,engine,critical,150,100,80,22,81,52,1971-1973 Nova;1970 Dodge Charger
+chevy_c10_1972_body_trunk_lid_a,Trunk Lid,5460168,PBR-7729;A1-Cardone-73551,body,optional,1300,1200,70,158,685,422,1971-1973 C10;1965 Ford Mustang
+chevy_camaro_1969_interior_dashboard_a,Dashboard,5460175,PBR-2949;A1-Cardone-52007,interior,optional,1400,400,300,109,544,326,1968-1970 Camaro;1968 Dodge Charger
+ford_mustang_1967_electrical_battery_a,Battery,5460182,PBR-1969;A1-Cardone-14198,electrical,standard,260,175,225,56,169,112,1966-1968 Mustang;1968 Chevrolet Chevelle
+dodge_charger_1970_exhaust_exhaust_pipe_a,Exhaust Pipe,5460189,PBR-6014;A1-Cardone-69160,exhaust,standard,2000,60,60,25,111,68,1969-1971 Charger;1967 Chevrolet C10
+chevy_chevelle_1970_fuel_fuel_line_kit_a,Fuel Line Kit,5460196,PBR-4487;A1-Cardone-56874,fuel,critical,3500,10,10,20,86,53,1969-1971 Chevelle;1970 Dodge Charger
+chevy_nova_1972_cooling_radiator_hose_lower_a,Radiator Hose Lower,5460203,PBR-3609;A1-Cardone-81206,cooling,standard,550,45,45,9,34,22,1971-1973 Nova;1972 Chevrolet C10
+chevy_c10_1972_transmission_clutch_fork_a,Clutch Fork,5460210,PBR-2598;A1-Cardone-11062,transmission,standard,250,80,60,14,61,38,1971-1973 C10;1967 Chevrolet Camaro
+chevy_camaro_1967_brake_rear_brake_drum_a,Rear Brake Drum,5460217,PBR-7369;A1-Cardone-29594,brake,critical,280,280,90,33,102,68,1966-1968 Camaro;1969 Chevrolet Camaro
+ford_mustang_1968_suspension_rear_shock_absorber_a,Rear Shock Absorber,5460224,PBR-9911;A1-Cardone-87289,suspension,standard,400,70,70,21,85,53,1967-1969 Mustang;1968 Dodge Charger
+dodge_charger_1968_engine_carburetor_a,Carburetor,5460231,PBR-5387;A1-Cardone-35047,engine,critical,280,220,180,135,496,316,1967-1969 Charger;1969 Dodge Charger
+chevy_chevelle_1966_body_front_bumper_a,Front Bumper,5460238,PBR-3321;A1-Cardone-87441,body,optional,1700,200,150,115,526,320,1965-1967 Chevelle;1969 Chevrolet C10
+chevy_nova_1968_interior_steering_wheel_a,Steering Wheel,5460245,PBR-8513;A1-Cardone-21961,interior,optional,380,380,100,49,240,144,1967-1969 Nova;1970 Dodge Charger
+chevy_c10_1967_electrical_ignition_coil_a,Ignition Coil,5460252,PBR-8847;A1-Cardone-25104,electrical,standard,120,80,80,12,49,30,1966-1968 C10;1968 Ford Mustang
+chevy_camaro_1967_exhaust_catalytic_heat_shield_a,Catalytic Heat Shield,5460259,PBR-4635;A1-Cardone-19818,exhaust,standard,500,300,30,16,72,44,1966-1968 Camaro;1967 Ford Mustang
+ford_mustang_1968_fuel_fuel_filter_a,Fuel Filter,5460266,PBR-7121;A1-Cardone-56130,fuel,critical,100,50,50,5,19,12,1967-1969 Mustang;1972 Chevrolet Nova
+dodge_charger_1968_cooling_thermostat_a,Thermostat,5460273,PBR-3275;A1-Cardone-40269,cooling,standard,60,50,50,5,20,12,1967-1969 Charger;1967 Ford Mustang
+chevy_chevelle_1966_transmission_throwout_bearing_a,Throwout Bearing,5460280,PBR-3405;A1-Cardone-87237,transmission,standard,80,80,50,13,62,38,1965-1967 Chevelle;1968 Chevrolet Nova
+chevy_nova_1970_brake_brake_master_cylinder_a,Brake Master Cylinder,5460287,PBR-5479;A1-Cardone-84474,brake,critical,220,90,90,56,222,139,1969-1971 Nova;1968 Dodge Charger
+chevy_c10_1969_suspension_upper_control_arm_a,Upper Control Arm,5460294,PBR-7432;A1-Cardone-64136,suspension,standard,350,200,150,45,161,103,1968-1970 C10;1967 Ford Mustang
+chevy_camaro_1968_engine_intake_manifold_a,Intake Manifold,5460301,PBR-8033;A1-Cardone-63657,engine,critical,600,280,150,119,446,282,1967-1969 Camaro;1968 Chevrolet Nova
+ford_mustang_1965_body_rear_bumper_a,Rear Bumper,5460308,PBR-8385;A1-Cardone-85923,body,optional,1700,200,150,120,549,334,1964-1966 Mustang;1970 Dodge Charger
+dodge_charger_1969_interior_carpet_set_a,Carpet Set,5460315,PBR-9007;A1-Cardone-25804,interior,optional,1600,1200,20,85,371,228,1968-1970 Charger;1967 Chevrolet C10
+chevy_chevelle_1968_electrical_voltage_regulator_a,Voltage Regulator,5460322,PBR-1236;A1-Cardone-25771,electrical,standard,100,80,50,11,46,28,1967-1969 Chevelle;1967 Chevrolet C10
+chevy_nova_1970_exhaust_tailpipe_tip_a,Tailpipe Tip,5460329,PBR-4669;A1-Cardone-39124,exhaust,standard,300,80,80,10,47,28,1969-1971 Nova;1967 Chevrolet C10
+chevy_c10_1969_fuel_fuel_cap_a,Fuel Cap,5460336,PBR-2150;A1-Cardone-57195,fuel,critical,80,80,40,5,20,12,1968-1970 C10;1970 Chevrolet Nova
+chevy_camaro_1968_cooling_thermostat_housing_a,Thermostat Housing,5460343,PBR-1926;A1-Cardone-55157,cooling,standard,100,80,80,9,36,22,1967-1969 Camaro;1968 Ford Mustang
+ford_mustang_1965_transmission_shift_linkage_a,Shift Linkage,5460350,PBR-9850;A1-Cardone-83146,transmission,standard,500,60,40,20,90,55,1964-1966 Mustang;1969 Dodge Charger
+dodge_charger_1970_brake_brake_booster_a,Brake Booster,5460357,PBR-6748;A1-Cardone-20424,brake,critical,230,230,150,67,246,156,1969-1971 Charger;1966 Chevrolet Chevelle
+chevy_chevelle_1970_suspension_lower_control_arm_a,Lower Control Arm,5460364,PBR-4122;A1-Cardone-44475,suspension,standard,420,220,150,54,194,124,1969-1971 Chevelle;1968 Dodge Charger
+chevy_nova_1972_engine_valve_cover_a,Valve Cover,5460371,PBR-4624;A1-Cardone-23384,engine,critical,520,200,100,26,114,70,1971-1973 Nova;1969 Chevrolet C10
+chevy_c10_1972_body_grille_a,Grille,5460378,PBR-9956;A1-Cardone-41911,body,optional,1200,200,100,61,326,194,1971-1973 C10;1966 Ford Mustang
+chevy_camaro_1969_interior_headliner_a,Headliner,5460385,PBR-7449;A1-Cardone-32351,interior,optional,1400,1100,10,46,210,128,1968-1970 Camaro;1969 Chevrolet C10
+ford_mustang_1966_electrical_wiring_harness_a,Wiring Harness,5460392,PBR-8954;A1-Cardone-51426,electrical,standard,4000,50,50,84,391,238,1965-1967 Mustang;1966 Chevrolet Chevelle
+dodge_charger_1970_exhaust_exhaust_hanger_a,Exhaust Hanger,5460399,PBR-7812;A1-Cardone-76280,exhaust,standard,150,50,30,5,21,13,1969-1971 Charger;1972 Chevrolet Nova
+chevy_chevelle_1970_fuel_fuel_tank_strap_a,Fuel Tank Strap,5460406,PBR-3531;A1-Cardone-61995,fuel,critical,700,30,5,9,36,22,1969-1971 Chevelle;1967 Ford Mustang
+chevy_nova_1972_cooling_fan_clutch_a,Fan Clutch,5460413,PBR-6409;A1-Cardone-72058,cooling,standard,180,180,80,28,124,76,1971-1973 Nova;1967 Ford Mustang
+chevy_c10_1972_transmission_driveshaft_a,Driveshaft,5460420,PBR-4490;A1-Cardone-87471,transmission,standard,1400,90,90,85,362,224,1971-1973 C10;1969 Chevrolet C10
+chevy_camaro_1967_brake_front_brake_pad_set_a,Front Brake Pad Set,5460427,PBR-3248;A1-Cardone-82642,brake,critical,150,60,20,14,56,35,1966-1968 Camaro;1968 Dodge Charger
+ford_mustang_1967_suspension_ball_joint_a,Ball Joint,5460434,PBR-9973;A1-Cardone-33735,suspension,standard,90,50,50,10,38,24,1966-1968 Mustang;1972 Chevrolet C10
+dodge_charger_1968_engine_timing_chain_a,Timing Chain,5460441,PBR-5523;A1-Cardone-89129,engine,critical,300,40,20,15,61,38,1967-1969 Charger;1970 Chevrolet Nova
+chevy_chevelle_1966_body_headlight_bezel_a,Headlight Bezel,5460448,PBR-5479;A1-Cardone-80246,body,optional,250,150,100,22,103,62,1965-1967 Chevelle;1970 Dodge Charger
+chevy_nova_1968_interior_door_panel_a,Door Panel,5460455,PBR-7466;A1-Cardone-87177,interior,optional,1000,700,30,42,201,122,1967-1969 Nova;1968 Dodge Charger
+chevy_c10_1967_electrical_headlight_switch_a,Headlight Switch,5460462,PBR-3828;A1-Cardone-95627,electrical,standard,80,60,60,9,38,24,1966-1968 C10;1972 Chevrolet Nova
+chevy_camaro_1967_exhaust_exhaust_manifold_b,Exhaust Manifold,5460469,PBR-4696;A1-Cardone-37665,exhaust,standard,450,200,150,55,265,160,1966-1968 Camaro;1969 Dodge Charger
+ford_mustang_1967_fuel_fuel_tank_b,Fuel Tank,5460476,PBR-6655;A1-Cardone-95460,fuel,critical,900,600,300,88,372,230,1966-1968 Mustang;1968 Chevrolet Nova
+dodge_charger_1968_cooling_radiator_fan_a,Radiator Fan,5460483,PBR-9436;A1-Cardone-69654,cooling,standard,450,450,80,31,136,84,1967-1969 Charger;1970 Chevrolet Nova
+chevy_chevelle_1966_transmission_universal_joint_a,Universal Joint,5460490,PBR-1032;A1-Cardone-86636,transmission,standard,100,40,40,8,33,20,1965-1967 Chevelle;1965 Ford Mustang
+chevy_nova_1970_brake_rear_brake_shoe_set_a,Rear Brake Shoe Set,5460497,PBR-6051;A1-Cardone-54879,brake,critical,240,50,30,16,60,38,1969-1971 Nova;1967 Chevrolet Camaro
+chevy_c10_1969_suspension_sway_bar_a,Sway Bar,5460504,PBR-5600;A1-Cardone-26358,suspension,standard,1000,30,30,39,127,83,1968-1970 C10;1967 Ford Mustang
+chevy_camaro_1968_engine_timing_cover_a,Timing Cover,5460511,PBR-6080;A1-Cardone-80149,engine,critical,300,250,60,20,90,55,1967-1969 Camaro;1969 Chevrolet C10
+ford_mustang_1968_body_taillight_lens_a,Taillight Lens,5460518,PBR-2512;A1-Cardone-70578,body,optional,300,120,80,15,79,47,1967-1969 Mustang;1966 Ford Mustang
+dodge_charger_1969_interior_center_console_a,Center Console,5460525,PBR-9662;A1-Cardone-68907,interior,optional,800,300,250,64,309,186,1968-1970 Charger;1968 Dodge Charger
+chevy_chevelle_1968_electrical_turn_signal_switch_a,Turn Signal Switch,5460532,PBR-2865;A1-Cardone-69094,electrical,standard,150,60,60,12,55,34,1967-1969 Chevelle;1967 Chevrolet Camaro
+chevy_nova_1970_exhaust_muffler_b,Muffler,5460539,PBR-5647;A1-Cardone-72444,exhaust,standard,600,250,180,32,136,84,1969-1971 Nova;1968 Chevrolet Chevelle
+chevy_c10_1969_fuel_fuel_tank_sending_unit_b,Fuel Tank Sending Unit,5460546,PBR-8170;A1-Cardone-23848,fuel,critical,150,100,300,22,96,59,1968-1970 C10;1966 Chevrolet Chevelle
+chevy_camaro_1968_cooling_heater_core_a,Heater Core,5460553,PBR-6535;A1-Cardone-64852,cooling,standard,250,200,150,34,148,91,1967-1969 Camaro;1968 Chevrolet Camaro
+ford_mustang_1968_transmission_transmission_mount_a,Transmission Mount,5460560,PBR-4838;A1-Cardone-72224,transmission,standard,200,120,90,11,46,28,1967-1969 Mustang;1968 Dodge Charger
+dodge_charger_1970_brake_brake_wheel_cylinder_a,Brake Wheel Cylinder,5460567,PBR-9979;A1-Cardone-95756,brake,critical,90,40,40,10,45,28,1969-1971 Charger;1967 Ford Mustang
+chevy_chevelle_1970_suspension_sway_bar_end_link_a,Sway Bar End Link,5460574,PBR-4718;A1-Cardone-59271,suspension,standard,180,40,40,8,32,20,1969-1971 Chevelle;1969 Chevrolet C10
+chevy_nova_1972_engine_piston_set_a,Piston Set,5460581,PBR-7248;A1-Cardone-82183,engine,critical,100,100,80,147,491,319,1971-1973 Nova;1967 Chevrolet Camaro
+chevy_c10_1972_body_door_shell_a,Door Shell,5460588,PBR-9442;A1-Cardone-66472,body,optional,1100,900,150,223,1003,613,1971-1973 C10;1966 Ford Mustang
+chevy_camaro_1969_interior_gauge_cluster_a,Gauge Cluster,5460595,PBR-2981;A1-Cardone-39819,interior,optional,400,200,150,71,343,207,1968-1970 Camaro;1968 Dodge Charger
+ford_mustang_1965_electrical_horn_a,Horn,5460602,PBR-6727;A1-Cardone-80929,electrical,standard,150,100,80,11,42,26,1964-1966 Mustang;1968 Dodge Charger
+dodge_charger_1970_exhaust_exhaust_pipe_b,Exhaust Pipe,5460609,PBR-6569;A1-Cardone-64843,exhaust,standard,2000,60,60,27,121,74,1969-1971 Charger;1968 Chevrolet Chevelle
+chevy_chevelle_1970_fuel_fuel_line_kit_b,Fuel Line Kit,5460616,PBR-9432;A1-Cardone-16634,fuel,critical,3500,10,10,21,90,56,1969-1971 Chevelle;1966 Ford Mustang
+chevy_nova_1972_cooling_overflow_tank_a,Overflow Tank,5460623,PBR-2422;A1-Cardone-98552,cooling,standard,250,150,150,9,39,24,1971-1973 Nova;1970 Chevrolet Chevelle
+chevy_c10_1972_transmission_speedometer_cable_a,Speedometer Cable,5460630,PBR-5752;A1-Cardone-30850,transmission,standard,2000,8,8,9,42,26,1971-1973 C10;1970 Dodge Charger
+chevy_camaro_1967_brake_brake_line_kit_a,Brake Line Kit,5460637,PBR-7526;A1-Cardone-15710,brake,critical,3000,10,10,26,95,60,1966-1968 Camaro;1970 Dodge Charger
+ford_mustang_1966_suspension_idler_arm_a,Idler Arm,5460644,PBR-2700;A1-Cardone-37844,suspension,standard,200,80,80,14,55,34,1965-1967 Mustang;1969 Chevrolet C10
+dodge_charger_1968_engine_camshaft_a,Camshaft,5460651,PBR-9054;A1-Cardone-74288,engine,critical,550,60,60,90,349,220,1967-1969 Charger;1967 Chevrolet Camaro
+chevy_chevelle_1966_body_quarter_panel_a,Quarter Panel,5460658,PBR-5950;A1-Cardone-62406,body,optional,1500,900,300,253,1092,672,1965-1967 Chevelle;1968 Chevrolet Chevelle
+chevy_nova_1968_interior_gear_shifter_a,Gear Shifter,5460665,PBR-5804;A1-Cardone-84675,interior,optional,300,100,200,33,151,92,1967-1969 Nova;1970 Dodge Charger
+chevy_c10_1967_electrical_fuse_box_a,Fuse Box,5460672,PBR-3531;A1-Cardone-63059,electrical,standard,150,100,60,16,68,42,1966-1968 C10;1972 Chevrolet Nova
+chevy_camaro_1967_exhaust_catalytic_heat_shield_b,Catalytic Heat Shield,5460679,PBR-4861;A1-Cardone-46650,exhaust,standard,500,300,30,15,71,43,1966-1968 Camaro;1965 Ford Mustang
+ford_mustang_1966_fuel_fuel_filter_b,Fuel Filter,5460686,PBR-5081;A1-Cardone-88384,fuel,critical,100,50,50,5,19,12,1965-1967 Mustang;1967 Chevrolet Camaro
+dodge_charger_1968_cooling_radiator_b,Radiator,5460693,PBR-5421;A1-Cardone-94086,cooling,standard,650,400,100,104,424,264,1967-1969 Charger;1968 Dodge Charger
+chevy_chevelle_1966_transmission_torque_converter_a,Torque Converter,5460700,PBR-3152;A1-Cardone-53380,transmission,standard,320,320,150,65,277,171,1965-1967 Chevelle;1968 Chevrolet Camaro
+chevy_nova_1970_brake_parking_brake_cable_a,Parking Brake Cable,5460707,PBR-5077;A1-Cardone-91612,brake,critical,2500,8,8,17,68,42,1969-1971 Nova;1967 Chevrolet Camaro
+chevy_c10_1969_suspension_pitman_arm_a,Pitman Arm,5460714,PBR-7045;A1-Cardone-55581,suspension,standard,220,80,60,23,85,54,1968-1970 C10;1972 Chevrolet C10
+chevy_camaro_1968_engine_lifter_set_a,Lifter Set,5460721,PBR-2029;A1-Cardone-59956,engine,critical,60,25,25,28,110,69,1967-1969 Camaro;1969 Dodge Charger
+ford_mustang_1967_body_rocker_panel_a,Rocker Panel,5460728,PBR-2301;A1-Cardone-10740,body,optional,1600,150,150,60,260,160,1966-1968 Mustang;1968 Chevrolet Chevelle
+dodge_charger_1969_interior_pedal_set_a,Pedal Set,5460735,PBR-8664;A1-Cardone-88902,interior,optional,250,150,100,18,82,50,1968-1970 Charger;1966 Ford Mustang
+chevy_chevelle_1968_electrical_alternator_b,Alternator,5460742,PBR-7794;A1-Cardone-35409,electrical,standard,200,180,180,51,214,132,1967-1969 Chevelle;1970 Chevrolet Nova
+chevy_nova_1972_brake_proportioning_valve_a,Proportioning Valve,5460749,PBR-5396;A1-Cardone-50418,brake,critical,90,60,50,20,84,52,1971-1973 Nova;1968 Ford Mustang
+chevy_c10_1972_suspension_tie_rod_end_a,Tie Rod End,5460756,PBR-6089;A1-Cardone-14568,suspension,standard,150,40,40,10,35,22,1971-1973 C10;1968 Dodge Charger
+chevy_camaro_1969_engine_pushrod_set_a,Pushrod Set,5460763,PBR-5121;A1-Cardone-45068,engine,critical,200,10,10,18,78,48,1968-1970 Camaro;1967 Chevrolet Camaro
+ford_mustang_1968_body_floor_pan_a,Floor Pan,5460770,PBR-6084;A1-Cardone-71840,body,optional,1500,1000,50,84,391,238,1967-1969 Mustang;1967 Chevrolet Camaro
+dodge_charger_1970_interior_sun_visor_a,Sun Visor,5460777,PBR-2688;A1-Cardone-75605,interior,optional,400,150,20,10,46,28,1969-1971 Charger;1969 Chevrolet C10
+chevy_chevelle_1970_electrical_starter_motor_b,Starter Motor,5460784,PBR-4719;A1-Cardone-26444,electrical,standard,280,150,150,54,226,140,1969-1971 Chevelle;1966 Ford Mustang
+chevy_nova_1968_brake_front_brake_caliper_b,Front Brake Caliper,5460791,PBR-5321;A1-Cardone-23437,brake,critical,180,95,120,41,165,103,1967-1969 Nova;1969 Dodge Charger
+chevy_c10_1967_suspension_front_coil_spring_b,Front Coil Spring,5460798,PBR-4440;A1-Cardone-87950,suspension,standard,380,150,150,42,147,94,1966-1968 C10;1972 Chevrolet C10
+chevy_camaro_1967_engine_rocker_arm_set_a,Rocker Arm Set,5460805,PBR-6275;A1-Cardone-62039,engine,critical,80,40,40,39,156,98,1966-1968 Camaro;1966 Chevrolet Chevelle
+ford_mustang_1965_body_windshield_glass_a,Windshield Glass,5460812,PBR-6406;A1-Cardone-26335,body,optional,1400,700,6,134,536,335,1964-1966 Mustang;1969 Chevrolet C10
+dodge_charger_1968_interior_front_bucket_seat_b,Front Bucket Seat,5460819,PBR-6901;A1-Cardone-83649,interior,optional,650,600,900,196,926,561,1967-1969 Charger;1968 Chevrolet Chevelle
+chevy_chevelle_1966_electrical_battery_b,Battery,5460826,PBR-7402;A1-Cardone-62908,electrical,standard,260,175,225,61,184,122,1965-1967 Chevelle;1967 Chevrolet C10
+chevy_nova_1970_brake_rear_brake_caliper_b,Rear Brake Caliper,5460833,PBR-6994;A1-Cardone-63879,brake,critical,175,90,115,43,184,114,1969-1971 Nova;1965 Ford Mustang
+chevy_c10_1969_suspension_rear_leaf_spring_b,Rear Leaf Spring,5460840,PBR-4798;A1-Cardone-65421,suspension,standard,1350,65,120,78,269,174,1968-1970 C10;1972 Chevrolet Nova
+chevy_camaro_1968_engine_head_gasket_a,Head Gasket,5460847,PBR-9075;A1-Cardone-25592,engine,critical,550,300,3,17,72,44,1967-1969 Camaro;1972 Chevrolet Nova
+ford_mustang_1966_body_rear_window_glass_a,Rear Window Glass,5460854,PBR-2965;A1-Cardone-86243,body,optional,1200,600,6,94,396,245,1965-1967 Mustang;1965 Ford Mustang
+dodge_charger_1969_interior_rear_bench_seat_b,Rear Bench Seat,5460861,PBR-8675;A1-Cardone-34816,interior,optional,1400,600,700,147,684,416,1968-1970 Charger;1968 Chevrolet Chevelle
+chevy_chevelle_1968_electrical_ignition_coil_b,Ignition Coil,5460868,PBR-1531;A1-Cardone-11700,electrical,standard,120,80,80,12,49,30,1967-1969 Chevelle;1966 Ford Mustang
+chevy_nova_1972_brake_front_brake_rotor_b,Front Brake Rotor,5460875,PBR-1577;A1-Cardone-65136,brake,critical,280,280,25,33,134,84,1971-1973 Nova;1970 Chevrolet Chevelle
+chevy_c10_1972_suspension_front_shock_absorber_b,Front Shock Absorber,5460882,PBR-5768;A1-Cardone-10258,suspension,standard,420,70,70,22,88,55,1971-1973 C10;1969 Dodge Charger
+chevy_camaro_1969_engine_oil_pan_gasket_a,Oil Pan Gasket,5460889,PBR-3187;A1-Cardone-57934,engine,critical,600,350,3,7,27,17,1968-1970 Camaro;1966 Ford Mustang
+ford_mustang_1967_body_side_mirror_a,Side Mirror,5460896,PBR-8238;A1-Cardone-46050,body,optional,200,120,80,15,70,42,1966-1968 Mustang;1967 Chevrolet C10
+dodge_charger_1970_interior_dashboard_b,Dashboard,5460903,PBR-1088;A1-Cardone-98891,interior,optional,1400,400,300,110,552,331,1969-1971 Charger;1968 Chevrolet Chevelle
+chevy_chevelle_1970_electrical_voltage_regulator_b,Voltage Regulator,5460910,PBR-5728;A1-Cardone-22132,electrical,standard,100,80,50,11,47,29,1969-1971 Chevelle;1966 Chevrolet Chevelle
+chevy_nova_1968_brake_rear_brake_drum_b,Rear Brake Drum,5460917,PBR-3708;A1-Cardone-72780,brake,critical,280,280,90,37,115,76,1967-1969 Nova;1968 Chevrolet Nova
+chevy_c10_1967_suspension_rear_shock_absorber_b,Rear Shock Absorber,5460924,PBR-9899;A1-Cardone-84258,suspension,standard,400,70,70,19,76,48,1966-1968 C10;1966 Chevrolet Chevelle
+chevy_camaro_1967_engine_valve_cover_gasket_a,Valve Cover Gasket,5460931,PBR-3965;A1-Cardone-34469,engine,critical,520,200,3,7,25,16,1966-1968 Camaro;1968 Chevrolet Nova
+ford_mustang_1968_body_front_fender_b,Front Fender,5460938,PBR-1734;A1-Cardone-26659,body,optional,1400,500,800,154,716,435,1967-1969 Mustang;1967 Ford Mustang
+dodge_charger_1968_interior_steering_wheel_b,Steering Wheel,5460945,PBR-8042;A1-Cardone-29156,interior,optional,380,380,100,51,249,150,1967-1969 Charger;1968 Chevrolet Camaro
+chevy_chevelle_1968_brake_brake_master_cylinder_b,Brake Master Cylinder,5460952,PBR-5065;A1-Cardone-69657,brake,critical,220,90,90,48,192,120,1967-1969 Chevelle;1966 Ford Mustang
+chevy_nova_1970_suspension_upper_control_arm_b,Upper Control Arm,5460959,PBR-9297;A1-Cardone-68071,suspension,standard,350,200,150,42,151,96,1969-1971 Nova;1969 Chevrolet C10
+chevy_c10_1969_engine_harmonic_balancer_a,Harmonic Balancer,5460966,PBR-2758;A1-Cardone-64730,engine,critical,200,200,80,45,182,114,1968-1970 C10;1965 Ford Mustang
+chevy_camaro_1968_body_hood_b,Hood,5460973,PBR-3711;A1-Cardone-68162,body,optional,1500,1300,80,162,720,441,1967-1969 Camaro;1968 Chevrolet Nova
+ford_mustang_1965_interior_carpet_set_b,Carpet Set,5460980,PBR-8057;A1-Cardone-30850,interior,optional,1600,1200,20,92,401,246,1964-1966 Mustang;1970 Chevrolet Nova
+dodge_charger_1970_brake_brake_booster_b,Brake Booster,5460987,PBR-3019;A1-Cardone-31206,brake,critical,230,230,150,61,223,142,1969-1971 Charger;1968 Dodge Charger
+chevy_chevelle_1970_suspension_lower_control_arm_b,Lower Control Arm,5460994,PBR-8651;A1-Cardone-12251,suspension,standard,420,220,150,49,176,112,1969-1971 Chevelle;1969 Chevrolet C10
+chevy_nova_1972_engine_flywheel_a,Flywheel,5461001,PBR-6736;A1-Cardone-70310,engine,critical,350,350,30,65,237,151,1971-1973 Nova;1968 Chevrolet Camaro
+chevy_c10_1972_body_trunk_lid_b,Trunk Lid,5461008,PBR-8066;A1-Cardone-30556,body,optional,1300,1200,70,172,746,459,1971-1973 C10;1970 Chevrolet Chevelle
+chevy_camaro_1969_interior_headliner_b,Headliner,5461015,PBR-6663;A1-Cardone-28822,interior,optional,1400,1100,10,56,255,156,1968-1970 Camaro;1969 Chevrolet C10
+ford_mustang_1967_brake_front_brake_pad_set_b,Front Brake Pad Set,5461022,PBR-2129;A1-Cardone-18953,brake,critical,150,60,20,17,67,42,1966-1968 Mustang;1965 Ford Mustang
+dodge_charger_1968_suspension_ball_joint_b,Ball Joint,5461029,PBR-5909;A1-Cardone-27189,suspension,standard,90,50,50,11,43,27,1967-1969 Charger;1972 Chevrolet C10
+chevy_chevelle_1966_engine_engine_mount_a,Engine Mount,5461036,PBR-5143;A1-Cardone-40012,engine,critical,150,100,90,13,52,32,1965-1967 Chevelle;1967 Chevrolet Camaro
+chevy_nova_1968_body_front_bumper_b,Front Bumper,5461043,PBR-5957;A1-Cardone-65925,body,optional,1700,200,150,116,532,324,1967-1969 Nova;1970 Dodge Charger
+chevy_c10_1967_interior_door_panel_b,Door Panel,5461050,PBR-5084;A1-Cardone-76106,interior,optional,1000,700,30,44,208,126,1966-1968 C10;1967 Chevrolet C10
+chevy_camaro_1968_brake_rear_brake_shoe_set_b,Rear Brake Shoe Set,5461057,PBR-3366;A1-Cardone-99009,brake,critical,240,50,30,17,63,40,1967-1969 Camaro;1968 Dodge Charger
+ford_mustang_1968_suspension_sway_bar_b,Sway Bar,5461064,PBR-8652;A1-Cardone-96609,suspension,standard,1000,30,30,39,126,82,1967-1969 Mustang;1968 Chevrolet Nova
+dodge_charger_1969_engine_distributor_a,Distributor,5461071,PBR-2189;A1-Cardone-17933,engine,critical,200,120,250,43,182,112,1968-1970 Charger;1969 Dodge Charger
+chevy_chevelle_1968_body_rear_bumper_b,Rear Bumper,5461078,PBR-7273;A1-Cardone-27506,body,optional,1700,200,150,117,534,326,1967-1969 Chevelle;1970 Chevrolet Nova
+chevy_nova_1970_interior_center_console_b,Center Console,5461085,PBR-3097;A1-Cardone-69498,interior,optional,800,300,250,54,262,158,1969-1971 Nova;1972 Chevrolet Nova
+chevy_c10_1972_brake_brake_wheel_cylinder_b,Brake Wheel Cylinder,5461092,PBR-1400;A1-Cardone-27443,brake,critical,90,40,40,11,50,30,1971-1973 C10;1968 Chevrolet Chevelle
+chevy_camaro_1969_suspension_sway_bar_end_link_b,Sway Bar End Link,5461099,PBR-8099;A1-Cardone-72859,suspension,standard,180,40,40,7,28,18,1968-1970 Camaro;1970 Chevrolet Chevelle
+ford_mustang_1965_engine_water_pump_b,Water Pump,5461106,PBR-8968;A1-Cardone-29634,engine,critical,220,180,150,36,134,85,1964-1966 Mustang;1970 Chevrolet Nova
+dodge_charger_1970_body_grille_b,Grille,5461113,PBR-6432;A1-Cardone-95521,body,optional,1200,200,100,64,340,202,1969-1971 Charger;1968 Ford Mustang
+chevy_chevelle_1970_interior_gauge_cluster_b,Gauge Cluster,5461120,PBR-5674;A1-Cardone-44733,interior,optional,400,200,150,79,384,232,1969-1971 Chevelle;1970 Chevrolet Nova
+chevy_nova_1968_brake_brake_line_kit_b,Brake Line Kit,5461127,PBR-5882;A1-Cardone-99558,brake,critical,3000,10,10,25,88,56,1967-1969 Nova;1967 Ford Mustang
+chevy_c10_1967_suspension_idler_arm_b,Idler Arm,5461134,PBR-5237;A1-Cardone-45298,suspension,standard,200,80,80,16,65,40,1966-1968 C10;1968 Chevrolet Camaro
+chevy_camaro_1967_engine_oil_pump_b,Oil Pump,5461141,PBR-6932;A1-Cardone-79826,engine,critical,150,120,100,27,103,65,1966-1968 Camaro;1972 Chevrolet C10
+ford_mustang_1966_body_headlight_bezel_b,Headlight Bezel,5461148,PBR-2854;A1-Cardone-83521,body,optional,250,150,100,20,93,56,1965-1967 Mustang;1968 Ford Mustang
+dodge_charger_1968_interior_gear_shifter_b,Gear Shifter,5461155,PBR-2161;A1-Cardone-87822,interior,optional,300,100,200,36,165,100,1967-1969 Charger;1972 Chevrolet Nova
+chevy_chevelle_1968_brake_parking_brake_cable_b,Parking Brake Cable,5461162,PBR-2757;A1-Cardone-82399,brake,critical,2500,8,8,14,56,35,1967-1969 Chevelle;1968 Dodge Charger
+chevy_nova_1970_suspension_pitman_arm_b,Pitman Arm,5461169,PBR-9550;A1-Cardone-68625,suspension,standard,220,80,60,18,69,44,1969-1971 Nova;1967 Chevrolet C10
+chevy_c10_1969_engine_fuel_pump_b,Fuel Pump,5461176,PBR-9922;A1-Cardone-75558,engine,critical,150,100,80,21,78,50,1968-1970 C10;1968 Ford Mustang
+chevy_camaro_1968_body_taillight_lens_b,Taillight Lens,5461183,PBR-6249;A1-Cardone-77939,body,optional,300,120,80,15,81,48,1967-1969 Camaro;1969 Chevrolet Camaro
+ford_mustang_1967_interior_pedal_set_b,Pedal Set,5461190,PBR-1473;A1-Cardone-95515,interior,optional,250,150,100,21,96,58,1966-1968 Mustang;1970 Chevrolet Nova
+dodge_charger_1970_brake_proportioning_valve_b,Proportioning Valve,5461197,PBR-9732;A1-Cardone-78406,brake,critical,90,60,50,20,84,52,1969-1971 Charger;1966 Ford Mustang
+chevy_chevelle_1970_suspension_tie_rod_end_b,Tie Rod End,5461204,PBR-2753;A1-Cardone-40145,suspension,standard,150,40,40,11,38,24,1969-1971 Chevelle;1966 Ford Mustang
+chevy_nova_1972_engine_carburetor_b,Carburetor,5461211,PBR-4422;A1-Cardone-26073,engine,critical,280,220,180,138,507,322,1971-1973 Nova;1968 Chevrolet Camaro
+chevy_c10_1972_body_door_shell_b,Door Shell,5461218,PBR-7089;A1-Cardone-34311,body,optional,1100,900,150,184,830,507,1971-1973 C10;1970 Chevrolet Chevelle
+chevy_camaro_1969_interior_sun_visor_b,Sun Visor,5461225,PBR-5423;A1-Cardone-53609,interior,optional,400,150,20,10,43,26,1968-1970 Camaro;1966 Chevrolet Chevelle
+ford_mustang_1965_brake_front_brake_caliper_c,Front Brake Caliper,5461232,PBR-4293;A1-Cardone-89803,brake,critical,180,95,120,44,175,110,1964-1966 Mustang;1968 Chevrolet Nova
+dodge_charger_1968_suspension_front_coil_spring_c,Front Coil Spring,5461239,PBR-1988;A1-Cardone-14279,suspension,standard,380,150,150,45,156,100,1967-1969 Charger;1972 Chevrolet C10
+chevy_chevelle_1966_engine_intake_manifold_b,Intake Manifold,5461246,PBR-1572;A1-Cardone-67461,engine,critical,600,280,150,124,466,295,1965-1967 Chevelle;1969 Dodge Charger
+chevy_nova_1968_body_quarter_panel_b,Quarter Panel,5461253,PBR-4047;A1-Cardone-40949,body,optional,1500,900,300,226,976,601,1967-1969 Nova;1969 Dodge Charger
+chevy_c10_1967_interior_front_bucket_seat_c,Front Bucket Seat,5461260,PBR-2190;A1-Cardone-35491,interior,optional,650,600,900,189,894,542,1966-1968 C10;1972 Chevrolet C10
+chevy_camaro_1968_brake_rear_brake_caliper_c,Rear Brake Caliper,5461267,PBR-8478;A1-Cardone-35249,brake,critical,175,90,115,40,172,106,1967-1969 Camaro;1969 Chevrolet Camaro
+ford_mustang_1966_engine_valve_cover_b,Valve Cover,5461274,PBR-3087;A1-Cardone-57070,engine,critical,520,200,100,27,120,74,1965-1967 Mustang;1966 Chevrolet Chevelle
+dodge_charger_1969_body_rocker_panel_b,Rocker Panel,5461281,PBR-6992;A1-Cardone-41608,body,optional,1600,150,150,64,278,171,1968-1970 Charger;1968 Chevrolet Nova
+chevy_chevelle_1970_brake_front_brake_rotor_c,Front Brake Rotor,5461288,PBR-4076;A1-Cardone-29326,brake,critical,280,280,25,29,117,73,1969-1971 Chevelle;1966 Ford Mustang
+chevy_nova_1972_engine_timing_chain_b,Timing Chain,5461295,PBR-8416;A1-Cardone-14366,engine,critical,300,40,20,15,58,36,1971-1973 Nova;1965 Ford Mustang
+chevy_c10_1972_body_floor_pan_b,Floor Pan,5461302,PBR-6928;A1-Cardone-44695,body,optional,1500,1000,50,95,441,268,1971-1973 C10;1969 Chevrolet C10
+chevy_camaro_1967_brake_rear_brake_drum_c,Rear Brake Drum,5461309,PBR-9332;A1-Cardone-15681,brake,critical,280,280,90,38,119,78,1966-1968 Camaro;1968 Chevrolet Camaro
+ford_mustang_1968_engine_timing_cover_b,Timing Cover,5461316,PBR-5147;A1-Cardone-96491,engine,critical,300,250,60,18,83,50,1967-1969 Mustang;1968 Dodge Charger
+dodge_charger_1968_body_windshield_glass_b,Windshield Glass,5461323,PBR-7729;A1-Cardone-95439,body,optional,1400,700,6,113,451,282,1967-1969 Charger;1972 Chevrolet C10
+chevy_chevelle_1968_brake_brake_master_cylinder_c,Brake Master Cylinder,5461330,PBR-4760;A1-Cardone-65943,brake,critical,220,90,90,52,207,130,1967-1969 Chevelle;1968 Chevrolet Chevelle
+chevy_nova_1970_engine_piston_set_b,Piston Set,5461337,PBR-4939;A1-Cardone-42762,engine,critical,100,100,80,158,525,342,1969-1971 Nova;1968 Chevrolet Nova
+chevy_c10_1969_body_rear_window_glass_b,Rear Window Glass,5461344,PBR-3795;A1-Cardone-16156,body,optional,1200,600,6,101,424,262,1968-1970 C10;1965 Ford Mustang
+chevy_camaro_1969_brake_brake_booster_c,Brake Booster,5461351,PBR-1273;A1-Cardone-43389,brake,critical,230,230,150,68,248,158,1968-1970 Camaro;1970 Chevrolet Chevelle
+ford_mustang_1966_engine_camshaft_b,Camshaft,5461358,PBR-2904;A1-Cardone-68014,engine,critical,550,60,60,103,399,251,1965-1967 Mustang;1968 Ford Mustang
+dodge_charger_1970_body_side_mirror_b,Side Mirror,5461365,PBR-4157;A1-Cardone-96185,body,optional,200,120,80,14,67,40,1969-1971 Charger;1972 Chevrolet Nova
+chevy_chevelle_1966_engine_lifter_set_b,Lifter Set,5461372,PBR-6565;A1-Cardone-34462,engine,critical,60,25,25,29,115,72,1965-1967 Chevelle;1966 Ford Mustang
+chevy_nova_1970_engine_pushrod_set_b,Pushrod Set,5461379,PBR-8255;A1-Cardone-92240,engine,critical,200,10,10,19,82,50,1969-1971 Nova;1969 Chevrolet C10
+chevy_c10_1972_engine_rocker_arm_set_b,Rocker Arm Set,5461386,PBR-4163;A1-Cardone-39199,engine,critical,80,40,40,32,127,80,1971-1973 C10;1966 Chevrolet Chevelle
+chevy_camaro_1967_engine_head_gasket_b,Head Gasket,5461393,PBR-1339;A1-Cardone-40716,engine,critical,550,300,3,16,70,43,1966-1968 Camaro;1969 Chevrolet Camaro
+ford_mustang_1967_engine_oil_pan_gasket_b,Oil Pan Gasket,5461400,PBR-8647;A1-Cardone-76323,engine,critical,600,350,3,8,30,19,1966-1968 Mustang;1967 Ford Mustang
+dodge_charger_1970_engine_valve_cover_gasket_b,Valve Cover Gasket,5461407,PBR-1380;A1-Cardone-75608,engine,critical,520,200,3,7,24,16,1969-1971 Charger;1967 Chevrolet C10
+chevy_chevelle_1966_engine_harmonic_balancer_b,Harmonic Balancer,5461414,PBR-7167;A1-Cardone-68286,engine,critical,200,200,80,40,161,100,1965-1967 Chevelle;1972 Chevrolet C10
+chevy_nova_1970_engine_flywheel_b,Flywheel,5461421,PBR-4661;A1-Cardone-94014,engine,critical,350,350,30,66,242,154,1969-1971 Nova;1969 Chevrolet Camaro
+chevy_c10_1972_engine_engine_mount_b,Engine Mount,5461428,PBR-8988;A1-Cardone-24636,engine,critical,150,100,90,13,54,34,1971-1973 C10;1970 Chevrolet Chevelle
+chevy_camaro_1967_engine_distributor_b,Distributor,5461435,PBR-7774;A1-Cardone-84425,engine,critical,200,120,250,48,204,126,1966-1968 Camaro;1968 Ford Mustang

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Restoration Copilot</title>
+<link rel="stylesheet" href="/static/restoration/restoration_styles.css">
+</head>
+<body>
+<header class="app-header">
+  <h1>Restoration Copilot</h1>
+  <nav id="panel-nav">
+    <button data-panel="jobs" class="active">Jobs</button>
+    <button data-panel="intake">Intake</button>
+  </nav>
+  <div id="session-bar">
+    <span id="session-state">not signed in</span>
+    <button id="login-btn">Operator sign-in</button>
+  </div>
+</header>
+
+<main>
+  <section id="panel-jobs" class="panel active">
+    <h2>Job Board</h2>
+    <div id="job-list" aria-live="polite">
+      <div class="empty-state" id="job-empty">
+        <p>No vehicle jobs yet. Create your first job to begin a restoration.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="panel-intake" class="panel">
+    <h2>Intake Bay</h2>
+    <form id="create-job-form">
+      <h3>New vehicle job</h3>
+      <label>Year <input name="year" type="text" placeholder="1969"></label>
+      <label>Make <input name="make" type="text" placeholder="Chevrolet"></label>
+      <label>Model <input name="model" type="text" placeholder="Camaro"></label>
+      <label>Trim <input name="trim" type="text" placeholder="SS (optional)"></label>
+      <button type="submit">Create job</button>
+    </form>
+
+    <form id="upload-form" hidden>
+      <h3>Upload photos &amp; parts list <span id="upload-job-ref"></span></h3>
+      <p class="hint">Shot list: front 3/4, rear 3/4, engine bay, interior, underside, VIN plate. JPEG/PNG/HEIC/WebP, ≤25&nbsp;MB each.</p>
+      <label>Photos <input name="photos" type="file" multiple accept="image/*,.heic,.heif,.webp"></label>
+      <label>Parts list <input name="parts_list" type="file" accept=".csv,.tsv,.txt"></label>
+      <button type="submit">Upload batch</button>
+      <ul id="upload-receipts"></ul>
+      <button type="button" id="seal-btn">Seal intake &amp; identify</button>
+      <div id="seal-status"></div>
+    </form>
+  </section>
+</main>
+
+<script type="module" src="/static/restoration/restoration_copilot/shared.js"></script>
+<script type="module" src="/static/restoration/restoration_copilot/job_board.js"></script>
+<script type="module" src="/static/restoration/restoration_copilot/intake_bay.js"></script>
+</body>
+</html>

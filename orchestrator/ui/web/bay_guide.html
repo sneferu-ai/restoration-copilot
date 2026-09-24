@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>Bay Guide</title>
+<link rel="stylesheet" href="/static/restoration/restoration_styles.css">
+</head>
+<body class="guide">
+<header class="app-header guide-header">
+  <h1>Bay Guide</h1>
+  <div id="offline-indicator" hidden>offline</div>
+  <div id="guide-progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">Step <span id="step-current">0</span> / <span id="step-total">0</span></div>
+</header>
+
+<div id="superseded-banner" class="banner" hidden>
+  A newer version of this guide is available. Contact the shop operator for the updated link.
+  <button id="superseded-dismiss" aria-label="dismiss">✕</button>
+</div>
+<div id="expired-banner" class="banner banner-hard" hidden>
+  This guide link has expired. Contact the shop operator to renew.
+</div>
+
+<main id="guide-root" data-token="{{TOKEN}}" data-assembly="{{ASSEMBLY_ID}}">
+  <section id="step-view">
+    <div id="visual-pane" aria-label="step visual">
+      <p class="hint">Guide bundle assets load here. If the bundle has not been
+      published yet, this page updates automatically once the operator publishes.</p>
+    </div>
+    <p id="step-caption" class="caption"></p>
+    <div id="chips"></div>
+    <audio id="step-audio" controls hidden></audio>
+  </section>
+  <nav id="guide-nav">
+    <button id="btn-back" type="button">◀ Back</button>
+    <button id="btn-replay" type="button">⟳ Replay audio</button>
+    <button id="btn-next" type="button">Next ▶</button>
+  </nav>
+</main>
+
+<script type="module" src="/static/restoration/bay_guide/guide_view.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#15111B" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="robots" content="noindex" />
+    <title>Restoration Guide</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- The server injects the S-6 bootstrap JSON here (spec §9.1). -->
+    <script id="guide-bootstrap" type="application/json">{}</script>
+    <script type="module" src="./main.tsx"></script>
+    <script>
+      // Register service worker for offline caching (OBL-28)
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker.register("/static/restoration/app/guide-sw.js").catch(() => {});
+        });
+      }
+    </script>
+  </body>
+</html>

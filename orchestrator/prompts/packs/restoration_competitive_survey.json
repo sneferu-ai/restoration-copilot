@@ -1,0 +1,15 @@
+{
+  "last_survey_date": "2026-07-01",
+  "surveyed_tools": [
+    "ALLDATA DIY / Mitchell 1",
+    "Haynes / Chilton manuals",
+    "RockAuto / Classic Industries",
+    "eBay Motors",
+    "generic 3D/CAD printing bureaus",
+    "niche vintage-car forums and spreadsheet trackers"
+  ],
+  "gap_confirmed": true,
+  "next_reverification_due": "2027-01-01",
+  "cadence": "every 6 months or before each major version release",
+  "notes": "No tool found combining photo-based intake, automated identification, budget-constrained worldwide sourcing, vehicle-specific visual assembly guidance, smartphone narration, and learning loops for vintage restoration (A-012)."
+}

@@ -500,7 +500,7 @@ In this standalone build the pipeline's dispatcher raises `BridgeUnavailableErro
 
 ## Spec routes NOT yet implemented
 
-The frozen spec's REST table ([../spec.md](../spec.md) §5) includes Phase 4–6 routes this backend does **not** register today. Calling them returns 404 `not_found` (`"No route POST /restoration/projects/…"`). The React UI gates these surfaces on capabilities instead of hiding the gap.
+The frozen spec's REST table ([specification/SPECIFICATION.md](specification/SPECIFICATION.md) §5) includes Phase 4–6 routes this backend does **not** register today. Calling them returns 404 `not_found` (`"No route POST /restoration/projects/…"`). The React UI gates these surfaces on capabilities instead of hiding the gap.
 
 | Spec route | Purpose (spec-future) |
 |---|---|

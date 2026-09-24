@@ -18,6 +18,8 @@ Photos and a parts list go in. Out comes a structured, budget-enforced restorati
 
 ---
 
+**The specification:** [`docs/specification/`](docs/specification/) holds the specification Sneferu built this from, copied word for word from its run record.
+
 ## The shop it's built for
 
 Picture a one-person shop with eighteen jobs in flight, three marketplace tabs open, and a brake booster just lost to a faster bidder because nothing said the hunt was already over. When a number on screen is wrong (a budget ceiling, a coverage percentage, an API cost), the shop pays for it in real dollars and real hours.

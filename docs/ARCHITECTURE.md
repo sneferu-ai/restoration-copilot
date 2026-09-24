@@ -1,6 +1,6 @@
 # Restoration Copilot — Architecture
 
-This document describes the system **as it exists in this repository**. Where the frozen spec ([../spec.md](../spec.md)) designs behavior this backend does not serve yet, the section says so explicitly.
+This document describes the system **as it exists in this repository**. Where the frozen spec ([specification/SPECIFICATION.md](specification/SPECIFICATION.md)) designs behavior this backend does not serve yet, the section says so explicitly.
 
 ## Project shape
 

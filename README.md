@@ -1,6 +1,7 @@
 <div align="center">
 
-# Restoration Copilot
+<img width="352" height="82" alt="image" src="https://github.com/user-attachments/assets/ce0a1ed2-79e5-4078-9023-b36c612510b3" />
+
 
 **A copilot for small vintage-car restoration shops.**
 
